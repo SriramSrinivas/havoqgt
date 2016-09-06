@@ -135,6 +135,9 @@ namespace havoqgt { namespace mpi {
 	auto parse_to_long = [](std::string str) -> uint64_t {
 	  return std::atoll(str.c_str());
 	};
+	auto parse_to_float = [](std::string str) -> float {
+	  return std::atof(str.c_str());
+	};
 	auto identity = [] (std::string str) -> std::string {
 	  return str;
 	};
@@ -145,12 +148,15 @@ namespace havoqgt { namespace mpi {
 	time_offset = reader.template get_value<uint64_t, op_type>( 'o', parse_to_long).second;
 	num_of_walkers = reader.template get_value<uint64_t, op_type>( 'n', parse_to_long).second;
 	max_steps = reader.template get_value<uint64_t, op_type>( 'c', parse_to_long).second;
+	death_prob = reader.template get_value<uint64_t, op_type>( 'd', parse_to_long).second;
+
+	//std::cout << "death probability percent " << death_prob << "\n";
 
 	output_file_prefix = reader.template get_value<std::string, decltype(identity)>('r', identity).second;
 	source_label_file = reader.template get_value<std::string, decltype(identity)>('a', identity).second;
 	target_label_file = reader.template get_value<std::string, decltype(identity)>('b', identity).second;
 
-	//	std::cout << time_start<<" "<<time_end<<" "<<time_offset<<" "<<num_of_walkers<<" "<<max_steps
+	//std::cout << time_start<<" "<<time_end<<" "<<time_offset<<" "<<num_of_walkers<<" "<<max_steps
 	//	  << " " << output_file_prefix << " " << source_label_file << " " << target_label_file << "\n";
 
 	read_local_vertices_from_file( source_label_file, sources);
@@ -169,12 +175,21 @@ namespace havoqgt { namespace mpi {
 
 	visitor_t::set_output_iterator( &itr);
 	visitor_t::set_edge_metadata( edge_metadata);
-    
-	random_walker_t::max_steps = max_steps;
+
+        float _dp = static_cast<float>(death_prob);
+        float dp = _dp/100.0;
+
+	//std::cout << "death probability " << dp << "\n";
+	
+        random_walker_t::max_steps = max_steps;
+	random_walker_t::death_prob = dp;
 	random_walker_t::random_edge_container = &edge_container;
 	random_walker_t::local_targets = targets;
 
-	typedef visitor_queue<visitor_t, havoqgt::detail::fifo_queue, Graph> visitor_queue_type;
+	//std::cout << "max_steps " << random_walker_t::max_steps << "\n";
+	//std::cout << "death probability " << random_walker_t::death_prob << "\n";
+	
+        typedef visitor_queue<visitor_t, havoqgt::detail::fifo_queue, Graph> visitor_queue_type;
 	visitor_queue_type vq(graph);
     
 	//prepare states before execution
@@ -228,6 +243,7 @@ namespace havoqgt { namespace mpi {
       uint64_t time_offset;
       uint64_t num_of_walkers;
       uint64_t max_steps;
+      uint64_t death_prob;
       std::string output_file_prefix;
       std::string output_file_name;
       std::string source_label_file;

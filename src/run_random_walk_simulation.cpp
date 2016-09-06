@@ -57,7 +57,7 @@ void parse_cmd_line(int argc, char** argv,
   bool found_input_metadata_filename = false;
 
   char c;
-  while( (c = getopt(argc, argv, "s:e:o:n:c:r:a:b:x:i:m:h " )) != -1 ) {
+  while( (c = getopt(argc, argv, "s:e:o:n:c:d:r:a:b:x:i:m:h " )) != -1 ) {
     if( havoqgt_env()->world_comm().rank() == 0) {
       std::cout << "Processing " << c << " , Value : " << optarg << std::endl;
     }
@@ -99,7 +99,7 @@ int main(int argc, char** argv) {
 	std::cout << "Executing " << SIM << std::endl;
       }
       //parse_cmd_line(argc, argv, input_graph_filename, input_metadata_filename);
-      config_reader reader(argc, argv, "s:e:o:n:c:r:a:b:x:i:m:h ");
+      config_reader reader(argc, argv, "s:e:o:n:c:d:r:a:b:x:i:m:h ");
       auto identity =[] (std::string str) -> std::string {
 	return str;
       };

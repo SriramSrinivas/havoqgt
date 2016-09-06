@@ -85,6 +85,11 @@ public:
       if( ( trials + steps ) >= simple_random_walker::max_steps ) { 
 	return std::make_tuple( false, vertex_locator(), simple_random_walker() );
       }
+      float r = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
+      //Die with probability death_prob
+      if ( r < simple_random_walker::death_prob ) {
+	return std::make_tuple( false, vertex_locator(), simple_random_walker() );
+      }
       next = random_edge_container->template get_random_weighted_edge(op, cur_time, cur_vertex);
       bool restart_rw = restart_walker( next.first, prob_restart);
       if( restart_rw ) {
@@ -124,6 +129,7 @@ public:
 
   static std::unordered_set<vertex_locator, typename vertex_locator::hasher> local_targets;
   static uint64_t max_steps;
+  static float death_prob;
   static RandomEdgeContainer* random_edge_container;
   static uint64_t max_attempts;
   static uint32_t prob_restart;
@@ -134,6 +140,9 @@ std::unordered_set< VertexType, typename VertexType::hasher> simple_random_walke
 
 template<typename MetaDataType, typename VertexType, typename RandomEdgeContainer>
 uint64_t simple_random_walker<MetaDataType, VertexType, RandomEdgeContainer>::max_steps;
+
+template<typename MetaDataType, typename VertexType, typename RandomEdgeContainer>
+float simple_random_walker<MetaDataType, VertexType, RandomEdgeContainer>::death_prob;
 
 template<typename MetaDataType, typename VertexType, typename RandomEdgeContainer>
 RandomEdgeContainer *simple_random_walker<MetaDataType, VertexType, RandomEdgeContainer>::random_edge_container;
