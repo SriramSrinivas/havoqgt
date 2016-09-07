@@ -176,6 +176,7 @@ namespace havoqgt { namespace mpi {
 	visitor_t::set_output_iterator( &itr);
 	visitor_t::set_edge_metadata( edge_metadata);
 
+        // death probability
         float _dp = static_cast<float>(death_prob);
         float dp = _dp/100.0;
 

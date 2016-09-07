@@ -55,6 +55,7 @@ public:
 
   bool is_complete(vertex_locator vertex) const {
     //return (local_targets.find(vertex) != local_targets.end() ) || steps >= simple_random_walker::max_steps;
+    // Only complete if reach max_steps
     return steps >= simple_random_walker::max_steps;
   }
 
@@ -64,6 +65,7 @@ public:
       //auto random_percentage = random_number_generator::get_rng().uniform_int( (uint32_t)100 );
       //return random_percentage < restart_prob;
     }
+    // Only restart if dangling node
     else {
     return true;
     }
@@ -90,7 +92,7 @@ public:
 	return std::make_tuple( false, vertex_locator(), simple_random_walker() );
       }
       float r = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
-      //Die with probability death_prob
+      // Die with probability death_prob
       if ( r < simple_random_walker::death_prob ) {
 	return std::make_tuple( false, vertex_locator(), simple_random_walker() );
       }
