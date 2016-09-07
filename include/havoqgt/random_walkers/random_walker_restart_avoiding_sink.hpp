@@ -54,15 +54,19 @@ public:
       steps(_steps), attempts(_attempts), total_steps(_total_steps) { }
 
   bool is_complete(vertex_locator vertex) const {
-    return (local_targets.find(vertex) != local_targets.end() ) || steps >= simple_random_walker::max_steps;
+    //return (local_targets.find(vertex) != local_targets.end() ) || steps >= simple_random_walker::max_steps;
+    return steps >= simple_random_walker::max_steps;
   }
 
   bool restart_walker(bool has_neighbor,  uint64_t restart_prob) const {
     if( has_neighbor ) {
-      auto random_percentage = random_number_generator::get_rng().uniform_int( (uint32_t)100 );
-      return random_percentage < restart_prob;
+      return false;
+      //auto random_percentage = random_number_generator::get_rng().uniform_int( (uint32_t)100 );
+      //return random_percentage < restart_prob;
     }
+    else {
     return true;
+    }
   }
 
   //Function returning the next state for the random walkers
