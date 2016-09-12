@@ -88,6 +88,13 @@ int main(int argc, char** argv) {
   {
     std::string input_graph_filename;
     std::string input_metadata_filename;
+    uint64_t start_time;
+    uint64_t end_time;
+    uint64_t num_times;
+
+    std::mt19937 mt;
+    std::random_device r;
+    mt.seed(r());
 
     havoqgt::get_environment();
     {
@@ -99,12 +106,20 @@ int main(int argc, char** argv) {
 	std::cout << "Executing " << SIM << std::endl;
       }
       //parse_cmd_line(argc, argv, input_graph_filename, input_metadata_filename);
-      config_reader reader(argc, argv, "s:e:o:n:c:d:r:a:b:x:i:m:h ");
+      config_reader reader(argc, argv, "s:e:o:n:t:c:d:r:a:b:x:i:m:h ");
+
       auto identity =[] (std::string str) -> std::string {
 	return str;
       };
+      auto parse_to_long = [](std::string str) -> uint64_t {
+        return std::atoll(str.c_str());
+      };
+
       input_graph_filename = reader.get_value<std::string, decltype(identity)>('i', identity).second;
       input_metadata_filename = reader.get_value<std::string, decltype(identity)>('m', identity).second;
+      start_time = reader.get_value<uint64_t, decltype(parse_to_long)>( 's', parse_to_long).second;
+      end_time = reader.get_value<uint64_t, decltype(parse_to_long)>( 'e', parse_to_long).second;
+      num_times = reader.get_value<uint64_t, decltype(parse_to_long)>( 't', parse_to_long).second;
 
       havoqgt::distributed_db graph_ddb(havoqgt::db_open(), input_graph_filename.c_str());
       havoqgt::distributed_db metadata_ddb(havoqgt::db_open(), input_metadata_filename.c_str());
@@ -121,17 +136,29 @@ int main(int argc, char** argv) {
 	("edge_data").first;
       assert( edge_data != NULL );
 
-      simple_rw_simulation<graph_type, edge_data_type> simulation( graph, edge_data);
-      simulation.parse_input_parameters( reader );
-      start = TIMER_START();
-      simulation.run();
-      end   = TIMER_END();      
-      havoqgt_env()->world_comm().barrier();
-      MASTER_DO(
-		std::chrono::duration<double> processing_time=TIME_DURATION_SECS();
-		std::cout<<"Processing time: " <<processing_time.count() << " secs.\n";
-		);
-      havoqgt_env()->world_comm().barrier();
+      for( int i = 0; i < num_times; i++ ){
+        // sample a random slice of time between start_time and end_time
+        std::uniform_int_distribution<uint64_t> uniform_dist_time( start_time, end_time );
+        uint64_t time_sample = uniform_dist_time(mt);
+        std::ostringstream oss;
+        oss << time_sample;
+        std::string time_sample_s = oss.str();
+        reader.set_value('s', time_sample_s);
+        reader.set_value('e', time_sample_s);
+        
+        // sample n random walks in this slice of time 
+        simple_rw_simulation<graph_type, edge_data_type> simulation( graph, edge_data);
+        simulation.parse_input_parameters( reader );
+        start = TIMER_START();
+        simulation.run();
+        end   = TIMER_END();      
+        havoqgt_env()->world_comm().barrier();
+        MASTER_DO(
+          	std::chrono::duration<double> processing_time=TIME_DURATION_SECS();
+          	std::cout<<"Processing time: " <<processing_time.count() << " secs.\n";
+          	);
+        havoqgt_env()->world_comm().barrier();
+      }
     }
   }
   havoqgt::havoqgt_finalize();

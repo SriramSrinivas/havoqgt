@@ -34,6 +34,7 @@
 #include <random>
 #include <fstream>
 #include <sstream>
+#include <typeinfo>
 
 namespace havoqgt { namespace mpi {
     /*********************************************************************************
@@ -48,7 +49,7 @@ namespace havoqgt { namespace mpi {
 	char c;
 	while( (c = getopt(argc, argv, options.c_str())) != -1 ) {
 	  value_map[c]=optarg;
-	  //	  std::cout << "inside config reader : " << c << " -> " << optarg << "\n";
+	  //std::cout << "inside config reader : " << c << " -> " << optarg << " of type: " << typeid(value_map[c]).name() << "\n";
 	}
       }
 
@@ -58,6 +59,10 @@ namespace havoqgt { namespace mpi {
 	  return std::make_pair(false, default_val );
 	}
 	return std::make_pair(true, op(value_map[c]));
+      }
+
+      void set_value( char c, std::string value ) {
+        value_map[c] = value;
       }
 
       static uint64_t parse_to_long(std::string string) {
@@ -180,16 +185,11 @@ namespace havoqgt { namespace mpi {
         float _dp = static_cast<float>(death_prob);
         float dp = _dp/100.0;
 
-	//std::cout << "death probability " << dp << "\n";
-	
         random_walker_t::max_steps = max_steps;
 	random_walker_t::death_prob = dp;
 	random_walker_t::random_edge_container = &edge_container;
 	random_walker_t::local_targets = targets;
 
-	//std::cout << "max_steps " << random_walker_t::max_steps << "\n";
-	//std::cout << "death probability " << random_walker_t::death_prob << "\n";
-	
         typedef visitor_queue<visitor_t, havoqgt::detail::fifo_queue, Graph> visitor_queue_type;
 	visitor_queue_type vq(graph);
     
@@ -208,7 +208,8 @@ namespace havoqgt { namespace mpi {
       }
 
       std::pair<uint64_t, uint64_t> get_interval() {
-	return std::make_pair( time_start, time_end);
+	//return std::make_pair( time_start, time_end);
+	return std::make_pair( time_start, time_end );
       }
 
       template< typename VisitorQueueHandle >
@@ -222,7 +223,9 @@ namespace havoqgt { namespace mpi {
 	  is_complete = true;
 	  return;
 	}
-	auto interval = get_random_time();
+
+	auto interval = get_interval();
+	//std::pair<uint64_t, uint64_t> interval = get_random_time();
 	random_walker_t rw( rwalker_dispatched, *source_itr, interval, interval);    
 	queue->queue_visitor( visitor_t(*source_itr, rw) );
 	source_itr++;
