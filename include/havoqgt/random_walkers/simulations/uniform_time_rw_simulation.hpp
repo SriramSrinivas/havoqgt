@@ -158,6 +158,7 @@ namespace havoqgt { namespace mpi {
 	//std::cout << "death probability percent " << death_prob << "\n";
 
 	output_file_prefix = reader.template get_value<std::string, decltype(identity)>('r', identity).second;
+	curr_trial = reader.template get_value<std::string, decltype(identity)>('t', identity).second;
 	source_label_file = reader.template get_value<std::string, decltype(identity)>('a', identity).second;
 	target_label_file = reader.template get_value<std::string, decltype(identity)>('b', identity).second;
 
@@ -169,7 +170,7 @@ namespace havoqgt { namespace mpi {
 	std::stringstream ss;
 	ss << output_file_prefix << "_" 
 	   << havoqgt_env()->world_comm().rank() << "_of_" 
-	   << havoqgt_env()->world_comm().size();
+	   << havoqgt_env()->world_comm().size() << "_" << curr_trial;
 	output_file_name = ss.str();
 	return true; // false means missing parameters
       }
@@ -249,6 +250,7 @@ namespace havoqgt { namespace mpi {
       uint64_t max_steps;
       uint64_t death_prob;
       std::string output_file_prefix;
+      std::string curr_trial;
       std::string output_file_name;
       std::string source_label_file;
       std::string target_label_file;

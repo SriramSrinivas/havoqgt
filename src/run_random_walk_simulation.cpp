@@ -145,6 +145,10 @@ int main(int argc, char** argv) {
         std::string time_sample_s = oss.str();
         reader.set_value('s', time_sample_s);
         reader.set_value('e', time_sample_s);
+        std::stringstream ss;
+        ss << i;
+        std::string curr_trial = ss.str();
+        reader.set_value('t', curr_trial);
         
         // sample n random walks in this slice of time 
         simple_rw_simulation<graph_type, edge_data_type> simulation( graph, edge_data);
@@ -158,6 +162,12 @@ int main(int argc, char** argv) {
           	std::cout<<"Processing time: " <<processing_time.count() << " secs.\n";
           	);
         havoqgt_env()->world_comm().barrier();
+        //std::string compute_scores_script = "/g/g17/osimpson/evolving/havoqgt/scripts/catalyst.llnl.gov/compute_scores.py";
+        //std::string command = "python ";
+        //command += compute_scores_script;
+        //command += " ";
+        //command += time_sample_s;
+        //system(command.c_str());
       }
     }
   }
