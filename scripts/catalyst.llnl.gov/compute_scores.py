@@ -4,13 +4,14 @@ Module for computing PPR scores based on end-point algo
 import pickle as pck
 import glob
 
+DATA_BASE = '/p/lscratchf/osimpson/'
 OUT_BASE = '/g/g17/osimpson/evolving/havoqgt/build/catalyst.llnl.gov/'
     
 '''output format
 end vx - start vx - rw id - time (X4) - _ - _ - _ - rw length
 '''
 
-out_files = glob.glob(OUT_BASE+'output*')
+out_files = glob.glob(DATA_BASE+'output*')
 keys = {}
 for f in out_files:
     if f.split('_')[-1] in keys:
@@ -42,5 +43,5 @@ def main():
         if time:
             pck.dump( scores, open(OUT_BASE+'scores/scores_'+time+'.pck', 'wb') )
 
-if __name__ == "main":
-    main() 
+#if __name__ == "main":
+main() 
