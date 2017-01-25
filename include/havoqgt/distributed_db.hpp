@@ -54,6 +54,8 @@
 #ifndef HAVOQGT_DISTRIBUTED_DB_HPP_INCLUDED
 #define HAVOQGT_DISTRIBUTED_DB_HPP_INCLUDED
 
+#include <fstream>
+
 #include <boost/interprocess/managed_mapped_file.hpp>
 #include <boost/interprocess/allocators/allocator.hpp>
 #include <boost/lexical_cast.hpp>

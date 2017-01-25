@@ -57,7 +57,7 @@ void parse_cmd_line(int argc, char** argv,
   bool found_input_metadata_filename = false;
 
   char c;
-  while( (c = getopt(argc, argv, "s:e:o:n:c:d:r:a:b:x:i:m:h " )) != -1 ) {
+  while( (c = getopt(argc, argv, "s:e:o:n:t:c:d:r:a:b:x:i:m:h " )) != -1 ) {
     if( havoqgt_env()->world_comm().rank() == 0) {
       std::cout << "Processing " << c << " , Value : " << optarg << std::endl;
     }
@@ -137,6 +137,7 @@ int main(int argc, char** argv) {
       assert( edge_data != NULL );
 
       for( int i = 0; i < num_times; i++ ){
+	MASTER_MSG("Sampling time"); 
         // sample a random slice of time between start_time and end_time
         std::uniform_int_distribution<uint64_t> uniform_dist_time( start_time, end_time );
         uint64_t time_sample = uniform_dist_time(mt);
