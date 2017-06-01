@@ -286,6 +286,9 @@ public:
       // initiate token passing from the source vertex
       for(eitr_type eitr = g.edges_begin(vertex); eitr != g.edges_end(vertex); ++eitr) {
         vertex_locator neighbour = eitr.target();
+        if (!std::get<10>(alg_data)[eitr]) {
+          continue;
+        }
         //std::get<10>(alg_data)[eitr] = 240; // Test
         //int neighbour_edge_data = std::get<10>(alg_data)[eitr]; // Test
 
@@ -478,6 +481,9 @@ public:
       //size_t max_nbr_count = 0; // Test 
       for(eitr_type eitr = g.edges_begin(vertex); eitr != g.edges_end(vertex); ++eitr) {
         vertex_locator neighbor = eitr.target();
+        if (!std::get<10>(alg_data)[eitr]) {
+          continue;
+        }
         tppm_visitor new_visitor(neighbor, target_vertex, new_itr_count, max_itr_count, 
           source_index_pattern_indices, vertex_pattern_index, expect_target_vertex); 
         // vertex_pattern_index = parent_pattern_index for the neighbours 

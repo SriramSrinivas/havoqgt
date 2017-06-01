@@ -1,10 +1,12 @@
 #ifndef HAVOQGT_LABEL_PROPAGATION_PATTERN_MATCHING_ITERATIVE_HPP_INCLUDED
 #define HAVOQGT_LABEL_PROPAGATION_PATTERN_MATCHING_ITERATIVE_HPP_INCLUDED
 
+#include <unordered_set>
+
 #include <havoqgt/visitor_queue.hpp>
 #include <havoqgt/detail/visitor_priority_queue.hpp>
 
-# define output_result
+#define output_result
 
 namespace havoqgt { namespace mpi {
 
@@ -70,9 +72,10 @@ public:
     vertex(_vertex), 
     msg_type(_msg_type) {}
 
-  lppm_visitor(vertex_locator _vertex, size_t _parent_pattern_index,
-    uint8_t _msg_type) :
+  lppm_visitor(vertex_locator _vertex, vertex_locator _parent, 
+    size_t _parent_pattern_index, uint8_t _msg_type) :
     vertex(_vertex),
+    parent(_parent),
     parent_pattern_index(_parent_pattern_index),
     msg_type(_msg_type) {}
 
@@ -91,7 +94,9 @@ public:
     auto& pattern_graph = std::get<7>(alg_data);
     // std::get<8>(alg_data) - superstep
     // std::get<9>(alg_data) - initstep 
-    auto g = std::get<10>(alg_data); 
+    auto g = std::get<10>(alg_data);
+    // std::get<11>(alg_data) - edge_metadata
+    // std::get<12>(alg_data) - vertex_active_edge_set 
  
     bool match_found = false;
     bool valid_parent_found = false;
@@ -146,6 +151,22 @@ public:
           //return true; // send to the controller
           return false;
         } else {
+          // add parent to vertex_active_edge_set
+          auto find_edge = std::get<12>(alg_data)[vertex].find(g->locator_to_label(parent));
+          if (find_edge == std::get<12>(alg_data)[vertex].end()) {
+            auto insert_status = std::get<12>(alg_data)[vertex].insert(g->locator_to_label(parent));
+            if(!insert_status.second) {
+              std::cerr << "Error: failed to add an element to the set." << std::endl;
+              return false;
+            }
+          } else {
+            //std::cerr << "(Delegate) vertex " << g->locator_to_label(vertex) 
+            //  << " parent " << g->locator_to_label(parent) << " parent_pattern_index " 
+            //  << parent_pattern_index << std::endl; // Test
+            //std::cerr << "Error: unexpected item in the set." << std::endl;
+//--            return false;
+            return true;
+          }
           return true; // send to the controller
         } 
  
@@ -186,10 +207,10 @@ public:
       }
  
       if (msg_type == 1) {
-        verify_and_update_vertex_state_map(alg_data, vertex_pattern_index);
+        verify_and_update_vertex_state(alg_data, vertex_pattern_index);
       }
    
-      return false;     
+      return false; 
   }
   
   template<typename VisitorQueueHandle, typename AlgData>
@@ -227,6 +248,8 @@ public:
     // std::get<8>(alg_data) - superstep
     // std::get<9>(alg_data) - initstep
     // std::get<10>(alg_data) - g
+    // std::get<11>(alg_data) - edge_metadata
+    // std::get<12>(alg_data) - vertex_active_edge_set     
 
     // does vertex_data match an entry in the query pattern
     bool match_found = false;
@@ -257,11 +280,20 @@ public:
         eitr != g.edges_end(vertex); ++eitr) {
         vertex_locator neighbor = eitr.target();
 
-        // TODO: only handling undirected grpahs
+        // Important : first LP superstep of the first iteration - send on all edges
+        if (!(std::get<8>(alg_data) == 0  && std::get<9>(alg_data))) {
+ 
+          if(!std::get<11>(alg_data)[eitr]) { // is edge active ?
+            continue;
+          }
+ 
+        }
+  
+        // TODO: only handling undirected grpahs, directed graphs?
 
         for (auto vertex_pattern_index : vertex_pattern_indices) {
           // do this for all the pattern indices for this vertex
-          lppm_visitor new_visitor(neighbor, vertex_pattern_index, 1);
+          lppm_visitor new_visitor(neighbor, vertex, vertex_pattern_index, 1);
           vis_queue->queue_visitor(new_visitor);
         } // for
       } // for
@@ -285,7 +317,7 @@ public:
   }
 
   template<typename AlgData>
-  uint64_t verify_and_update_vertex_state_map(AlgData& alg_data, 
+  uint64_t verify_and_update_vertex_state(AlgData& alg_data, 
     size_t vertex_pattern_index) const {
 
     typedef vertex_state<uint8_t> VertexState; // TODO: use Vertex type
@@ -363,11 +395,33 @@ public:
     if (find_pattern_vertex->second < 1) {
       find_pattern_vertex->second = 1;
     }  
- 
+   
+    // add parent to vertex_active_edge_set
+    auto find_edge = std::get<12>(alg_data)[vertex].find(g->locator_to_label(parent));
+    if (find_edge == std::get<12>(alg_data)[vertex].end()) {
+      auto insert_status = std::get<12>(alg_data)[vertex].insert(g->locator_to_label(parent));
+      if(!insert_status.second) {
+        std::cerr << "Error: failed to add an element to the set." << std::endl;
+        return false;
+      }
+    } else {
+      //std::string vertex_type_name = "(Local)"; // Test
+      //if ((vertex.is_delegate())) { // Test
+      //  vertex_type_name = "(Controller)";    
+      //} 
+      //std::cerr << vertex_type_name << "vertex " << g->locator_to_label(vertex) 
+      //  << " parent " << g->locator_to_label(parent) << " parent_pattern_index "
+      //  << parent_pattern_index << std::endl; // Test      
+      //std::cerr << "Error: unexpected item in the set." << std::endl;
+//--       return false;
+      return 1;
+    }
+
     return 1; 
   } 
 
   vertex_locator vertex;
+  vertex_locator parent;
   size_t parent_pattern_index; // TODO: pass type as template argument
   uint8_t msg_type; // 0 - init, 1 - alive
 };
@@ -444,22 +498,79 @@ void verify_and_update_vertex_state_map(TGraph* g, AlgData& alg_data,
   MPI_Barrier(MPI_COMM_WORLD); 
 }   
 
+template <typename TGraph, typename AlgData, typename VertexActive,
+  typename EdgeActive, typename VertexSetCollection>
+void verify_and_update_edge_state(TGraph* g, AlgData& alg_data, 
+  VertexActive& vertex_active, EdgeActive& edge_active, 
+  VertexSetCollection& vertex_active_edge_set) {
+
+  typedef typename TGraph::vertex_iterator vertex_iterator;
+  typedef typename TGraph::vertex_locator vertex_locator;
+  typedef typename TGraph::edge_iterator edge_iterator;
+
+  int mpi_rank = havoqgt_env()->world_comm().rank();
+
+  for (vertex_iterator vitr = g->vertices_begin();
+    vitr != g->vertices_end(); ++vitr) {
+    vertex_locator vertex = *vitr;
+    if (vertex_active[vertex]) {
+      for(edge_iterator eitr = g->edges_begin(vertex);
+        eitr != g->edges_end(vertex); ++eitr) {
+        vertex_locator neighbour = eitr.target();
+        auto find_edge = vertex_active_edge_set[vertex].find(g->locator_to_label(neighbour));
+        if (find_edge != vertex_active_edge_set[vertex].end()) {
+          edge_active[eitr] = 1;
+        } else {
+          edge_active[eitr] = 0; // TODO: alternatively you could do it inside the visitor fucntion 
+        }
+      }
+      vertex_active_edge_set[vertex].clear(); // reset 
+    }
+  }
+
+  for(vertex_iterator vitr = g->delegate_vertices_begin();
+    vitr != g->delegate_vertices_end(); ++vitr) {
+    vertex_locator vertex = *vitr;
+    if (vertex_active[vertex]) {
+      for(edge_iterator eitr = g->edges_begin(vertex);
+        eitr != g->edges_end(vertex); ++eitr) {
+        vertex_locator neighbour = eitr.target();
+        auto find_edge = vertex_active_edge_set[vertex].find(g->locator_to_label(neighbour));
+        if (find_edge != vertex_active_edge_set[vertex].end()) {
+          edge_active[eitr] = 1;
+        } else {
+          edge_active[eitr] = 0;
+        } 
+      }
+      vertex_active_edge_set[vertex].clear(); // reset
+    }
+  }
+  
+  //vertex_active_edge_set.clear();
+  MPI_Barrier(MPI_COMM_WORLD);
+}
+
 template <typename TGraph, typename VertexMetaData, typename VertexData, typename PatternData, 
   typename PatternIndices, typename VertexRank, typename VertexActive, 
-  typename VertexIteration, typename VertexStateMap, typename PatternGraph>
+  typename VertexIteration, typename VertexStateMap, typename PatternGraph, typename EdgeActive, typename VertexSetCollection>
 void label_propagation_pattern_matching_bsp(TGraph* g, VertexMetaData& vertex_metadata, 
   PatternData& pattern, PatternIndices& pattern_indices, VertexRank& vertex_rank,
   VertexActive& vertex_active, VertexIteration& vertex_iteration, VertexStateMap& vertex_state_map, 
   PatternGraph& pattern_graph, bool initstep, bool& global_not_finished, size_t global_itr_count, 
-  std::ofstream& superstep_result_file, std::ofstream& active_vertices_count_result_file) {
+  std::ofstream& superstep_result_file, std::ofstream& active_vertices_count_result_file, 
+  EdgeActive& edge_active) {
+
+  typedef uint64_t Vertex;
 
   int mpi_rank = havoqgt_env()->world_comm().rank();
   uint64_t superstep_var = 0;
   uint64_t& superstep_ref = superstep_var; 
 
+  VertexSetCollection vertex_active_edge_set(*g);
+
   typedef lppm_visitor<TGraph, VertexData> visitor_type;
   auto alg_data = std::forward_as_tuple(vertex_metadata, pattern, pattern_indices, vertex_rank,
-    vertex_active, vertex_iteration, vertex_state_map, pattern_graph, superstep_var, initstep, g);
+    vertex_active, vertex_iteration, vertex_state_map, pattern_graph, superstep_var, initstep, g, edge_active, vertex_active_edge_set);
   auto vq = create_visitor_queue<visitor_type, havoqgt::detail::visitor_priority_queue>(g, alg_data);
 
   // beiginning of BSP execution
@@ -473,8 +584,11 @@ void label_propagation_pattern_matching_bsp(TGraph* g, VertexMetaData& vertex_me
       std::cout << "Label Propagation | Superstep #" << superstep;
     }
 
-    //MPI_Barrier(MPI_COMM_WORLD); 
     double time_start = MPI_Wtime();
+    //vertex_active_edge_set.clear();   
+    //MPI_Barrier(MPI_COMM_WORLD); 
+    
+    //double time_start = MPI_Wtime();
     vq.init_visitor_traversal_new(); 
     MPI_Barrier(MPI_COMM_WORLD);
     if (mpi_rank == 0) {    
@@ -488,6 +602,9 @@ void label_propagation_pattern_matching_bsp(TGraph* g, VertexMetaData& vertex_me
     verify_and_update_vertex_state_map(g, alg_data, vertex_state_map, pattern_graph, 
       vertex_active, vertex_iteration, superstep, initstep, global_not_finished);
     //MPI_Barrier(MPI_COMM_WORLD);
+
+    verify_and_update_edge_state(g, alg_data, vertex_active, edge_active, 
+      vertex_active_edge_set);
     
     double time_end = MPI_Wtime();
     if (mpi_rank == 0) {
