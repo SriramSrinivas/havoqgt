@@ -14,10 +14,10 @@ template<typename IntegralType>
 class vertex_state {
 public:
   vertex_state() :
-  is_active(false),
+  //is_active(false),
   vertex_pattern_index(0) {}
 
-  bool is_active;
+  //bool is_active;
   size_t vertex_pattern_index; // TODO: change type
   std::unordered_map<size_t, IntegralType> pattern_vertex_itr_count_map; // TODO: not itr_count anymore, more like true / false 
 };
