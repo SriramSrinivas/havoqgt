@@ -225,6 +225,9 @@ public:
 
       for(eitr_type eitr = g.edges_begin(vertex); eitr != g.edges_end(vertex); ++eitr) {
         vertex_locator neighbour = eitr.target();
+        if (!std::get<10>(alg_data)[eitr]) {
+          continue;
+        }
         tppm_visitor new_visitor(neighbour, vertex, 0, pattern_cycle_length, 0, 
           pattern_indices[0], pattern_valid_cycle, true, false);
         vis_queue->queue_visitor(new_visitor);
@@ -332,6 +335,9 @@ public:
 
       for(eitr_type eitr = g.edges_begin(vertex); eitr != g.edges_end(vertex); ++eitr) {
         vertex_locator neighbor = eitr.target();
+        if (!std::get<10>(alg_data)[eitr]) {
+          continue;
+        }
         tppm_visitor new_visitor(neighbor, target_vertex, new_itr_count, max_itr_count, 
           source_index_pattern_indices, vertex_pattern_index, expect_target_vertex); 
         // vertex_pattern_index = parent_pattern_index for the neighbours 
@@ -430,6 +436,9 @@ void token_passing_pattern_matching(TGraph* g, VertexMetaData& vertex_metadata,
   for(vertex_iterator vitr = g->delegate_vertices_begin();
     vitr != g->delegate_vertices_end(); ++vitr) {
     vertex_locator vertex = *vitr;
+    //if (vertex.is_delegate() && g->master(vertex) != mpi_rank) {
+    //  continue;  
+    //}  
     if (vertex_active[vertex] && vertex_metadata[vertex] == pattern[0] ) {
       auto find_token_source = token_source_set.find(g->locator_to_label(vertex));
       if (find_token_source == token_source_set.end()) {
@@ -456,7 +465,8 @@ void token_passing_pattern_matching(TGraph* g, VertexMetaData& vertex_metadata,
   uint64_t max_batch_size = 1;
   uint64_t batch_size = 0;
   uint64_t batch_count = 0;
-  uint64_t max_ranks_per_itr = mpi_size / 4; //(mpi_size / 24) * 2;
+  uint64_t max_ranks_per_itr = mpi_size; //(mpi_size / 24) * 2; 
+  // TODO: fix the issue when max_ranks_per_itr < mpi_size and a token source is a delegate
   uint64_t max_itr_count = mpi_size;
 
   // pass around tokens in batches
@@ -466,6 +476,7 @@ void token_passing_pattern_matching(TGraph* g, VertexMetaData& vertex_metadata,
     double time_start = MPI_Wtime();
     batch_size = 0;
     token_source_map.clear(); // Important
+    vertex_token_source_set.clear(); // Important
 
     assert(iter_count + max_ranks_per_itr <= mpi_size);
 
@@ -505,10 +516,10 @@ void token_passing_pattern_matching(TGraph* g, VertexMetaData& vertex_metadata,
 
     double time_end = MPI_Wtime();
     if(mpi_rank == 0) {
-    std::cout << "Token Passing | Batch #" << batch_count
-      << " | MPI Ranks " << itr_count << " - "
+    std::cout << "Token Passing (traversal) | Batch #" << batch_count
+      << " | MPI Ranks : " << itr_count << " - "
       << (itr_count + max_ranks_per_itr - 1)
-      << " | Global Batch Token Source Count "
+      << " | Global Batch Token Source Count : "
       << global_batch_token_source_map_size
       <<  " | Time : " << time_end - time_start << std::endl;
     }
@@ -553,6 +564,16 @@ void token_passing_pattern_matching(TGraph* g, VertexMetaData& vertex_metadata,
     }
 
     MPI_Barrier(MPI_COMM_WORLD);
+
+    time_end = MPI_Wtime();
+    if(mpi_rank == 0) {
+    std::cout << "Token Passing | Batch #" << batch_count
+      << " | MPI Ranks : " << itr_count << " - "
+      << (itr_count + max_ranks_per_itr - 1)
+      << " | Global Batch Token Source Count : "
+      << global_batch_token_source_map_size
+      <<  " | Time : " << time_end - time_start << std::endl;
+    }
 
     batch_count++;
   
