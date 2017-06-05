@@ -23,15 +23,20 @@
 #include <havoqgt/label_propagation_pattern_matching_iterative.hpp>
 #include <havoqgt/pattern_util.hpp>
 //#include <havoqgt/token_passing_pattern_matching.hpp>
+<<<<<<< HEAD
 #include <havoqgt/token_passing_pattern_matching_batch.hpp> // TP_BATCH
 //#include <havoqgt/token_passing_pattern_matching_new.hpp> // TP_ASYNC
+=======
+#include <havoqgt/token_passing_pattern_matching_new.hpp> // TP_ASYNC
+//#include <havoqgt/token_passing_pattern_matching_batch.hpp> // TP_BATCH
+>>>>>>> 44fd7e137dbdf58b03c88434b799dbd85c31e199
 //#include <havoqgt/token_passing_pattern_matching_iterative.hpp>
-#include <havoqgt/update_edge_state.hpp>
+//#include <havoqgt/update_edge_state.hpp>
 #include <havoqgt/vertex_data_db.hpp>
 #include <havoqgt/vertex_data_db_degree.hpp>
 
-//#define TP_ASYNC
-#define TP_BATCH
+#define TP_ASYNC
+//#define TP_BATCH
 
 namespace hmpi = havoqgt::mpi;
 using namespace havoqgt::mpi;
@@ -434,10 +439,18 @@ int main(int argc, char** argv) {
   if (vertex_state_map.size() < 1) {
 //    global_active_vertex = false;
   }
+<<<<<<< HEAD
 	
   global_active_vertex = havoqgt::mpi::mpi_all_reduce(global_active_vertex, std::greater<uint8_t>(), MPI_COMM_WORLD); 
   // TODO: not working properly - why? // bool does not work
   MPI_Barrier(MPI_COMM_WORLD); // TODO: might not need this here
+=======
+
+  // TODO: What is the issue here? Preventing stdout from this file beyond this point.  	
+  // global_active_vertex = havoqgt::mpi::mpi_all_reduce(global_active_vertex, std::greater<uint8_t>(), MPI_COMM_WORLD); 
+  // TODO: not working properly - why? // bool does not work
+  //MPI_Barrier(MPI_COMM_WORLD); // TODO: might not need this here
+>>>>>>> 44fd7e137dbdf58b03c88434b799dbd85c31e199
 
 //  global_not_finished = global_active_vertex; // TODO: verify and fix
 
