@@ -51,6 +51,7 @@ namespace havoqgt { namespace mpi {
 	std::tuple< bool, vertex_locator, random_walker_t> next = rwalker.next(vertex);
 	if( std::get<HAS_NEIGHBOR>(next) ) {
 	  temporal_random_walk_simulation_visitor neighbor( std::get<NEIGHBOR>(next), std::get<RANDOM_WALKER>(next));
+	  neighbor.rwalker.steps++;
 	  vis_queue->queue_visitor(neighbor);
 	}
 	/*else {

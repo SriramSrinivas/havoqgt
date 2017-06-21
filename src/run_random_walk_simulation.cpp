@@ -105,6 +105,7 @@ int main(int argc, char** argv) {
       if(mpi_rank == 0) {
 	std::cout << "Executing " << SIM << std::endl;
       }
+      std::cout << "config_reader" << std::endl;
       //parse_cmd_line(argc, argv, input_graph_filename, input_metadata_filename);
       config_reader reader(argc, argv, "s:e:o:n:t:c:d:r:a:b:x:i:m:h ");
 
@@ -115,15 +116,18 @@ int main(int argc, char** argv) {
         return std::atoll(str.c_str());
       };
 
+      std::cout << "vars" << std::endl;
       input_graph_filename = reader.get_value<std::string, decltype(identity)>('i', identity).second;
       input_metadata_filename = reader.get_value<std::string, decltype(identity)>('m', identity).second;
       start_time = reader.get_value<uint64_t, decltype(parse_to_long)>( 's', parse_to_long).second;
       end_time = reader.get_value<uint64_t, decltype(parse_to_long)>( 'e', parse_to_long).second;
       num_times = reader.get_value<uint64_t, decltype(parse_to_long)>( 't', parse_to_long).second;
 
+      std::cout << "havoq" << std::endl;
       havoqgt::distributed_db graph_ddb(havoqgt::db_open(), input_graph_filename.c_str());
       havoqgt::distributed_db metadata_ddb(havoqgt::db_open(), input_metadata_filename.c_str());
 
+      std::cout << "initializing" << std::endl;
       MASTER_MSG("Initializing");
       
       graph_type *graph = graph_ddb.get_segment_manager()->find<graph_type>

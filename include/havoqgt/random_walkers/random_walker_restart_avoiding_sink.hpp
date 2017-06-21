@@ -117,7 +117,7 @@ public:
   }
 
   friend std::ostream& operator<<(std::ostream& o, const simple_random_walker& rw) {
-    return o << rw.id
+    return o << "TEST" << rw.id
 	     << " "  << rw.started_at.first << " " << rw.started_at.second
              << " " << rw.cur_time.first   << " " << rw.cur_time.second
 	     << " " << rw.cost << " " << rw.steps
