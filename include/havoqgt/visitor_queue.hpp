@@ -116,7 +116,8 @@ public:
     }
 
     bool intercept(const visitor_type& __value) {
-      assert(m_vq->m_ptr_graph->master(__value.m_visitor.vertex) != uint32_t(m_vq->m_mailbox.comm_rank()));
+ 	//commented by jiyuan: assert cannot compile in debug mode
+      //assert(m_vq->m_ptr_graph->master(__value.m_visitor.vertex) != uint32_t(m_vq->m_mailbox.comm_rank()));
       bool ret = __value.pre_visit(m_vq->m_alg_data);
       if(!ret) {
         m_vq->m_termination_detection.inc_completed();

@@ -297,7 +297,8 @@ complete_construction(const SegmentAllocator<void>& seg_allocator,
         initialize_edge_storage(seg_allocator);      
 
         if (m_has_edge_data) {
-          assert(_edge_data != NULL); 
+	 //Commented out by jiyuan: assert doesn't seem to work under Debug mode
+          //assert(_edge_data != NULL); 
           _edge_data.resize(*this);                
         }  
 
