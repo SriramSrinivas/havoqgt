@@ -137,7 +137,7 @@ int main(int argc, char** argv) {
   typedef uint64_t Edge;
   typedef uint64_t VertexData; // for string hash
   //typedef uint8_t VertexData; // for log binning 
-  //typedef edge_data_type EdgeData;
+  typedef edge_data_type EdgeData;
  
   typedef uint64_t VertexRankType;
    
