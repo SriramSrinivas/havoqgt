@@ -87,6 +87,8 @@ public:
       return false;
     }
 
+    int mpi_rank = havoqgt_env()->world_comm().rank();     
+
     auto vertex_data = std::get<0>(alg_data)[vertex];
     //auto& pattern = std::get<1>(alg_data);
     //auto& pattern_indices = std::get<2>(alg_data);
@@ -95,18 +97,21 @@ public:
     // std::get<8>(alg_data) - superstep
     // std::get<9>(alg_data) - initstep 
     auto g = std::get<10>(alg_data);
-    // std::get<11>(alg_data) - edge_metadata
-    // std::get<12>(alg_data) - vertex_active_edge_set 
- 
+    // std::get<11>(alg_data) - edge_active
+    // std::get<12>(alg_data) - vertex_active_edge_set
+    // std::get<12>(alg_data) - edge_metadata 
+
     bool match_found = false;
     bool valid_parent_found = false;
 
-    size_t vertex_pattern_index = 0;
+    size_t vertex_pattern_index = 0; // ID of the corresponding pattern vertex
 
-    int mpi_rank = havoqgt_env()->world_comm().rank();     
+      if (vertex.is_delegate() && g->master(vertex) != mpi_rank && msg_type == 1) { 
+        // a delegate but not the controller
+        // the vertex_state is only maintained on the controller
 
-      if (vertex.is_delegate() && g->master(vertex) != mpi_rank && msg_type == 1) { // a delegate but not the controller
-       // the vertex_state is only maintained on the controller
+        // match vertex metadata
+        // Important : no need to match edge metadata of a parent 
 
         // TODO: avoid figuring out vertex_pattern_index everytime
         // does vertex_data match any entry in the query pattern
@@ -141,6 +146,7 @@ public:
           }
         } // for 
 
+        // I think it never gets here 
         // initial case - return true to handle delegates // TODO: try this one too
         //if (std::get<4>(alg_data)[vertex] && msg_type == 0 && !match_found) {
         //  return true;  
@@ -148,7 +154,7 @@ public:
 
         if (!match_found) {
           std::get<4>(alg_data)[vertex] = false; 
-          //return true; // send to the controller
+          //return true; // send to the controller ?
           return false;
         } else {
           // add parent to vertex_active_edge_set
@@ -160,6 +166,7 @@ public:
               return false;
             }
           } else {
+            // TODO: debug, why it gets here sometimes 
             //std::cerr << "(Delegate) vertex " << g->locator_to_label(vertex) 
             //  << " parent " << g->locator_to_label(parent) << " parent_pattern_index " 
             //  << parent_pattern_index << std::endl; // Test
@@ -248,23 +255,28 @@ public:
     // std::get<8>(alg_data) - superstep
     // std::get<9>(alg_data) - initstep
     // std::get<10>(alg_data) - g
-    // std::get<11>(alg_data) - edge_metadata
-    // std::get<12>(alg_data) - vertex_active_edge_set     
+    // std::get<11>(alg_data) - edge_active
+    // std::get<12>(alg_data) - vertex_active_edge_set    
+    // std::get<13>(alg_data) - edge_metadata  
 
     // does vertex_data match an entry in the query pattern
     bool match_found = false;
 
     // TODO: do you want to compute this every time or store in the memory? Overhead is not noticable though.
-    std::vector<size_t> vertex_pattern_indices(0); // a vertex label could be a match for multiple pattern labels
-    for (size_t vertex_pattern_index = 0; 
+    //std::vector<size_t> vertex_pattern_indices(0); // a vertex label could be a match for multiple pattern labels
+
+    // match vertex metadata
+
+    size_t vertex_pattern_index = 0;
+    for (vertex_pattern_index = 0; 
       vertex_pattern_index < pattern_graph.vertex_data.size(); 
       vertex_pattern_index++) { 
       if (pattern_graph.vertex_data[vertex_pattern_index] == vertex_data) {
-        vertex_pattern_indices.push_back(vertex_pattern_index);
+//        vertex_pattern_indices.push_back(vertex_pattern_index);
         // TODO: compare with the entry in pattern_indices to detect loop or 
         // use token passing
         match_found = true;
-        //break; 
+        break; 
       }       
     }
 
@@ -278,8 +290,8 @@ public:
       // send to all the neighbours
       for(eitr_type eitr = g.edges_begin(vertex); 
         eitr != g.edges_end(vertex); ++eitr) {
-        vertex_locator neighbor = eitr.target();
-
+        vertex_locator neighbor = eitr.target();      
+ 
         // Important : first LP superstep of the first iteration - send on all edges
         if (!(std::get<8>(alg_data) == 0  && std::get<9>(alg_data))) {
  
@@ -288,14 +300,36 @@ public:
           }
  
         }
+
+        // match edge metadata
+        // TODO: Right now, a vertex cannot have repeating metadata. 
+        // Two different vertices can have same edge metadata.
+        // In order to support repeating edge metadata for the same vertex
+        // edge ID need to be included in the message.  
+        match_found = false;
+        for (auto e = pattern_graph.vertices[vertex_pattern_index]; 
+          e < pattern_graph.vertices[vertex_pattern_index + 1]; e++) {
+          if (std::get<13>(alg_data)[eitr] == pattern_graph.edge_data[e]) { // edge_metadata
+            match_found = true;
+            break;
+          }
+        }
+
+        if (!match_found) {
+          std::get<11>(alg_data)[eitr] = false;
+          continue;     
+        }
   
         // TODO: only handling undirected grpahs, directed graphs?
 
-        for (auto vertex_pattern_index : vertex_pattern_indices) {
+//        for (auto vertex_pattern_index : vertex_pattern_indices) {
           // do this for all the pattern indices for this vertex
+
           lppm_visitor new_visitor(neighbor, vertex, vertex_pattern_index, 1);
           vis_queue->queue_visitor(new_visitor);
-        } // for
+
+//        } // for
+        
       } // for
       return true;
     } else if (msg_type == 1 && match_found) {        
@@ -427,11 +461,13 @@ public:
 };
 
 template <typename TGraph, typename AlgData, typename VertexStateMap, 
-  typename PatternGraph, typename VertexActive, typename VertexIteration>
+  typename PatternGraph, typename VertexActive, typename VertexIteration,
+  typename VertexSetCollection>
 void verify_and_update_vertex_state_map(TGraph* g, AlgData& alg_data, 
   VertexStateMap& vertex_state_map, PatternGraph& pattern_graph, 
   VertexActive& vertex_active, 
-  VertexIteration& vertex_iteration, uint64_t superstep, bool initstep, bool& global_not_finished) {
+  VertexIteration& vertex_iteration, uint64_t superstep, bool initstep, bool& global_not_finished, 
+  VertexSetCollection& vertex_active_edge_set) {
 
   typedef typename TGraph::vertex_iterator vertex_iterator;
   typedef typename TGraph::vertex_locator vertex_locator;
@@ -447,7 +483,8 @@ void verify_and_update_vertex_state_map(TGraph* g, AlgData& alg_data,
       if (vertex_active[vertex]) {
         auto find_vertex = vertex_state_map.find(g->locator_to_label(vertex));
         if (find_vertex == vertex_state_map.end()) { 
-          vertex_active[vertex] = false;     
+          vertex_active[vertex] = false;    
+          vertex_active_edge_set[vertex].clear();
         } 
       }  
     }
@@ -552,13 +589,14 @@ void verify_and_update_edge_state(TGraph* g, AlgData& alg_data,
 
 template <typename TGraph, typename VertexMetaData, typename VertexData, typename PatternData, 
   typename PatternIndices, typename VertexRank, typename VertexActive, 
-  typename VertexIteration, typename VertexStateMap, typename PatternGraph, typename EdgeActive, typename VertexSetCollection>
+  typename VertexIteration, typename VertexStateMap, typename PatternGraph, typename EdgeActive, 
+  typename VertexSetCollection, typename EdgeMetadata>
 void label_propagation_pattern_matching_bsp(TGraph* g, VertexMetaData& vertex_metadata, 
   PatternData& pattern, PatternIndices& pattern_indices, VertexRank& vertex_rank,
   VertexActive& vertex_active, VertexIteration& vertex_iteration, VertexStateMap& vertex_state_map, 
   PatternGraph& pattern_graph, bool initstep, bool& global_not_finished, size_t global_itr_count, 
   std::ofstream& superstep_result_file, std::ofstream& active_vertices_count_result_file, 
-  EdgeActive& edge_active) {
+  EdgeActive& edge_active, EdgeMetadata& edge_metadata) {
 
   typedef uint64_t Vertex;
 
@@ -570,7 +608,8 @@ void label_propagation_pattern_matching_bsp(TGraph* g, VertexMetaData& vertex_me
 
   typedef lppm_visitor<TGraph, VertexData> visitor_type;
   auto alg_data = std::forward_as_tuple(vertex_metadata, pattern, pattern_indices, vertex_rank,
-    vertex_active, vertex_iteration, vertex_state_map, pattern_graph, superstep_var, initstep, g, edge_active, vertex_active_edge_set);
+    vertex_active, vertex_iteration, vertex_state_map, pattern_graph, superstep_var, initstep, g, edge_active, 
+    vertex_active_edge_set, edge_metadata);
   auto vq = create_visitor_queue<visitor_type, havoqgt::detail::visitor_priority_queue>(g, alg_data);
 
   // beiginning of BSP execution
@@ -600,7 +639,8 @@ void label_propagation_pattern_matching_bsp(TGraph* g, VertexMetaData& vertex_me
     ///MPI_Barrier(MPI_COMM_WORLD);
  
     verify_and_update_vertex_state_map(g, alg_data, vertex_state_map, pattern_graph, 
-      vertex_active, vertex_iteration, superstep, initstep, global_not_finished);
+      vertex_active, vertex_iteration, superstep, initstep, global_not_finished, 
+      vertex_active_edge_set);
     //MPI_Barrier(MPI_COMM_WORLD);
 
     verify_and_update_edge_state(g, alg_data, vertex_active, edge_active, 

@@ -8,7 +8,7 @@
 
 #include <boost/algorithm/string.hpp>
 
-template<typename Vertex, typename Edge, typename VertexData>
+template<typename Vertex, typename Edge, typename VertexData, typename EdgeData = uint64_t>
 class graph {
   public:
     graph(std::string vertex_input_filename,  std::string edge_input_filename, 
@@ -68,9 +68,46 @@ class graph {
 //      output_stat(); 
     }
 
+    graph(std::string edge_input_filename, std::string vertex_input_filename,
+      std::string vertex_data_input_filename, 
+      std::string edge_data_input_filename, 
+      std::string stat_input_filename,
+      const bool _directed = false, const bool _mutable = false) :
+      directed(_directed),
+      vertex_count(0),
+      edge_count(0),
+      diameter(0),  
+      vertices(0),
+      vertex_degree(0),
+      vertex_data(0), 
+      edges(0), 
+      edge_list(0) {
+//      std::cout << "Building CSR graph ... " << std::endl;
+      
+//      std::cout << "Reading edge list ... " << std::endl;
+      edge_count = read_edge_list(edge_input_filename);
+
+      //std::cout << "Generating vertex list ..." << std::endl;
+      vertex_count = generate_vertex_list() ;       
+
+//      std::cout << "Reading vertex list ... " << std::endl;
+//      vertex_count = read_vertex_list(vertex_input_filename);
+
+//      std::cout << "Reading vertex data list ... " << std::endl;
+      read_vertex_data_list(vertex_data_input_filename);
+
+//      std::cout << "Reading edge data list ... " << std::endl;
+      read_edge_data_list(edge_data_input_filename); 
+
+      read_stat(stat_input_filename);
+
+//      std::cout << "Completed building graph." << std::endl;
+//      output_stat(); 
+    }
+
     ~graph() {
 //      std::cout << "Disposing graph ... " << std::endl;
-    }    
+    } 
 
     const bool directed; 
     Vertex vertex_count;
@@ -80,6 +117,8 @@ class graph {
     std::vector<Edge> vertex_degree;
     std::vector<VertexData> vertex_data;
     std::vector<Vertex> edges;
+    std::vector<Edge> edge_ID; 
+    std::vector<EdgeData> edge_data; 
     std::vector<std::tuple<Vertex, Vertex>> edge_list; 
 
   private:
@@ -125,7 +164,22 @@ class graph {
       }
       edge_input_file.close();
       return edges.size(); // edge count
-    } 
+    }
+
+    void read_edge_data_list(std::string edge_data_input_filename) {
+      std::ifstream edge_data_input_file(edge_data_input_filename, std::ifstream::in);
+      std::string line;
+      while(std::getline(edge_data_input_file, line)) {
+        std::istringstream iss(line);
+        Vertex s(0), t(0);
+        Edge e(0);
+        EdgeData w(0); 
+        iss >> s >> t >> e >> w;
+        edge_ID.push_back(e); // TODO: edge IDs should be in a different file
+        edge_data.push_back(w); 
+      }
+      edge_data_input_file.close();   
+    }
 
     Vertex generate_vertex_list() {
       Vertex vertex_count = 0;

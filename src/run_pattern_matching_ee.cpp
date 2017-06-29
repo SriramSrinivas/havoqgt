@@ -137,10 +137,10 @@ int main(int argc, char** argv) {
   typedef uint64_t Edge;
   typedef uint64_t VertexData; // for string hash
   //typedef uint8_t VertexData; // for log binning 
-  typedef edge_data_type EdgeData;
+  //typedef edge_data_type EdgeData;
+  typedef uint64_t EdgeData;
  
   typedef uint64_t VertexRankType;
-   
  
   // TODO: mmap
   //typedef graph_type::vertex_data<VertexData, SegmentAllocator<VertexData> > VertexMetaData;
@@ -160,6 +160,7 @@ int main(int argc, char** argv) {
   
   typedef graph_type::vertex_data<VertexSet, std::allocator<VertexSet> > VertexSetCollection; 
 
+  typedef graph_type::edge_data<EdgeData, std::allocator<EdgeData> > EdgeMetadata;
   typedef graph_type::edge_data<uint8_t, std::allocator<uint8_t> > EdgeActive;  
 
   if(mpi_rank == 0) {
@@ -188,6 +189,8 @@ int main(int argc, char** argv) {
   uint8_t vertex_iteration; // TODO: dummy  
   VertexSetCollection vertex_token_source_set(*graph); // per vertex set
 
+  // edge containers
+  EdgeMetadata edge_metadata(*graph); 
   EdgeActive edge_active(*graph);
   
   if(mpi_rank == 0) { 
@@ -284,10 +287,11 @@ int main(int argc, char** argv) {
   // setup pattern - for label propagation 
   std::string pattern_input_filename = pattern_dir + "/" + std::to_string(ps) + "/pattern";
 
-  typedef ::graph<Vertex, Edge, VertexData> PatternGraph; // TODO: fix graph class name conflict
+  typedef ::graph<Vertex, Edge, VertexData, EdgeData> PatternGraph; // TODO: fix graph class name conflict
   PatternGraph pattern_graph(pattern_input_filename + "_edge",
     pattern_input_filename + "_vertex", 
-    pattern_input_filename + "_vertex_data", 
+    pattern_input_filename + "_vertex_data",
+    pattern_input_filename + "_edge_data", 
     pattern_input_filename + "_stat",
     false, false);
 
@@ -325,6 +329,8 @@ int main(int argc, char** argv) {
   //vertex_iteration.reset(0); // TODO: -1 ?
   vertex_token_source_set.clear(); // clear all the sets on all the vertices
   edge_active.reset(0); //  initially all edges are active / inactive
+
+  edge_metadata.reset(55); // Test
 
   // initialize application parameters  
   bool global_initstep = true;  
@@ -393,10 +399,11 @@ int main(int argc, char** argv) {
 
   // label propagation pattern matching iterative
   label_propagation_pattern_matching_bsp<graph_type, VertexMetaData, VertexData, decltype(pattern), decltype(pattern_indices),
-    /*VertexRank*/uint8_t, VertexActive, /*VertexIteration*/uint8_t, VertexStateMap, PatternGraph, EdgeActive, VertexSetCollection>
+    /*VertexRank*/uint8_t, VertexActive, /*VertexIteration*/uint8_t, VertexStateMap, PatternGraph, EdgeActive, VertexSetCollection, 
+    EdgeMetadata>
     (graph, vertex_metadata, pattern, pattern_indices, vertex_rank, vertex_active,
     vertex_iteration, vertex_state_map, pattern_graph, global_initstep, global_not_finished,
-    global_itr_count, superstep_result_file, active_vertices_count_result_file, edge_active/**edge_data_ptr*/);
+    global_itr_count, superstep_result_file, active_vertices_count_result_file, edge_active/**edge_data_ptr*/, edge_metadata);
 
   MPI_Barrier(MPI_COMM_WORLD); // TODO: might not need this here
   double label_propagation_time_end = MPI_Wtime();
