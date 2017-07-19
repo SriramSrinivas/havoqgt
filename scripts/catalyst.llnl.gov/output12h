@@ -1,0 +1,505 @@
+srun: job 2485619 queued and waiting for resources
+srun: job 2485619 has been allocated resources
+catalyst265.17395Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst265.17413Driver initialization failure on /dev/ipath (err=23)
+catalyst265.17416Driver initialization failure on /dev/ipath (err=23)
+catalyst265.17412Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst265.17415Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst265.17411Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+catalyst265.17417Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+catalyst265.17418Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+catalyst265.17403Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+catalyst265.17399Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+catalyst265.17415Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst265.17395Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst265.17411Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst265.17417Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst265.17418Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst265.17412Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst265.17403Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst265.17416Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst265.17413Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst265.17399Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst265.17417Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 3 of 10 in 10 seconds
+catalyst265.17395Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 3 of 10 in 10 seconds
+catalyst265.17403Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 3 of 10 in 10 seconds
+catalyst265.17412Driver initialization failure on /dev/ipath (err=23)
+catalyst265.17416Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 3 of 10 in 10 seconds
+catalyst265.17415Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 3 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 3 of 10 in 10 seconds
+catalyst265.17418Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 3 of 10 in 10 seconds
+catalyst265.17411Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 3 of 10 in 10 seconds
+catalyst265.17413Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 3 of 10 in 10 seconds
+catalyst265.17403Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 4 of 10 in 10 seconds
+catalyst265.17395Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 4 of 10 in 10 seconds
+catalyst265.17412Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst265.17415Driver initialization failure on /dev/ipath (err=23)
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 4 of 10 in 10 seconds
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 4 of 10 in 10 seconds
+catalyst265.17418Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 4 of 10 in 10 seconds
+catalyst265.17416Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 4 of 10 in 10 seconds
+catalyst265.17399Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 3 of 10 in 10 seconds
+catalyst265.17411Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 4 of 10 in 10 seconds
+catalyst265.17417Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 4 of 10 in 10 seconds
+catalyst265.17413Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 4 of 10 in 10 seconds
+catalyst265.17403Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 5 of 10 in 10 seconds
+catalyst265.17399Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 4 of 10 in 10 seconds
+catalyst265.17416Driver initialization failure on /dev/ipath (err=23)
+catalyst265.17415Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst265.17418Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 5 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 5 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 5 of 10 in 10 seconds
+catalyst265.17412Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 5 of 10 in 10 seconds
+catalyst265.17411Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 5 of 10 in 10 seconds
+catalyst265.17417Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 5 of 10 in 10 seconds
+catalyst265.17395Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 5 of 10 in 10 seconds
+catalyst265.17413Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 5 of 10 in 10 seconds
+catalyst265.17403Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 6 of 10 in 10 seconds
+catalyst265.17418Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst265.17415Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 6 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 6 of 10 in 10 seconds
+catalyst265.17416Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 6 of 10 in 10 seconds
+catalyst265.17412Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 6 of 10 in 10 seconds
+catalyst265.17411Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 6 of 10 in 10 seconds
+catalyst265.17417Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 6 of 10 in 10 seconds
+catalyst265.17399Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 5 of 10 in 10 seconds
+catalyst265.17395Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 6 of 10 in 10 seconds
+catalyst265.17412Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst265.17416Driver initialization failure on /dev/ipath (err=23)
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 7 of 10 in 10 seconds
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 7 of 10 in 10 seconds
+catalyst265.17418Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 7 of 10 in 10 seconds
+catalyst265.17413Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 6 of 10 in 10 seconds
+catalyst265.17415Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 7 of 10 in 10 seconds
+catalyst265.17411Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 7 of 10 in 10 seconds
+catalyst265.17417Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 7 of 10 in 10 seconds
+catalyst265.17403Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 7 of 10 in 10 seconds
+catalyst265.17399Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 6 of 10 in 10 seconds
+catalyst265.17416Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 8 of 10 in 10 seconds
+catalyst265.17418Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 8 of 10 in 10 seconds
+catalyst265.17395Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 7 of 10 in 10 seconds
+catalyst265.17413Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 7 of 10 in 10 seconds
+catalyst265.17411Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 8 of 10 in 10 seconds
+catalyst265.17415Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 8 of 10 in 10 seconds
+catalyst265.17417Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 8 of 10 in 10 seconds
+catalyst265.17403Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 8 of 10 in 10 seconds
+catalyst265.17399Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 7 of 10 in 10 seconds
+catalyst265.17412Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 8 of 10 in 10 seconds
+catalyst265.17416Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 9 of 10 in 10 seconds
+catalyst265.17413Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 8 of 10 in 10 seconds
+catalyst265.17418Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 9 of 10 in 10 seconds
+catalyst265.17415Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 9 of 10 in 10 seconds
+catalyst265.17411Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 9 of 10 in 10 seconds
+catalyst265.17417Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 9 of 10 in 10 seconds
+catalyst265.17403Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 9 of 10 in 10 seconds
+catalyst265.17395Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 8 of 10 in 10 seconds
+catalyst265.17399Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 8 of 10 in 10 seconds
+catalyst265.17412Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 9 of 10 in 10 seconds
+catalyst265.17413Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 9 of 10 in 10 seconds
+catalyst265.17418Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 10 of 10 in 10 seconds
+catalyst265.17411Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 10 of 10 in 10 seconds
+catalyst265.17415Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 10 of 10 in 10 seconds
+catalyst265.17417Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 10 of 10 in 10 seconds
+catalyst265.17403Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 10 of 10 in 10 seconds
+catalyst265.17395Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 9 of 10 in 10 seconds
+catalyst265.17416Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 10 of 10 in 10 seconds
+catalyst265.17399Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 9 of 10 in 10 seconds
+catalyst265.17412Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 10 of 10 in 10 seconds
+catalyst265.17418Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+psm_ep_open failed with error Failure in initializing endpoint
+Fatal error in MPI_Init: Internal MPI error!, error stack:
+MPIR_Init_thread(514): 
+MPID_Init(365).......: channel initialization failed
+(unknown)(): Internal MPI error!
+catalyst265.17418ipath_userinit: userinit command failed: Cannot allocate memory
+catalyst265.17418ipath_userinit: userinit command failed: Cannot allocate memory
+catalyst265.17418ipath_userinit: userinit command failed: Cannot allocate memory
+catalyst265.17418ipath_userinit: userinit command failed: Cannot allocate memory
+catalyst265.17418ipath_userinit: userinit command failed: Cannot allocate memory
+catalyst265.17418ipath_userinit: userinit command failed: Cannot allocate memory
+catalyst265.17418ipath_userinit: userinit command failed: Cannot allocate memory
+catalyst265.17418ipath_userinit: userinit command failed: Cannot allocate memory
+catalyst265.17418ipath_userinit: userinit command failed: Cannot allocate memory
+catalyst265.17418ipath_userinit: userinit command failed: Cannot allocate memory
+catalyst265.17418ipath_userinit: userinit command failed: Cannot allocate memory
+slurmd[catalyst92]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst291]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst265]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst313]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst270]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst258]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst261]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst95]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst307]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst302]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst255]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst93]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst276]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst256]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst262]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst306]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst257]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst94]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst312]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst293]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst296]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst254]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst96]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst308]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst284]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst311]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst294]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst264]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst301]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst298]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst267]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst300]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst309]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst266]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst304]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst259]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst297]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst260]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst283]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst263]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst305]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst292]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst279]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst287]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst269]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst274]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst303]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst268]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst290]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst310]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst271]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst288]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst281]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst277]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst275]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst299]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst280]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst286]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst282]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst272]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst285]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst278]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst273]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst289]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[catalyst313]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst271]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst273]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst293]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst294]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst95]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst93]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst256]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst255]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst257]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst297]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst274]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst272]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst278]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst275]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst283]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst302]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst279]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst296]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst281]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst96]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst300]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst259]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst276]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst254]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst292]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst262]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst94]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst298]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst277]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst285]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst263]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst286]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst270]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst282]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst258]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst301]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst287]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst261]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst284]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst305]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst303]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst306]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst280]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst290]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst92]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst304]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst309]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst299]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst268]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst307]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst267]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst289]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst291]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst269]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst265]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst260]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst310]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst308]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst288]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst312]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst311]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst264]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+slurmd[catalyst266]: *** STEP 2485619.0 KILLED AT 2017-06-08T02:25:39 WITH SIGNAL 9 ***
+srun: error: catalyst281: tasks 768-791: Killed
+srun: error: catalyst313: tasks 1512-1535: Killed
+srun: error: catalyst268: tasks 456-479: Killed
+srun: error: catalyst307: tasks 1368-1391: Killed
+srun: error: catalyst283: tasks 816-839: Killed
+srun: error: catalyst269: tasks 480-503: Killed
+srun: error: catalyst94: tasks 48-71: Killed
+srun: error: catalyst263: tasks 336-359: Killed
+srun: error: catalyst297: tasks 1128-1151: Killed
+srun: error: catalyst272: tasks 552-575: Killed
+srun: error: catalyst289: tasks 960-983: Killed
+srun: error: catalyst271: tasks 528-551: Killed
+srun: error: catalyst290: tasks 984-1007: Killed
+srun: error: catalyst300: tasks 1200-1223: Killed
+srun: error: catalyst278: tasks 696-719: Killed
+srun: error: catalyst286: tasks 888-911: Killed
+srun: error: catalyst304: tasks 1296-1319: Killed
+srun: error: catalyst284: tasks 840-863: Killed
+srun: error: catalyst305: tasks 1320-1343: Killed
+srun: error: catalyst309: tasks 1416-1439: Killed
+srun: error: catalyst270: tasks 504-527: Killed
+srun: error: catalyst285: tasks 864-887: Killed
+srun: error: catalyst93: tasks 24-47: Killed
+srun: error: catalyst291: tasks 1008-1031: Killed
+srun: error: catalyst280: tasks 744-767: Killed
+srun: error: catalyst294: tasks 1080-1103: Killed
+srun: error: catalyst276: tasks 648-671: Killed
+srun: error: catalyst302: tasks 1248-1271: Killed
+srun: error: catalyst277: tasks 672-695: Killed
+srun: error: catalyst282: tasks 792-815: Killed
+srun: error: catalyst255: tasks 144-167: Killed
+srun: error: catalyst264: tasks 360-383: Killed
+srun: error: catalyst301: tasks 1224-1247: Killed
+srun: error: catalyst95: tasks 72-95: Killed
+srun: error: catalyst292: tasks 1032-1055: Killed
+srun: error: catalyst296: tasks 1104-1127: Killed
+srun: error: catalyst303: tasks 1272-1295: Killed
+srun: error: catalyst274: tasks 600-623: Killed
+srun: error: catalyst275: tasks 624-647: Killed
+srun: error: catalyst273: tasks 576-599: Killed
+srun: error: catalyst279: tasks 720-743: Killed
+srun: error: catalyst288: tasks 936-959: Killed
+srun: error: catalyst96: tasks 96-119: Killed
+srun: error: catalyst257: tasks 192-215: Killed
+srun: error: catalyst260: tasks 264-287: Killed
+srun: error: catalyst308: tasks 1392-1415: Killed
+srun: error: catalyst258: tasks 216-239: Killed
+srun: error: catalyst299: tasks 1176-1199: Killed
+srun: error: catalyst287: tasks 912-935: Killed
+srun: error: catalyst312: tasks 1488-1511: Killed
+srun: error: catalyst310: tasks 1440-1463: Killed
+srun: error: catalyst256: tasks 168-191: Killed
+srun: error: catalyst311: tasks 1464-1487: Killed
+srun: error: catalyst298: tasks 1152-1175: Killed
+srun: error: catalyst293: tasks 1056-1079: Killed
+srun: error: catalyst259: tasks 240-263: Killed
+srun: error: catalyst261: tasks 288-311: Killed
+srun: error: catalyst254: tasks 120-143: Killed
+srun: error: catalyst267: tasks 432-455: Killed
+srun: error: catalyst92: tasks 0-23: Killed
+srun: error: catalyst306: tasks 1344-1367: Killed
+srun: error: catalyst266: tasks 408-431: Killed
+srun: error: catalyst262: tasks 312-335: Killed
+srun: error: catalyst265: tasks 384-401,403-407: Killed
+srun: error: Timed out waiting for job step to complete

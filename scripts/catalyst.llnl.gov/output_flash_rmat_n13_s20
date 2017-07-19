@@ -1,0 +1,1452 @@
+MPI initialized with 312 ranks.
+HAVOQGT_MAILBOX_NUM_IRECV         = 8
+HAVOQGT_MAILBOX_NUM_ISEND         = 8
+HAVOQGT_MAILBOX_AGGREGATION       = 1024
+HAVOQGT_MAILBOX_TREE_AGGREGATION  = 64
+HAVOQGT_MAILBOX_PRINT_STATS       = 0
+CMD line: /g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/./src/generate_rmat -s 20 -o /l/ssd/graphrmat_N13_s20 -b /p/lscratchf/zhang50/graphrmat_N13_s20
+Building Graph500
+Building graph Scale: 20
+Hub threshold = 1048576
+File name = /l/ssd/graphrmat_N13_s20
+Reserved Gigabytes per Rank = 0.25
+High/Low partition passes = 1
+Generating new graph.
+	[72] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+Starting:  Delegate Partitioning
+	[0] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+Starting:  Allocating 4 Arrays of length max local vertex.
+	[0] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23023
+	MB Written: -32768
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23007
+	MB Written: -32768
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+Finished: Allocating 4 Arrays of length max local vertex. in 0.407781 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23007
+	MB Written: -32768
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23023
+	MB Written: -32768
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+Starting:  count_edge_degree
+	[0] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[Total Loops: 0, Total Edges: 0] Time 0.143988 second,  Total Time 0.143988 second, Dirty Pages: 0kb.
+	[Total Loops: 15, Total Edges: 107546] Time 73.811 second,  Total Time 73.955 second, Dirty Pages: 0kb.
+	Number of Delegates: 0
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23023
+	MB Written: -32768
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23007
+	MB Written: -32768
+Finished: count_edge_degree in 74.465 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23007
+	MB Written: -32768
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23023
+	MB Written: -32768
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[24] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+Starting:  initialize_low_meta_data
+	[0] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23023
+	MB Written: -32768
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23023
+	MB Written: -32768
+Finished: initialize_low_meta_data in 0.282997 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23007
+	MB Written: -32768
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23007
+	MB Written: -32768
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[96] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+Starting:  initialize_high_meta_data
+	[0] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	 Setup and Compute Hub information: 0/24.
+	 Setup and Compute Hub information: 1/24.
+	 Setup and Compute Hub information: 2/24.
+	 Setup and Compute Hub information: 3/24.
+	 Setup and Compute Hub information: 4/24.
+	 Setup and Compute Hub information: 5/24.
+	 Setup and Compute Hub information: 6/24.
+	 Setup and Compute Hub information: 7/24.
+	 Setup and Compute Hub information: 8/24.
+	 Setup and Compute Hub information: 9/24.
+	 Setup and Compute Hub information: 10/24.
+	 Setup and Compute Hub information: 11/24.
+	 Setup and Compute Hub information: 12/24.
+	 Setup and Compute Hub information: 13/24.
+	 Setup and Compute Hub information: 14/24.
+	 Setup and Compute Hub information: 15/24.
+	 Setup and Compute Hub information: 16/24.
+	 Setup and Compute Hub information: 17/24.
+	 Setup and Compute Hub information: 18/24.
+	 Setup and Compute Hub information: 19/24.
+	 Setup and Compute Hub information: 20/24.
+	 Setup and Compute Hub information: 21/24.
+	 Setup and Compute Hub information: 22/24.
+	 Setup and Compute Hub information: 23/24.
+Finished: initialize_high_meta_data in 0.750456 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23007
+	MB Written: -32768
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23023
+	MB Written: -32768
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23007
+	MB Written: -32768
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23023
+	MB Written: -32768
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 23039
+	MB Written: -32768
+Starting:  count_high_degree_edges
+	[0] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[CH][Total Loops: 0, Total Edges: 0] Time 0.147003 second,  Total Time 0.147003 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 14, Total Edges: 107546] Time 69.6226 second,  Total Time 69.7696 second, Dirty Pages: 0kb.
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+Finished: count_high_degree_edges in 70.023 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[24] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+Starting:  calculate_overflow
+	[0] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42335
+	MB Written: -32768
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42351
+	MB Written: -32768
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+Finished: calculate_overflow in 0.700999 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42335
+	MB Written: -32768
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42351
+	MB Written: -32768
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[24] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+Starting:  initialize_edge_storage
+	[0] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	Resizing m_owned_targets and m_delegate_targets: 0/24.
+	Resizing m_owned_targets and m_delegate_targets: 1/24.
+	Resizing m_owned_targets and m_delegate_targets: 2/24.
+	Resizing m_owned_targets and m_delegate_targets: 3/24.
+	Resizing m_owned_targets and m_delegate_targets: 4/24.
+	Resizing m_owned_targets and m_delegate_targets: 5/24.
+	Resizing m_owned_targets and m_delegate_targets: 6/24.
+	Resizing m_owned_targets and m_delegate_targets: 7/24.
+	Resizing m_owned_targets and m_delegate_targets: 8/24.
+	Resizing m_owned_targets and m_delegate_targets: 9/24.
+	Resizing m_owned_targets and m_delegate_targets: 10/24.
+	Resizing m_owned_targets and m_delegate_targets: 11/24.
+	Resizing m_owned_targets and m_delegate_targets: 12/24.
+	Resizing m_owned_targets and m_delegate_targets: 13/24.
+	Resizing m_owned_targets and m_delegate_targets: 14/24.
+	Resizing m_owned_targets and m_delegate_targets: 15/24.
+	Resizing m_owned_targets and m_delegate_targets: 16/24.
+	Resizing m_owned_targets and m_delegate_targets: 17/24.
+	Resizing m_owned_targets and m_delegate_targets: 18/24.
+	Resizing m_owned_targets and m_delegate_targets: 19/24.
+	Resizing m_owned_targets and m_delegate_targets: 20/24.
+	Resizing m_owned_targets and m_delegate_targets: 21/24.
+	Resizing m_owned_targets and m_delegate_targets: 22/24.
+	Resizing m_owned_targets and m_delegate_targets: 23/24.
+Finished: initialize_edge_storage in 0.817001 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42335
+	MB Written: -32768
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42351
+	MB Written: -32768
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42351
+	MB Written: -32768
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42335
+	MB Written: -32768
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[24] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+Starting:  partition_low_degree
+	[0] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	***[LP][Partition Number: 0/1, Total Loops: 0, Total Edges: 0] Time 8.34465e-06 second,  Total Time 8.34465e-06 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 0, Total Edges: 0] Time 0.208013 second,  Total Time 0.208013 second, Dirty Pages: 0kb.
+	[LP][Total Loops: 14, Total Edges: 107546] Time 69.386 second,  Total Time 69.594 second, Dirty Pages: 0kb.
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+Finished: partition_low_degree in 69.895 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42335
+	MB Written: -32768
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42351
+	MB Written: -32768
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42351
+	MB Written: -32768
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42335
+	MB Written: -32768
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[120] Dirty Pages: 0kb.
+Starting:  partition_high_degree
+	[0] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	***[HP][Partition Number: 0/1, Total Loops: 0, Total Edges: 0] Time 2.6226e-06 second,  Total Time 2.6226e-06 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 0, Total Edges: 0] Time 0.250006 second,  Total Time 0.250006 second, Dirty Pages: 0kb.
+	[HP][Total Loops: 14, Total Edges: 107546] Time 69.859 second,  Total Time 70.109 second, Dirty Pages: 0kb.
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42335
+	MB Written: -32768
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42351
+	MB Written: -32768
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42351
+	MB Written: -32768
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+Finished: partition_high_degree in 75.095 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42335
+	MB Written: -32768
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[48] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+Starting:  all-reduce hub degree
+	[0] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+Finished: all-reduce hub degree in 0.253003 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42335
+	MB Written: -32768
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42351
+	MB Written: -32768
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42351
+	MB Written: -32768
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42335
+	MB Written: -32768
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+Starting:  Build controller lists
+	[0] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42351
+	MB Written: -32768
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42335
+	MB Written: -32768
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+Finished: Build controller lists in 0.318999 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42335
+	MB Written: -32768
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42351
+	MB Written: -32768
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[264] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+Starting:  Verify CSR integration
+	[0] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42351
+	MB Written: -32768
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42335
+	MB Written: -32768
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+Finished: Verify CSR integration in 0.291 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42335
+	MB Written: -32768
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42351
+	MB Written: -32768
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 42367
+	MB Written: -32768
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1422094239
+	MB Written: -10923
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1422094239
+	MB Written: -10923
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1422094239
+	MB Written: -10923
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1422094239
+	MB Written: -10923
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1422094239
+	MB Written: -10923
+Finished: Delegate Partitioning in 296.174 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1422094239
+	MB Written: -10923
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1422094239
+	MB Written: -10923
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1422094239
+	MB Written: -10923
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1422094239
+	MB Written: -10923
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1422094239
+	MB Written: -10923
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1422094239
+	MB Written: -10923
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1422094239
+	MB Written: -10923
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1422094239
+	MB Written: -10923
+Graph Ready, Calculating Stats. 
+[0] 267468832/268435440 = 0.996399
+[1] 267461280/268435440 = 0.996371
+[2] 267706864/268435440 = 0.997286
+[3] 267467680/268435440 = 0.996395
+[4] 267582224/268435440 = 0.996822
+[5] 267574400/268435440 = 0.996792
+[6] 267680272/268435440 = 0.997187
+[7] 267704464/268435440 = 0.997277
+[8] 267559472/268435440 = 0.996737
+[9] 267426576/268435440 = 0.996242
+[10] 267614560/268435440 = 0.996942
+[11] 267597872/268435440 = 0.99688
+[12] 267736656/268435440 = 0.997397
+[13] 267602496/268435440 = 0.996897
+[14] 267477792/268435440 = 0.996432
+[15] 267591888/268435440 = 0.996858
+[16] 267638032/268435440 = 0.997029
+[17] 267412528/268435440 = 0.996189
+[18] 267713488/268435440 = 0.997311
+[19] 267476112/268435440 = 0.996426
+[20] 267603376/268435440 = 0.9969
+[21] 267520256/268435440 = 0.996591
+[22] 267385792/268435440 = 0.99609
+[23] 267498880/268435440 = 0.996511
+[24] 267683072/268435440 = 0.997197
+[25] 267642608/268435440 = 0.997046
+[26] 266945136/268435440 = 0.994448
+[27] 267462512/268435440 = 0.996376
+[28] 267534976/268435440 = 0.996646
+[29] 267595040/268435440 = 0.996869
+[30] 267553488/268435440 = 0.996714
+[31] 267670320/268435440 = 0.99715
+[32] 267572016/268435440 = 0.996783
+[33] 267587952/268435440 = 0.996843
+[34] 267575840/268435440 = 0.996798
+[35] 267496368/268435440 = 0.996502
+[36] 267586736/268435440 = 0.996838
+[37] 267543712/268435440 = 0.996678
+[38] 267650384/268435440 = 0.997075
+[39] 267525168/268435440 = 0.996609
+[40] 267003680/268435440 = 0.994666
+[41] 267320208/268435440 = 0.995845
+[42] 267505856/268435440 = 0.996537
+[43] 267579840/268435440 = 0.996813
+[44] 267422736/268435440 = 0.996227
+[45] 267015168/268435440 = 0.994709
+[46] 267508752/268435440 = 0.996548
+[47] 267338016/268435440 = 0.995912
+[48] 267211696/268435440 = 0.995441
+[49] 267566560/268435440 = 0.996763
+[50] 267570832/268435440 = 0.996779
+[51] 267589616/268435440 = 0.996849
+[52] 267390912/268435440 = 0.996109
+[53] 267427888/268435440 = 0.996247
+[54] 267431696/268435440 = 0.996261
+[55] 267626176/268435440 = 0.996985
+[56] 267385920/268435440 = 0.99609
+[57] 267462832/268435440 = 0.996377
+[58] 267658496/268435440 = 0.997106
+[59] 267602096/268435440 = 0.996896
+[60] 267440896/268435440 = 0.996295
+[61] 267486160/268435440 = 0.996464
+[62] 267585744/268435440 = 0.996835
+[63] 267597296/268435440 = 0.996878
+[64] 267278512/268435440 = 0.99569
+[65] 267699888/268435440 = 0.99726
+[66] 267632912/268435440 = 0.99701
+[67] 267411440/268435440 = 0.996185
+[68] 267520112/268435440 = 0.99659
+[69] 267140256/268435440 = 0.995175
+[70] 267552144/268435440 = 0.996709
+[71] 267590768/268435440 = 0.996853
+[72] 267582896/268435440 = 0.996824
+[73] 267494032/268435440 = 0.996493
+[74] 267464240/268435440 = 0.996382
+[75] 267421936/268435440 = 0.996224
+[76] 267484272/268435440 = 0.996457
+[77] 267361488/268435440 = 0.995999
+[78] 267647584/268435440 = 0.997065
+[79] 267646048/268435440 = 0.997059
+[80] 267629600/268435440 = 0.996998
+[81] 267533072/268435440 = 0.996638
+[82] 267583744/268435440 = 0.996827
+[83] 267511376/268435440 = 0.996558
+[84] 267733664/268435440 = 0.997386
+[85] 267243088/268435440 = 0.995558
+[86] 267732400/268435440 = 0.997381
+[87] 267568064/268435440 = 0.996769
+[88] 267389904/268435440 = 0.996105
+[89] 267520704/268435440 = 0.996592
+[90] 267130800/268435440 = 0.99514
+[91] 267393920/268435440 = 0.99612
+[92] 267249232/268435440 = 0.995581
+[93] 267638416/268435440 = 0.997031
+[94] 267511376/268435440 = 0.996558
+[95] 267612112/268435440 = 0.996933
+[96] 267424464/268435440 = 0.996234
+[97] 267579840/268435440 = 0.996813
+[98] 267603920/268435440 = 0.996902
+[99] 267668528/268435440 = 0.997143
+[100] 267681216/268435440 = 0.99719
+[101] 267530976/268435440 = 0.996631
+[102] 267409888/268435440 = 0.99618
+[103] 267694624/268435440 = 0.99724
+[104] 267536752/268435440 = 0.996652
+[105] 267574464/268435440 = 0.996793
+[106] 267454640/268435440 = 0.996346
+[107] 267201312/268435440 = 0.995403
+[108] 267463888/268435440 = 0.996381
+[109] 267465712/268435440 = 0.996387
+[110] 267493936/268435440 = 0.996493
+[111] 267583008/268435440 = 0.996824
+[112] 267544624/268435440 = 0.996681
+[113] 267677088/268435440 = 0.997175
+[114] 267519008/268435440 = 0.996586
+[115] 267486960/268435440 = 0.996467
+[116] 267584016/268435440 = 0.996828
+[117] 267564144/268435440 = 0.996754
+[118] 267584528/268435440 = 0.99683
+[119] 267573840/268435440 = 0.99679
+[120] 267541152/268435440 = 0.996669
+[121] 267591312/268435440 = 0.996855
+[122] 267575792/268435440 = 0.996798
+[123] 267642960/268435440 = 0.997048
+[124] 267723136/268435440 = 0.997346
+[125] 267455568/268435440 = 0.99635
+[126] 267585584/268435440 = 0.996834
+[127] 267545424/268435440 = 0.996684
+[128] 266947824/268435440 = 0.994458
+[129] 267488032/268435440 = 0.996471
+[130] 267439632/268435440 = 0.99629
+[131] 267503520/268435440 = 0.996528
+[132] 267566624/268435440 = 0.996763
+[133] 267573344/268435440 = 0.996788
+[134] 267702528/268435440 = 0.99727
+[135] 267541008/268435440 = 0.996668
+[136] 267660560/268435440 = 0.997113
+[137] 267605744/268435440 = 0.996909
+[138] 267499904/268435440 = 0.996515
+[139] 267473216/268435440 = 0.996415
+[140] 267642064/268435440 = 0.997044
+[141] 267655760/268435440 = 0.997095
+[142] 267687408/268435440 = 0.997213
+[143] 267510464/268435440 = 0.996554
+[144] 267581072/268435440 = 0.996817
+[145] 267513840/268435440 = 0.996567
+[146] 267623440/268435440 = 0.996975
+[147] 267417280/268435440 = 0.996207
+[148] 267499312/268435440 = 0.996513
+[149] 267689296/268435440 = 0.99722
+[150] 267548592/268435440 = 0.996696
+[151] 267387296/268435440 = 0.996095
+[152] 267451904/268435440 = 0.996336
+[153] 267521744/268435440 = 0.996596
+[154] 267676496/268435440 = 0.997173
+[155] 267597408/268435440 = 0.996878
+[156] 267550240/268435440 = 0.996702
+[157] 266051536/268435440 = 0.991119
+[158] 267304096/268435440 = 0.995785
+[159] 267652912/268435440 = 0.997085
+[160] 267589856/268435440 = 0.99685
+[161] 267614640/268435440 = 0.996942
+[162] 267276784/268435440 = 0.995684
+[163] 267569712/268435440 = 0.996775
+[164] 267595856/268435440 = 0.996872
+[165] 267539696/268435440 = 0.996663
+[166] 267616672/268435440 = 0.99695
+[167] 267575968/268435440 = 0.996798
+[168] 267199104/268435440 = 0.995394
+[169] 267436880/268435440 = 0.99628
+[170] 267457264/268435440 = 0.996356
+[171] 267415840/268435440 = 0.996202
+[172] 267480944/268435440 = 0.996444
+[173] 267709376/268435440 = 0.997295
+[174] 267617952/268435440 = 0.996955
+[175] 267399072/268435440 = 0.996139
+[176] 267337760/268435440 = 0.995911
+[177] 267483456/268435440 = 0.996454
+[178] 267544352/268435440 = 0.99668
+[179] 267379296/268435440 = 0.996066
+[180] 267744064/268435440 = 0.997424
+[181] 267469840/268435440 = 0.996403
+[182] 267754512/268435440 = 0.997463
+[183] 267534368/268435440 = 0.996643
+[184] 267445744/268435440 = 0.996313
+[185] 267427680/268435440 = 0.996246
+[186] 267475504/268435440 = 0.996424
+[187] 266984592/268435440 = 0.994595
+[188] 267579248/268435440 = 0.99681
+[189] 267128032/268435440 = 0.99513
+[190] 267481952/268435440 = 0.996448
+[191] 267547248/268435440 = 0.996691
+[192] 267448112/268435440 = 0.996322
+[193] 267614032/268435440 = 0.99694
+[194] 267646928/268435440 = 0.997063
+[195] 267531824/268435440 = 0.996634
+[196] 267185232/268435440 = 0.995343
+[197] 267045376/268435440 = 0.994822
+[198] 267050144/268435440 = 0.994839
+[199] 267733264/268435440 = 0.997384
+[200] 267663792/268435440 = 0.997125
+[201] 267654960/268435440 = 0.997092
+[202] 267545344/268435440 = 0.996684
+[203] 267515792/268435440 = 0.996574
+[204] 267351456/268435440 = 0.995962
+[205] 267624320/268435440 = 0.996978
+[206] 267429216/268435440 = 0.996252
+[207] 266974576/268435440 = 0.994558
+[208] 267076320/268435440 = 0.994937
+[209] 267453584/268435440 = 0.996342
+[210] 267374176/268435440 = 0.996046
+[211] 267673024/268435440 = 0.99716
+[212] 267689120/268435440 = 0.99722
+[213] 267326416/268435440 = 0.995869
+[214] 267382432/268435440 = 0.996077
+[215] 267288400/268435440 = 0.995727
+[216] 267620592/268435440 = 0.996964
+[217] 267472992/268435440 = 0.996415
+[218] 267635200/268435440 = 0.997019
+[219] 267647296/268435440 = 0.997064
+[220] 267608576/268435440 = 0.99692
+[221] 267173824/268435440 = 0.9953
+[222] 267499616/268435440 = 0.996514
+[223] 267570000/268435440 = 0.996776
+[224] 267536288/268435440 = 0.99665
+[225] 267583536/268435440 = 0.996826
+[226] 267629088/268435440 = 0.996996
+[227] 267594912/268435440 = 0.996869
+[228] 267267184/268435440 = 0.995648
+[229] 267390944/268435440 = 0.996109
+[230] 267605840/268435440 = 0.996909
+[231] 267611488/268435440 = 0.996931
+[232] 267548672/268435440 = 0.996697
+[233] 267360128/268435440 = 0.995994
+[234] 267553296/268435440 = 0.996714
+[235] 267606880/268435440 = 0.996913
+[236] 267610080/268435440 = 0.996925
+[237] 267654368/268435440 = 0.99709
+[238] 267597168/268435440 = 0.996877
+[239] 267527984/268435440 = 0.996619
+[240] 267552672/268435440 = 0.996711
+[241] 267560352/268435440 = 0.99674
+[242] 267720768/268435440 = 0.997338
+[243] 267516496/268435440 = 0.996577
+[244] 267481584/268435440 = 0.996447
+[245] 267336368/268435440 = 0.995906
+[246] 267632928/268435440 = 0.99701
+[247] 267587328/268435440 = 0.996841
+[248] 267199760/268435440 = 0.995397
+[249] 267505584/268435440 = 0.996536
+[250] 267679616/268435440 = 0.997184
+[251] 267543824/268435440 = 0.996678
+[252] 267320928/268435440 = 0.995848
+[253] 267195824/268435440 = 0.995382
+[254] 267562000/268435440 = 0.996746
+[255] 267531376/268435440 = 0.996632
+[256] 267363568/268435440 = 0.996007
+[257] 267478768/268435440 = 0.996436
+[258] 267582800/268435440 = 0.996824
+[259] 267611328/268435440 = 0.99693
+[260] 267470976/268435440 = 0.996407
+[261] 267731888/268435440 = 0.997379
+[262] 267449392/268435440 = 0.996327
+[263] 267546064/268435440 = 0.996687
+[264] 267530080/268435440 = 0.996627
+[265] 267578896/268435440 = 0.996809
+[266] 267483616/268435440 = 0.996454
+[267] 267487808/268435440 = 0.99647
+[268] 267556672/268435440 = 0.996726
+[269] 267466304/268435440 = 0.99639
+[270] 267466352/268435440 = 0.99639
+[271] 267656800/268435440 = 0.997099
+[272] 267519968/268435440 = 0.99659
+[273] 267568624/268435440 = 0.996771
+[274] 267429776/268435440 = 0.996254
+[275] 267535312/268435440 = 0.996647
+[276] 267539136/268435440 = 0.996661
+[277] 267305664/268435440 = 0.995791
+[278] 267325424/268435440 = 0.995865
+[279] 267365440/268435440 = 0.996014
+[280] 267561232/268435440 = 0.996743
+[281] 267508352/268435440 = 0.996546
+[282] 267524576/268435440 = 0.996607
+[283] 267625632/268435440 = 0.996983
+[284] 267398816/268435440 = 0.996138
+[285] 267262832/268435440 = 0.995632
+[286] 267299008/268435440 = 0.995766
+[287] 267545680/268435440 = 0.996685
+[288] 267760848/268435440 = 0.997487
+[289] 267784912/268435440 = 0.997577
+[290] 267385584/268435440 = 0.996089
+[291] 267403232/268435440 = 0.996155
+[292] 267595776/268435440 = 0.996872
+[293] 267554944/268435440 = 0.99672
+[294] 267572080/268435440 = 0.996784
+[295] 267645088/268435440 = 0.997056
+[296] 267545376/268435440 = 0.996684
+[297] 267655472/268435440 = 0.997094
+[298] 267567456/268435440 = 0.996767
+[299] 267499680/268435440 = 0.996514
+[300] 267596048/268435440 = 0.996873
+[301] 267527088/268435440 = 0.996616
+[302] 267486976/268435440 = 0.996467
+[303] 267695616/268435440 = 0.997244
+[304] 267568016/268435440 = 0.996769
+[305] 267479184/268435440 = 0.996438
+[306] 267633680/268435440 = 0.997013
+[307] 267647360/268435440 = 0.997064
+[308] 267424960/268435440 = 0.996236
+[309] 267566768/268435440 = 0.996764
+[310] 267763120/268435440 = 0.997495
+[311] 267599728/268435440 = 0.996887
+Reducing..
+counting..(112305)
+0...reducing(2)..
+========================================================
+Graph Statistics
+========================================================
+	Max Local Vertex Id = 3361
+	Hub vertices = 0
+	Total percentage good hub edges = 0
+	Total count del target = 0
+	Total percentage of localized edges = 0
+	Global number of edges = 33554352
+	Number of small degree = 33554352
+	Number of hubs = 0
+	oned imbalance = 2.69156
+	hubs imbalance = -nan
+	TOTAL imbalance = 2.69156
+	Node Partition = 1
+	Edge Chunk Size = 8192
+	Processes_per_node = 24
+	Debuging = 0
+========================================================
+End Graph Statistics
+========================================================
+Max Degree = 0
+Transfer time = 0.466003

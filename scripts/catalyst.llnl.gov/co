@@ -1,0 +1,90 @@
+On branch develop_jiyuan
+Your branch is ahead of 'origin/develop' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   ../../include/havoqgt/bias_randwalk.hpp
+	modified:   ../../include/havoqgt/copy_neigh_level.hpp
+	modified:   ../../include/havoqgt/visitor_queue.hpp
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../../src/run_randwalk.cpp
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../../output_randwalk_ingested
+	#L#
+	.nfs000000005d25341f000026ab
+	.nfs000000005dd1793300003648
+	CTestTestfile.cmake
+	cmd
+	co
+	delete_me
+	doc/
+	ou
+	out
+	out2
+	outpu
+	output12h
+	output24h
+	output2h
+	output3212h
+	output6424
+	output_flash_randwalk
+	output_flash_rmat_n13_s20
+	output_flash_rmat_n3_s25
+	output_ingest_6420_u_d_rnd
+	output_ingest_6424u
+	output_rand64
+	output_randwalk
+	output_randwalk_1
+	output_randwalk_2
+	output_randwalk_4
+	output_randwalk_60
+	output_randwalk_catalyst_64_v2
+	output_randwalk_gdb
+	run_copy.80s-40602,catalyst159.btr
+	run_copy.80s-40604,catalyst159.btr
+	run_copy.80s-40606,catalyst159.btr
+	run_randwalk.80s-139520,catalyst159.btr
+	run_randwalk.80s-139546,catalyst159.btr
+	run_randwalk.TVD.v3breakpoints
+	src/
+	test/
+	test_static_bfs_0_of_24
+	test_static_bfs_10_of_24
+	test_static_bfs_11_of_24
+	test_static_bfs_12_of_24
+	test_static_bfs_13_of_24
+	test_static_bfs_14_of_24
+	test_static_bfs_15_of_24
+	test_static_bfs_16_of_24
+	test_static_bfs_17_of_24
+	test_static_bfs_18_of_24
+	test_static_bfs_19_of_24
+	test_static_bfs_1_of_24
+	test_static_bfs_20_of_24
+	test_static_bfs_21_of_24
+	test_static_bfs_22_of_24
+	test_static_bfs_23_of_24
+	test_static_bfs_2_of_24
+	test_static_bfs_3_of_24
+	test_static_bfs_4_of_24
+	test_static_bfs_5_of_24
+	test_static_bfs_6_of_24
+	test_static_bfs_7_of_24
+	test_static_bfs_8_of_24
+	test_static_bfs_9_of_24
+	tmp
+	../flash.llnl.gov/CTestTestfile.cmake
+	../flash.llnl.gov/doc/
+	../flash.llnl.gov/output_flash
+	../flash.llnl.gov/output_randwalk
+	../flash.llnl.gov/test/
+	../../src/.nfs000000005dc51b4c00003533
+

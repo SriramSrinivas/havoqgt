@@ -1,0 +1,2 @@
+srun -N 1 --tasks-per-node 24 ./src/run_randwalk -i /l/ssd/graphrmat -s 0
+

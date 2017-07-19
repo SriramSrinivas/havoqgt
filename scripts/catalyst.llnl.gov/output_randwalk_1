@@ -1,0 +1,82 @@
+srun: job 2491150 queued and waiting for resources
+srun: job 2491150 has been allocated resources
+MPI initialized with 24 ranks.
+HAVOQGT_MAILBOX_NUM_IRECV         = 8
+HAVOQGT_MAILBOX_NUM_ISEND         = 8
+HAVOQGT_MAILBOX_AGGREGATION       = 1024
+HAVOQGT_MAILBOX_TREE_AGGREGATION  = 64
+HAVOQGT_MAILBOX_PRINT_STATS       = 0
+CMD line: /g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/./src/run_randwalk -i /dev/shm/graph6424 -b /p/lscratchf/zhang50/graph6424 -s 6462711
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to open source file
+Error at /g/g91/zhang50/havoqgt/include/havoqgt/distributed_db.hpp 131
+srun: error: catalyst47: tasks 0-23: Aborted (core dumped)

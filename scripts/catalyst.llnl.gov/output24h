@@ -1,0 +1,3208 @@
+srun: job 2485511 queued and waiting for resources
+srun: job 2485511 has been allocated resources
+MPI initialized with 1536 ranks.
+HAVOQGT_MAILBOX_NUM_IRECV         = 8
+HAVOQGT_MAILBOX_NUM_ISEND         = 8
+HAVOQGT_MAILBOX_AGGREGATION       = 1024
+HAVOQGT_MAILBOX_TREE_AGGREGATION  = 64
+HAVOQGT_MAILBOX_PRINT_STATS       = 0
+CMD line: /g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/./src/ingest_edge_list -o /dev/shm/graph24h -b /p/lscratchf/zhang50/graph24h /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00000 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00001 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00002 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00003 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00004 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00005 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00006 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00007 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00008 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00009 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00010 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00011 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00012 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00013 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00014 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00015 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00016 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00017 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00018 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00019 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00020 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00021 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00022 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00023 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00024 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00025 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00026 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00027 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00028 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00029 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00030 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00031 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00032 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00033 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00034 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00035 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00036 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00037 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00038 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00039 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00040 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00041 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00042 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00043 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00044 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00045 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00046 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00047 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00048 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00049 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00050 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00051 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00052 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00053 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00054 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00055 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00056 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00057 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00058 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00059 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00060 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00061 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00062 /p/lscratchf/havoqgtu/WebDataCommons/2012/srt/part-r-00063
+Ingesting graph from 64 files.
+Ingesting from 64 files.
+Generating new graph.
+	[408] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[1032] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[792] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[576] Dirty Pages: 0kb.
+	[720] Dirty Pages: 0kb.
+	[1440] Dirty Pages: 0kb.
+	[672] Dirty Pages: 0kb.
+	[1104] Dirty Pages: 0kb.
+	[912] Dirty Pages: 0kb.
+	[456] Dirty Pages: 0kb.
+	[1128] Dirty Pages: 0kb.
+	[936] Dirty Pages: 0kb.
+	[1200] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+	[1512] Dirty Pages: 0kb.
+	[984] Dirty Pages: 0kb.
+	[312] Dirty Pages: 0kb.
+	[360] Dirty Pages: 0kb.
+	[504] Dirty Pages: 0kb.
+	[1080] Dirty Pages: 0kb.
+	[1008] Dirty Pages: 0kb.
+	[336] Dirty Pages: 0kb.
+	[384] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[816] Dirty Pages: 0kb.
+	[1056] Dirty Pages: 0kb.
+	[1392] Dirty Pages: 0kb.
+	[480] Dirty Pages: 0kb.
+	[1248] Dirty Pages: 0kb.
+	[1296] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[768] Dirty Pages: 0kb.
+	[1488] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[1152] Dirty Pages: 0kb.
+	[648] Dirty Pages: 0kb.
+	[1464] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[696] Dirty Pages: 0kb.
+	[1368] Dirty Pages: 0kb.
+	[552] Dirty Pages: 0kb.
+	[1224] Dirty Pages: 0kb.
+	[600] Dirty Pages: 0kb.
+	[1176] Dirty Pages: 0kb.
+	[624] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[888] Dirty Pages: 0kb.
+	[840] Dirty Pages: 0kb.
+	[744] Dirty Pages: 0kb.
+	[1416] Dirty Pages: 0kb.
+	[432] Dirty Pages: 0kb.
+	[528] Dirty Pages: 0kb.
+	[960] Dirty Pages: 0kb.
+	[1344] Dirty Pages: 0kb.
+	[1320] Dirty Pages: 0kb.
+	[864] Dirty Pages: 0kb.
+	[1272] Dirty Pages: 0kb.
+Starting:  Delegate Partitioning
+	[0] Dirty Pages: 0kb.
+	[216] Dirty Pages: 0kb.
+	[408] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[1512] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[312] Dirty Pages: 0kb.
+	[360] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[792] Dirty Pages: 0kb.
+	[504] Dirty Pages: 0kb.
+	[1320] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[1008] Dirty Pages: 0kb.
+	[336] Dirty Pages: 0kb.
+Starting:  Allocating 4 Arrays of length max local vertex.
+	[0] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[720] Dirty Pages: 0kb.
+	[384] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[1344] Dirty Pages: 0kb.
+	[1392] Dirty Pages: 0kb.
+	[1440] Dirty Pages: 0kb.
+	[528] Dirty Pages: 0kb.
+	[480] Dirty Pages: 0kb.
+	[432] Dirty Pages: 0kb.
+	[1248] Dirty Pages: 0kb.
+	[1296] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[768] Dirty Pages: 0kb.
+	[1488] Dirty Pages: 0kb.
+	[672] Dirty Pages: 0kb.
+	[1104] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[1152] Dirty Pages: 0kb.
+	[960] Dirty Pages: 0kb.
+	[864] Dirty Pages: 0kb.
+	[912] Dirty Pages: 0kb.
+	[648] Dirty Pages: 0kb.
+	[1464] Dirty Pages: 0kb.
+	[456] Dirty Pages: 0kb.
+	[1128] Dirty Pages: 0kb.
+	[1416] Dirty Pages: 0kb.
+	[744] Dirty Pages: 0kb.
+	[936] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[696] Dirty Pages: 0kb.
+	[1368] Dirty Pages: 0kb.
+	[552] Dirty Pages: 0kb.
+	[840] Dirty Pages: 0kb.
+	[1224] Dirty Pages: 0kb.
+	[600] Dirty Pages: 0kb.
+	[1176] Dirty Pages: 0kb.
+	[624] Dirty Pages: 0kb.
+	[888] Dirty Pages: 0kb.
+	[984] Dirty Pages: 0kb.
+	[1032] Dirty Pages: 0kb.
+	[1272] Dirty Pages: 0kb.
+	[1080] Dirty Pages: 0kb.
+	[576] Dirty Pages: 0kb.
+	[1056] Dirty Pages: 0kb.
+	[1200] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[816] Dirty Pages: 0kb.
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[408]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1512]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[984]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[312]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1032]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[360]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[792]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[504]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1272]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1080]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1320]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1008]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[336]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+Finished: Allocating 4 Arrays of length max local vertex. in 0.0601168 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[576]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[720]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[384]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[816]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1056]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1344]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1392]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1440]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[528]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[480]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[432]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1248]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1296]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[768]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1488]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[672]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1104]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1152]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[960]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[864]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[912]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[648]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1464]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[456]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1128]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1416]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[744]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[936]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[696]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1368]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[552]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[840]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1224]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[600]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1176]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[624]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[1200]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[888]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 731364507
+	MB Written: -1
+	[216] Dirty Pages: 0kb.
+	[408] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[1512] Dirty Pages: 0kb.
+	[984] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[312] Dirty Pages: 0kb.
+	[1032] Dirty Pages: 0kb.
+	[360] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[792] Dirty Pages: 0kb.
+	[504] Dirty Pages: 0kb.
+	[1272] Dirty Pages: 0kb.
+	[1080] Dirty Pages: 0kb.
+	[1320] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[1008] Dirty Pages: 0kb.
+	[336] Dirty Pages: 0kb.
+Starting:  count_edge_degree
+	[0] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[576] Dirty Pages: 0kb.
+	[720] Dirty Pages: 0kb.
+	[384] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[816] Dirty Pages: 0kb.
+	[1056] Dirty Pages: 0kb.
+	[1344] Dirty Pages: 0kb.
+	[1392] Dirty Pages: 0kb.
+	[1440] Dirty Pages: 0kb.
+	[528] Dirty Pages: 0kb.
+	[480] Dirty Pages: 0kb.
+	[432] Dirty Pages: 0kb.
+	[1248] Dirty Pages: 0kb.
+	[1296] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[768] Dirty Pages: 0kb.
+	[1488] Dirty Pages: 0kb.
+	[672] Dirty Pages: 0kb.
+	[1104] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[1152] Dirty Pages: 0kb.
+	[960] Dirty Pages: 0kb.
+	[864] Dirty Pages: 0kb.
+	[912] Dirty Pages: 0kb.
+	[648] Dirty Pages: 0kb.
+	[1464] Dirty Pages: 0kb.
+	[456] Dirty Pages: 0kb.
+	[1128] Dirty Pages: 0kb.
+	[1416] Dirty Pages: 0kb.
+	[744] Dirty Pages: 0kb.
+	[936] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[696] Dirty Pages: 0kb.
+	[1368] Dirty Pages: 0kb.
+	[552] Dirty Pages: 0kb.
+	[840] Dirty Pages: 0kb.
+	[1224] Dirty Pages: 0kb.
+	[600] Dirty Pages: 0kb.
+	[1176] Dirty Pages: 0kb.
+	[624] Dirty Pages: 0kb.
+	[1200] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[888] Dirty Pages: 0kb.
+	[Total Loops: 0, Total Edges: 0] Time 1.46031 second,  Total Time 1.46031 second, Dirty Pages: 0kb.
+	[Total Loops: 1000, Total Edges: 8192000] Time 26.5208 second,  Total Time 27.9811 second, Dirty Pages: 0kb.
+	[Total Loops: 2000, Total Edges: 16384000] Time 24.6129 second,  Total Time 52.594 second, Dirty Pages: 0kb.
+	[Total Loops: 3000, Total Edges: 24576000] Time 24.8705 second,  Total Time 77.4645 second, Dirty Pages: 0kb.
+	[Total Loops: 4000, Total Edges: 32768000] Time 24.6789 second,  Total Time 102.143 second, Dirty Pages: 0kb.
+	[Total Loops: 5000, Total Edges: 40960000] Time 24.7659 second,  Total Time 126.909 second, Dirty Pages: 0kb.
+	[Total Loops: 6000, Total Edges: 49152000] Time 24.9706 second,  Total Time 151.88 second, Dirty Pages: 0kb.
+	[Total Loops: 7000, Total Edges: 57344000] Time 25.2275 second,  Total Time 177.107 second, Dirty Pages: 0kb.
+	[Total Loops: 8000, Total Edges: 65536000] Time 25.8918 second,  Total Time 202.999 second, Dirty Pages: 0kb.
+	[Total Loops: 9000, Total Edges: 73728000] Time 26.1607 second,  Total Time 229.16 second, Dirty Pages: 0kb.
+	[Total Loops: 10000, Total Edges: 81920000] Time 25.7391 second,  Total Time 254.899 second, Dirty Pages: 0kb.
+	[Total Loops: 11000, Total Edges: 90112000] Time 25.785 second,  Total Time 280.684 second, Dirty Pages: 0kb.
+	[Total Loops: 12000, Total Edges: 98304000] Time 25.6712 second,  Total Time 306.355 second, Dirty Pages: 0kb.
+	[Total Loops: 13000, Total Edges: 106496000] Time 25.8088 second,  Total Time 332.164 second, Dirty Pages: 0kb.
+	[Total Loops: 14000, Total Edges: 114688000] Time 26.0009 second,  Total Time 358.165 second, Dirty Pages: 0kb.
+	[Total Loops: 15000, Total Edges: 122880000] Time 25.6111 second,  Total Time 383.776 second, Dirty Pages: 0kb.
+	[Total Loops: 16000, Total Edges: 131072000] Time 25.9592 second,  Total Time 409.735 second, Dirty Pages: 0kb.
+	[Total Loops: 17000, Total Edges: 139264000] Time 26.4531 second,  Total Time 436.188 second, Dirty Pages: 0kb.
+	[Total Loops: 18000, Total Edges: 147456000] Time 26.1587 second,  Total Time 462.347 second, Dirty Pages: 0kb.
+	[Total Loops: 19000, Total Edges: 155648000] Time 27.6791 second,  Total Time 490.026 second, Dirty Pages: 0kb.
+	[Total Loops: 20000, Total Edges: 163840000] Time 26.3829 second,  Total Time 516.409 second, Dirty Pages: 0kb.
+	[Total Loops: 21000, Total Edges: 172032000] Time 26.1832 second,  Total Time 542.592 second, Dirty Pages: 0kb.
+	[Total Loops: 22000, Total Edges: 180224000] Time 26.4657 second,  Total Time 569.058 second, Dirty Pages: 0kb.
+	[Total Loops: 23000, Total Edges: 188416000] Time 26.2151 second,  Total Time 595.273 second, Dirty Pages: 0kb.
+	[Total Loops: 24000, Total Edges: 196608000] Time 26.3133 second,  Total Time 621.586 second, Dirty Pages: 0kb.
+	[Total Loops: 25000, Total Edges: 204800000] Time 26.2202 second,  Total Time 647.806 second, Dirty Pages: 0kb.
+	[Total Loops: 26000, Total Edges: 212992000] Time 26.4892 second,  Total Time 674.296 second, Dirty Pages: 0kb.
+	[Total Loops: 27000, Total Edges: 221184000] Time 25.9828 second,  Total Time 700.278 second, Dirty Pages: 0kb.
+	[Total Loops: 28000, Total Edges: 229376000] Time 26.8183 second,  Total Time 727.097 second, Dirty Pages: 0kb.
+	[Total Loops: 29000, Total Edges: 237568000] Time 26.9064 second,  Total Time 754.003 second, Dirty Pages: 0kb.
+	[Total Loops: 30000, Total Edges: 245760000] Time 26.6228 second,  Total Time 780.626 second, Dirty Pages: 0kb.
+	[Total Loops: 31000, Total Edges: 253952000] Time 26.9633 second,  Total Time 807.589 second, Dirty Pages: 0kb.
+	[Total Loops: 32000, Total Edges: 262144000] Time 26.812 second,  Total Time 834.401 second, Dirty Pages: 0kb.
+	[Total Loops: 33000, Total Edges: 270336000] Time 26.7411 second,  Total Time 861.143 second, Dirty Pages: 0kb.
+	[Total Loops: 34000, Total Edges: 278528000] Time 26.8261 second,  Total Time 887.969 second, Dirty Pages: 0kb.
+	[Total Loops: 35000, Total Edges: 286720000] Time 26.5359 second,  Total Time 914.505 second, Dirty Pages: 0kb.
+	[Total Loops: 36000, Total Edges: 294912000] Time 27.0734 second,  Total Time 941.578 second, Dirty Pages: 0kb.
+	[Total Loops: 37000, Total Edges: 303104000] Time 27.4412 second,  Total Time 969.019 second, Dirty Pages: 0kb.
+	[Total Loops: 38000, Total Edges: 311296000] Time 27.5924 second,  Total Time 996.612 second, Dirty Pages: 0kb.
+	[Total Loops: 39000, Total Edges: 319488000] Time 28.1491 second,  Total Time 1024.76 second, Dirty Pages: 0kb.
+	[Total Loops: 40000, Total Edges: 327680000] Time 27.7046 second,  Total Time 1052.47 second, Dirty Pages: 0kb.
+	[Total Loops: 41000, Total Edges: 335872000] Time 27.3278 second,  Total Time 1079.79 second, Dirty Pages: 0kb.
+	[Total Loops: 42000, Total Edges: 344064000] Time 28.2705 second,  Total Time 1108.06 second, Dirty Pages: 0kb.
+	[Total Loops: 43000, Total Edges: 352256000] Time 28.0351 second,  Total Time 1136.1 second, Dirty Pages: 0kb.
+	[Total Loops: 44000, Total Edges: 360448000] Time 27.7339 second,  Total Time 1163.83 second, Dirty Pages: 0kb.
+	[Total Loops: 45000, Total Edges: 368640000] Time 28.2839 second,  Total Time 1192.12 second, Dirty Pages: 0kb.
+	[Total Loops: 46000, Total Edges: 376832000] Time 28.5294 second,  Total Time 1220.65 second, Dirty Pages: 0kb.
+	[Total Loops: 47000, Total Edges: 385024000] Time 27.8809 second,  Total Time 1248.53 second, Dirty Pages: 0kb.
+	[Total Loops: 48000, Total Edges: 393216000] Time 27.7947 second,  Total Time 1276.32 second, Dirty Pages: 0kb.
+	[Total Loops: 49000, Total Edges: 401408000] Time 28.0629 second,  Total Time 1304.38 second, Dirty Pages: 0kb.
+	[Total Loops: 50000, Total Edges: 409600000] Time 27.6858 second,  Total Time 1332.07 second, Dirty Pages: 0kb.
+	[Total Loops: 51000, Total Edges: 417792000] Time 27.8311 second,  Total Time 1359.9 second, Dirty Pages: 0kb.
+	[Total Loops: 52000, Total Edges: 425984000] Time 28.2207 second,  Total Time 1388.12 second, Dirty Pages: 0kb.
+	[Total Loops: 53000, Total Edges: 434176000] Time 28.0884 second,  Total Time 1416.21 second, Dirty Pages: 0kb.
+	[Total Loops: 54000, Total Edges: 442368000] Time 29.0965 second,  Total Time 1445.31 second, Dirty Pages: 0kb.
+	[Total Loops: 55000, Total Edges: 450560000] Time 29.1039 second,  Total Time 1474.41 second, Dirty Pages: 0kb.
+	[Total Loops: 56000, Total Edges: 458752000] Time 28.3037 second,  Total Time 1502.71 second, Dirty Pages: 0kb.
+	[Total Loops: 57000, Total Edges: 466944000] Time 28.5665 second,  Total Time 1531.28 second, Dirty Pages: 0kb.
+	[Total Loops: 58000, Total Edges: 475136000] Time 28.6447 second,  Total Time 1559.93 second, Dirty Pages: 0kb.
+	[Total Loops: 59000, Total Edges: 483328000] Time 29.3987 second,  Total Time 1589.32 second, Dirty Pages: 0kb.
+	[Total Loops: 60000, Total Edges: 491520000] Time 32.4984 second,  Total Time 1621.82 second, Dirty Pages: 0kb.
+	[Total Loops: 61000, Total Edges: 499712000] Time 46.2977 second,  Total Time 1668.12 second, Dirty Pages: 0kb.
+	[Total Loops: 62000, Total Edges: 507904000] Time 45.691 second,  Total Time 1713.81 second, Dirty Pages: 0kb.
+	[Total Loops: 63000, Total Edges: 516096000] Time 50.4612 second,  Total Time 1764.27 second, Dirty Pages: 0kb.
+	[Total Loops: 64000, Total Edges: 524288000] Time 77.7101 second,  Total Time 1841.98 second, Dirty Pages: 0kb.
+	[Total Loops: 65000, Total Edges: 532480000] Time 86.0859 second,  Total Time 1928.07 second, Dirty Pages: 0kb.
+	[Total Loops: 66000, Total Edges: 540672000] Time 81.3556 second,  Total Time 2009.42 second, Dirty Pages: 0kb.
+	[Total Loops: 67000, Total Edges: 548864000] Time 80.5267 second,  Total Time 2089.95 second, Dirty Pages: 0kb.
+	[Total Loops: 68000, Total Edges: 557056000] Time 33.9347 second,  Total Time 2123.89 second, Dirty Pages: 0kb.
+	[Total Loops: 69000, Total Edges: 565248000] Time 28.9089 second,  Total Time 2152.79 second, Dirty Pages: 0kb.
+	[Total Loops: 70000, Total Edges: 573440000] Time 29.5526 second,  Total Time 2182.35 second, Dirty Pages: 0kb.
+	[Total Loops: 71000, Total Edges: 581632000] Time 28.6431 second,  Total Time 2210.99 second, Dirty Pages: 0kb.
+	[Total Loops: 72000, Total Edges: 589824000] Time 28.7875 second,  Total Time 2239.78 second, Dirty Pages: 0kb.
+	[Total Loops: 73000, Total Edges: 598016000] Time 28.8241 second,  Total Time 2268.6 second, Dirty Pages: 0kb.
+	[Total Loops: 74000, Total Edges: 606208000] Time 28.6679 second,  Total Time 2297.27 second, Dirty Pages: 0kb.
+	[Total Loops: 75000, Total Edges: 614400000] Time 29.4038 second,  Total Time 2326.67 second, Dirty Pages: 0kb.
+	[Total Loops: 76000, Total Edges: 622592000] Time 28.2739 second,  Total Time 2354.95 second, Dirty Pages: 0kb.
+	[Total Loops: 77000, Total Edges: 630784000] Time 28.5282 second,  Total Time 2383.48 second, Dirty Pages: 0kb.
+	[Total Loops: 78000, Total Edges: 638976000] Time 27.8461 second,  Total Time 2411.32 second, Dirty Pages: 0kb.
+	[Total Loops: 79000, Total Edges: 647168000] Time 36.4227 second,  Total Time 2447.74 second, Dirty Pages: 0kb.
+	[Total Loops: 80000, Total Edges: 655360000] Time 27.1739 second,  Total Time 2474.92 second, Dirty Pages: 0kb.
+	[Total Loops: 81000, Total Edges: 663552000] Time 27.1252 second,  Total Time 2502.04 second, Dirty Pages: 0kb.
+	[Total Loops: 82000, Total Edges: 671744000] Time 27.692 second,  Total Time 2529.74 second, Dirty Pages: 0kb.
+	[Total Loops: 83000, Total Edges: 679936000] Time 26.802 second,  Total Time 2556.54 second, Dirty Pages: 0kb.
+	[Total Loops: 84000, Total Edges: 688128000] Time 26.4652 second,  Total Time 2583 second, Dirty Pages: 0kb.
+	[Total Loops: 85000, Total Edges: 696320000] Time 26.1425 second,  Total Time 2609.15 second, Dirty Pages: 0kb.
+	[Total Loops: 86000, Total Edges: 704512000] Time 26.1166 second,  Total Time 2635.26 second, Dirty Pages: 0kb.
+	[Total Loops: 87000, Total Edges: 712704000] Time 26.5767 second,  Total Time 2661.84 second, Dirty Pages: 0kb.
+	[Total Loops: 88000, Total Edges: 720896000] Time 25.5711 second,  Total Time 2687.41 second, Dirty Pages: 0kb.
+	[Total Loops: 89000, Total Edges: 729088000] Time 26.174 second,  Total Time 2713.58 second, Dirty Pages: 0kb.
+	[Total Loops: 90000, Total Edges: 737280000] Time 26.4315 second,  Total Time 2740.02 second, Dirty Pages: 0kb.
+	[Total Loops: 91000, Total Edges: 745472000] Time 26.1746 second,  Total Time 2766.19 second, Dirty Pages: 0kb.
+	[Total Loops: 92000, Total Edges: 753664000] Time 25.6897 second,  Total Time 2791.88 second, Dirty Pages: 0kb.
+	[Total Loops: 93000, Total Edges: 761856000] Time 25.9776 second,  Total Time 2817.86 second, Dirty Pages: 0kb.
+	[Total Loops: 94000, Total Edges: 770048000] Time 25.6425 second,  Total Time 2843.5 second, Dirty Pages: 0kb.
+	[Total Loops: 95000, Total Edges: 778240000] Time 25.4475 second,  Total Time 2868.95 second, Dirty Pages: 0kb.
+	[Total Loops: 96000, Total Edges: 786432000] Time 25.6951 second,  Total Time 2894.64 second, Dirty Pages: 0kb.
+	[Total Loops: 97000, Total Edges: 794624000] Time 25.5187 second,  Total Time 2920.16 second, Dirty Pages: 0kb.
+	[Total Loops: 98000, Total Edges: 802816000] Time 25.6525 second,  Total Time 2945.81 second, Dirty Pages: 0kb.
+	[Total Loops: 99000, Total Edges: 811008000] Time 24.9408 second,  Total Time 2970.75 second, Dirty Pages: 0kb.
+	[Total Loops: 100000, Total Edges: 819200000] Time 24.8948 second,  Total Time 2995.65 second, Dirty Pages: 0kb.
+	[Total Loops: 101000, Total Edges: 827392000] Time 24.8458 second,  Total Time 3020.49 second, Dirty Pages: 0kb.
+	[Total Loops: 102000, Total Edges: 835584000] Time 24.73 second,  Total Time 3045.22 second, Dirty Pages: 0kb.
+	[Total Loops: 103000, Total Edges: 843776000] Time 24.4082 second,  Total Time 3069.63 second, Dirty Pages: 0kb.
+	[Total Loops: 104000, Total Edges: 851968000] Time 24.5962 second,  Total Time 3094.23 second, Dirty Pages: 0kb.
+	[Total Loops: 105000, Total Edges: 860160000] Time 24.2779 second,  Total Time 3118.51 second, Dirty Pages: 0kb.
+	[Total Loops: 106000, Total Edges: 868352000] Time 24.494 second,  Total Time 3143 second, Dirty Pages: 0kb.
+	[Total Loops: 107000, Total Edges: 876544000] Time 24.5415 second,  Total Time 3167.54 second, Dirty Pages: 0kb.
+	[Total Loops: 108000, Total Edges: 884736000] Time 24.5494 second,  Total Time 3192.09 second, Dirty Pages: 0kb.
+	[Total Loops: 109000, Total Edges: 892928000] Time 24.5675 second,  Total Time 3216.66 second, Dirty Pages: 0kb.
+	[Total Loops: 110000, Total Edges: 901120000] Time 24.1751 second,  Total Time 3240.83 second, Dirty Pages: 0kb.
+	[Total Loops: 111000, Total Edges: 909312000] Time 24.0706 second,  Total Time 3264.91 second, Dirty Pages: 0kb.
+	[Total Loops: 112000, Total Edges: 917504000] Time 23.6215 second,  Total Time 3288.53 second, Dirty Pages: 0kb.
+	[Total Loops: 113000, Total Edges: 925696000] Time 23.9107 second,  Total Time 3312.44 second, Dirty Pages: 0kb.
+	[Total Loops: 114000, Total Edges: 933888000] Time 23.7675 second,  Total Time 3336.21 second, Dirty Pages: 0kb.
+	[Total Loops: 115000, Total Edges: 942080000] Time 23.4636 second,  Total Time 3359.67 second, Dirty Pages: 0kb.
+	[Total Loops: 116000, Total Edges: 950272000] Time 24.0963 second,  Total Time 3383.76 second, Dirty Pages: 0kb.
+	[Total Loops: 117000, Total Edges: 958464000] Time 23.9803 second,  Total Time 3407.75 second, Dirty Pages: 0kb.
+	[Total Loops: 118000, Total Edges: 966656000] Time 23.3167 second,  Total Time 3431.06 second, Dirty Pages: 0kb.
+	[Total Loops: 119000, Total Edges: 974848000] Time 23.2572 second,  Total Time 3454.32 second, Dirty Pages: 0kb.
+	[Total Loops: 120000, Total Edges: 983040000] Time 23.1542 second,  Total Time 3477.47 second, Dirty Pages: 0kb.
+	[Total Loops: 121000, Total Edges: 991232000] Time 23.5744 second,  Total Time 3501.05 second, Dirty Pages: 0kb.
+	[Total Loops: 122000, Total Edges: 999424000] Time 23.779 second,  Total Time 3524.83 second, Dirty Pages: 0kb.
+	[Total Loops: 123000, Total Edges: 1007616000] Time 23.6486 second,  Total Time 3548.48 second, Dirty Pages: 0kb.
+	[Total Loops: 124000, Total Edges: 1015808000] Time 23.3599 second,  Total Time 3571.84 second, Dirty Pages: 0kb.
+	[Total Loops: 125000, Total Edges: 1024000000] Time 24.0163 second,  Total Time 3595.85 second, Dirty Pages: 0kb.
+	[Total Loops: 126000, Total Edges: 1032192000] Time 24.0753 second,  Total Time 3619.93 second, Dirty Pages: 0kb.
+	[Total Loops: 127000, Total Edges: 1040384000] Time 24.2136 second,  Total Time 3644.14 second, Dirty Pages: 0kb.
+	[Total Loops: 128000, Total Edges: 1048576000] Time 23.9782 second,  Total Time 3668.12 second, Dirty Pages: 0kb.
+	[Total Loops: 129000, Total Edges: 1056768000] Time 24.3829 second,  Total Time 3692.5 second, Dirty Pages: 0kb.
+	[Total Loops: 130000, Total Edges: 1064960000] Time 24.0463 second,  Total Time 3716.55 second, Dirty Pages: 0kb.
+	[Total Loops: 131000, Total Edges: 1073152000] Time 23.931 second,  Total Time 3740.48 second, Dirty Pages: 0kb.
+	[Total Loops: 132000, Total Edges: 1081344000] Time 24.0389 second,  Total Time 3764.52 second, Dirty Pages: 0kb.
+	[Total Loops: 133000, Total Edges: 1089536000] Time 24.3744 second,  Total Time 3788.89 second, Dirty Pages: 0kb.
+	[Total Loops: 134000, Total Edges: 1097728000] Time 24.2057 second,  Total Time 3813.1 second, Dirty Pages: 0kb.
+	[Total Loops: 135000, Total Edges: 1105920000] Time 24.2263 second,  Total Time 3837.32 second, Dirty Pages: 0kb.
+	[Total Loops: 136000, Total Edges: 1114112000] Time 23.9617 second,  Total Time 3861.29 second, Dirty Pages: 0kb.
+	[Total Loops: 137000, Total Edges: 1122304000] Time 23.9067 second,  Total Time 3885.19 second, Dirty Pages: 0kb.
+	[Total Loops: 138000, Total Edges: 1130496000] Time 23.9065 second,  Total Time 3909.1 second, Dirty Pages: 0kb.
+	[Total Loops: 139000, Total Edges: 1138688000] Time 24.0547 second,  Total Time 3933.15 second, Dirty Pages: 0kb.
+	[Total Loops: 140000, Total Edges: 1146880000] Time 23.8157 second,  Total Time 3956.97 second, Dirty Pages: 0kb.
+	[Total Loops: 141000, Total Edges: 1155072000] Time 24.204 second,  Total Time 3981.17 second, Dirty Pages: 0kb.
+	[Total Loops: 142000, Total Edges: 1163264000] Time 24.8588 second,  Total Time 4006.03 second, Dirty Pages: 0kb.
+	[Total Loops: 143000, Total Edges: 1171456000] Time 24.3714 second,  Total Time 4030.4 second, Dirty Pages: 0kb.
+	[Total Loops: 144000, Total Edges: 1179648000] Time 24.0592 second,  Total Time 4054.46 second, Dirty Pages: 0kb.
+	[Total Loops: 145000, Total Edges: 1187840000] Time 23.423 second,  Total Time 4077.89 second, Dirty Pages: 0kb.
+	[Total Loops: 146000, Total Edges: 1196032000] Time 23.7085 second,  Total Time 4101.59 second, Dirty Pages: 0kb.
+	[Total Loops: 147000, Total Edges: 1204224000] Time 23.6785 second,  Total Time 4125.27 second, Dirty Pages: 0kb.
+	[Total Loops: 148000, Total Edges: 1212416000] Time 23.8617 second,  Total Time 4149.13 second, Dirty Pages: 0kb.
+	[Total Loops: 149000, Total Edges: 1220608000] Time 24.3444 second,  Total Time 4173.48 second, Dirty Pages: 0kb.
+	[Total Loops: 150000, Total Edges: 1228800000] Time 24.459 second,  Total Time 4197.94 second, Dirty Pages: 0kb.
+	[Total Loops: 151000, Total Edges: 1236992000] Time 24.0039 second,  Total Time 4221.94 second, Dirty Pages: 0kb.
+	[Total Loops: 152000, Total Edges: 1245184000] Time 23.833 second,  Total Time 4245.77 second, Dirty Pages: 0kb.
+	[Total Loops: 153000, Total Edges: 1253376000] Time 25.0076 second,  Total Time 4270.78 second, Dirty Pages: 0kb.
+	[Total Loops: 154000, Total Edges: 1261568000] Time 24.0315 second,  Total Time 4294.81 second, Dirty Pages: 0kb.
+	[Total Loops: 155000, Total Edges: 1269760000] Time 23.5436 second,  Total Time 4318.36 second, Dirty Pages: 0kb.
+	[Total Loops: 156000, Total Edges: 1277952000] Time 24.4421 second,  Total Time 4342.8 second, Dirty Pages: 0kb.
+	[Total Loops: 157000, Total Edges: 1286144000] Time 24.5366 second,  Total Time 4367.34 second, Dirty Pages: 0kb.
+	[Total Loops: 158000, Total Edges: 1294336000] Time 24.5791 second,  Total Time 4391.92 second, Dirty Pages: 0kb.
+	[Total Loops: 159000, Total Edges: 1302528000] Time 24.2943 second,  Total Time 4416.21 second, Dirty Pages: 0kb.
+	[Total Loops: 160000, Total Edges: 1310720000] Time 24.7911 second,  Total Time 4441 second, Dirty Pages: 0kb.
+	[Total Loops: 161000, Total Edges: 1318912000] Time 24.3884 second,  Total Time 4465.39 second, Dirty Pages: 0kb.
+	[Total Loops: 162000, Total Edges: 1327104000] Time 24.5496 second,  Total Time 4489.94 second, Dirty Pages: 0kb.
+	[Total Loops: 163000, Total Edges: 1335296000] Time 24.2434 second,  Total Time 4514.18 second, Dirty Pages: 0kb.
+	[Total Loops: 164000, Total Edges: 1343488000] Time 24.2651 second,  Total Time 4538.45 second, Dirty Pages: 0kb.
+	[Total Loops: 165000, Total Edges: 1351680000] Time 25.0238 second,  Total Time 4563.47 second, Dirty Pages: 0kb.
+	[Total Loops: 166000, Total Edges: 1359872000] Time 23.6906 second,  Total Time 4587.16 second, Dirty Pages: 0kb.
+	[Total Loops: 167000, Total Edges: 1368064000] Time 23.5167 second,  Total Time 4610.68 second, Dirty Pages: 0kb.
+	[Total Loops: 168000, Total Edges: 1376256000] Time 24.5136 second,  Total Time 4635.19 second, Dirty Pages: 0kb.
+	[Total Loops: 169000, Total Edges: 1384448000] Time 23.8004 second,  Total Time 4658.99 second, Dirty Pages: 0kb.
+	[Total Loops: 170000, Total Edges: 1392640000] Time 23.3853 second,  Total Time 4682.38 second, Dirty Pages: 0kb.
+	[Total Loops: 171000, Total Edges: 1400832000] Time 24.3181 second,  Total Time 4706.7 second, Dirty Pages: 0kb.
+	[Total Loops: 172000, Total Edges: 1409024000] Time 24.5854 second,  Total Time 4731.28 second, Dirty Pages: 0kb.
+	[Total Loops: 173000, Total Edges: 1417216000] Time 23.6191 second,  Total Time 4754.9 second, Dirty Pages: 0kb.
+	[Total Loops: 174000, Total Edges: 1425408000] Time 23.6616 second,  Total Time 4778.56 second, Dirty Pages: 0kb.
+	[Total Loops: 175000, Total Edges: 1433600000] Time 23.7347 second,  Total Time 4802.3 second, Dirty Pages: 0kb.
+	[Total Loops: 176000, Total Edges: 1441792000] Time 23.9524 second,  Total Time 4826.25 second, Dirty Pages: 0kb.
+	[Total Loops: 177000, Total Edges: 1449984000] Time 23.7238 second,  Total Time 4849.97 second, Dirty Pages: 0kb.
+	[Total Loops: 178000, Total Edges: 1458176000] Time 23.8491 second,  Total Time 4873.82 second, Dirty Pages: 0kb.
+	[Total Loops: 179000, Total Edges: 1466368000] Time 23.8641 second,  Total Time 4897.69 second, Dirty Pages: 0kb.
+	[Total Loops: 180000, Total Edges: 1474560000] Time 23.6385 second,  Total Time 4921.32 second, Dirty Pages: 0kb.
+	[Total Loops: 181000, Total Edges: 1482752000] Time 23.5324 second,  Total Time 4944.86 second, Dirty Pages: 0kb.
+	[Total Loops: 182000, Total Edges: 1490944000] Time 23.5682 second,  Total Time 4968.42 second, Dirty Pages: 0kb.
+	[Total Loops: 183000, Total Edges: 1499136000] Time 23.463 second,  Total Time 4991.89 second, Dirty Pages: 0kb.
+	[Total Loops: 184000, Total Edges: 1507328000] Time 36.6986 second,  Total Time 5028.59 second, Dirty Pages: 0kb.
+	[Total Loops: 185000, Total Edges: 1515520000] Time 23.779 second,  Total Time 5052.37 second, Dirty Pages: 0kb.
+	[Total Loops: 186000, Total Edges: 1523712000] Time 23.6855 second,  Total Time 5076.05 second, Dirty Pages: 0kb.
+	[Total Loops: 187000, Total Edges: 1531904000] Time 23.6421 second,  Total Time 5099.69 second, Dirty Pages: 0kb.
+	[Total Loops: 188000, Total Edges: 1540096000] Time 23.9341 second,  Total Time 5123.63 second, Dirty Pages: 0kb.
+	[Total Loops: 189000, Total Edges: 1548288000] Time 24.07 second,  Total Time 5147.7 second, Dirty Pages: 0kb.
+	[Total Loops: 190000, Total Edges: 1556480000] Time 23.8181 second,  Total Time 5171.52 second, Dirty Pages: 0kb.
+	[Total Loops: 191000, Total Edges: 1564672000] Time 23.7894 second,  Total Time 5195.3 second, Dirty Pages: 0kb.
+	[Total Loops: 192000, Total Edges: 1572864000] Time 23.3078 second,  Total Time 5218.61 second, Dirty Pages: 0kb.
+	[Total Loops: 193000, Total Edges: 1581056000] Time 23.3005 second,  Total Time 5241.91 second, Dirty Pages: 0kb.
+	[Total Loops: 194000, Total Edges: 1589248000] Time 23.3371 second,  Total Time 5265.25 second, Dirty Pages: 0kb.
+	[Total Loops: 195000, Total Edges: 1597440000] Time 23.9398 second,  Total Time 5289.19 second, Dirty Pages: 0kb.
+	[Total Loops: 196000, Total Edges: 1605632000] Time 23.8814 second,  Total Time 5313.07 second, Dirty Pages: 0kb.
+	[Total Loops: 197000, Total Edges: 1613824000] Time 23.7819 second,  Total Time 5336.85 second, Dirty Pages: 0kb.
+	[Total Loops: 198000, Total Edges: 1622016000] Time 23.3866 second,  Total Time 5360.24 second, Dirty Pages: 0kb.
+	[Total Loops: 199000, Total Edges: 1625504747] Time 23.7309 second,  Total Time 5383.97 second, Dirty Pages: 0kb.
+	[Total Loops: 200000, Total Edges: 1625504747] Time 23.9807 second,  Total Time 5407.95 second, Dirty Pages: 0kb.
+	[Total Loops: 201000, Total Edges: 1625504747] Time 23.7812 second,  Total Time 5431.73 second, Dirty Pages: 0kb.
+	[Total Loops: 202000, Total Edges: 1625504747] Time 23.8836 second,  Total Time 5455.62 second, Dirty Pages: 0kb.
+	[Total Loops: 203000, Total Edges: 1625504747] Time 23.6931 second,  Total Time 5479.31 second, Dirty Pages: 0kb.
+	[Total Loops: 204000, Total Edges: 1625504747] Time 24.2666 second,  Total Time 5503.58 second, Dirty Pages: 0kb.
+	[Total Loops: 205000, Total Edges: 1625504747] Time 24.3015 second,  Total Time 5527.88 second, Dirty Pages: 0kb.
+	[Total Loops: 206000, Total Edges: 1625504747] Time 24.082 second,  Total Time 5551.96 second, Dirty Pages: 0kb.
+	[Total Loops: 207000, Total Edges: 1625504747] Time 24.0753 second,  Total Time 5576.03 second, Dirty Pages: 0kb.
+	[Total Loops: 208000, Total Edges: 1625504747] Time 23.8755 second,  Total Time 5599.91 second, Dirty Pages: 0kb.
+	[Total Loops: 209000, Total Edges: 1625504747] Time 23.8548 second,  Total Time 5623.77 second, Dirty Pages: 0kb.
+	[Total Loops: 210000, Total Edges: 1625504747] Time 24.513 second,  Total Time 5648.28 second, Dirty Pages: 0kb.
+	[Total Loops: 211000, Total Edges: 1625504747] Time 24.2287 second,  Total Time 5672.51 second, Dirty Pages: 0kb.
+	[Total Loops: 212000, Total Edges: 1625504747] Time 24.0978 second,  Total Time 5696.6 second, Dirty Pages: 0kb.
+	[Total Loops: 213000, Total Edges: 1625504747] Time 24.016 second,  Total Time 5720.62 second, Dirty Pages: 0kb.
+	[Total Loops: 214000, Total Edges: 1625504747] Time 24.4677 second,  Total Time 5745.09 second, Dirty Pages: 0kb.
+	[Total Loops: 215000, Total Edges: 1625504747] Time 24.2857 second,  Total Time 5769.37 second, Dirty Pages: 0kb.
+	[Total Loops: 216000, Total Edges: 1625504747] Time 23.8319 second,  Total Time 5793.21 second, Dirty Pages: 0kb.
+	[Total Loops: 217000, Total Edges: 1625504747] Time 23.8415 second,  Total Time 5817.05 second, Dirty Pages: 0kb.
+	[Total Loops: 218000, Total Edges: 1625504747] Time 24.1744 second,  Total Time 5841.22 second, Dirty Pages: 0kb.
+	[Total Loops: 219000, Total Edges: 1625504747] Time 24.6285 second,  Total Time 5865.85 second, Dirty Pages: 0kb.
+	[Total Loops: 220000, Total Edges: 1625504747] Time 24.48 second,  Total Time 5890.33 second, Dirty Pages: 0kb.
+	[Total Loops: 221000, Total Edges: 1625504747] Time 24.7076 second,  Total Time 5915.04 second, Dirty Pages: 0kb.
+	[Total Loops: 222000, Total Edges: 1625504747] Time 25.1231 second,  Total Time 5940.16 second, Dirty Pages: 0kb.
+	[Total Loops: 223000, Total Edges: 1625504747] Time 24.4846 second,  Total Time 5964.65 second, Dirty Pages: 0kb.
+	[Total Loops: 224000, Total Edges: 1625504747] Time 24.4518 second,  Total Time 5989.1 second, Dirty Pages: 0kb.
+	[Total Loops: 225000, Total Edges: 1625504747] Time 24.3153 second,  Total Time 6013.41 second, Dirty Pages: 0kb.
+	[Total Loops: 226000, Total Edges: 1625504747] Time 24.1759 second,  Total Time 6037.59 second, Dirty Pages: 0kb.
+	[Total Loops: 227000, Total Edges: 1625504747] Time 24.2923 second,  Total Time 6061.88 second, Dirty Pages: 0kb.
+	[Total Loops: 228000, Total Edges: 1625504747] Time 24.4643 second,  Total Time 6086.35 second, Dirty Pages: 0kb.
+	[Total Loops: 229000, Total Edges: 1625504747] Time 24.3612 second,  Total Time 6110.71 second, Dirty Pages: 0kb.
+	[Total Loops: 230000, Total Edges: 1625504747] Time 23.9563 second,  Total Time 6134.66 second, Dirty Pages: 0kb.
+	[Total Loops: 231000, Total Edges: 1625504747] Time 23.7097 second,  Total Time 6158.37 second, Dirty Pages: 0kb.
+	[Total Loops: 232000, Total Edges: 1625504747] Time 24.3904 second,  Total Time 6182.76 second, Dirty Pages: 0kb.
+	[Total Loops: 233000, Total Edges: 1625504747] Time 24.5939 second,  Total Time 6207.36 second, Dirty Pages: 0kb.
+	[Total Loops: 234000, Total Edges: 1625504747] Time 24.5775 second,  Total Time 6231.93 second, Dirty Pages: 0kb.
+	[Total Loops: 235000, Total Edges: 1625504747] Time 23.9784 second,  Total Time 6255.91 second, Dirty Pages: 0kb.
+	[Total Loops: 236000, Total Edges: 1625504747] Time 23.8646 second,  Total Time 6279.78 second, Dirty Pages: 0kb.
+	[Total Loops: 237000, Total Edges: 1625504747] Time 24.2285 second,  Total Time 6304.01 second, Dirty Pages: 0kb.
+	[Total Loops: 238000, Total Edges: 1625504747] Time 23.5862 second,  Total Time 6327.59 second, Dirty Pages: 0kb.
+	[Total Loops: 239000, Total Edges: 1625504747] Time 23.7456 second,  Total Time 6351.34 second, Dirty Pages: 0kb.
+	[Total Loops: 240000, Total Edges: 1625504747] Time 23.5242 second,  Total Time 6374.86 second, Dirty Pages: 0kb.
+	[Total Loops: 241000, Total Edges: 1625504747] Time 23.0289 second,  Total Time 6397.89 second, Dirty Pages: 0kb.
+	[Total Loops: 242000, Total Edges: 1625504747] Time 23.8093 second,  Total Time 6421.7 second, Dirty Pages: 0kb.
+	[Total Loops: 243000, Total Edges: 1625504747] Time 23.0997 second,  Total Time 6444.8 second, Dirty Pages: 0kb.
+	[Total Loops: 244000, Total Edges: 1625504747] Time 22.5823 second,  Total Time 6467.38 second, Dirty Pages: 0kb.
+	[Total Loops: 245000, Total Edges: 1625504747] Time 22.4186 second,  Total Time 6489.8 second, Dirty Pages: 0kb.
+	[Total Loops: 246000, Total Edges: 1625504747] Time 22.4834 second,  Total Time 6512.28 second, Dirty Pages: 0kb.
+	[Total Loops: 247000, Total Edges: 1625504747] Time 22.2342 second,  Total Time 6534.52 second, Dirty Pages: 0kb.
+	[Total Loops: 248000, Total Edges: 1625504747] Time 22.4105 second,  Total Time 6556.93 second, Dirty Pages: 0kb.
+	[Total Loops: 249000, Total Edges: 1625504747] Time 22.9747 second,  Total Time 6579.9 second, Dirty Pages: 0kb.
+	[Total Loops: 250000, Total Edges: 1625504747] Time 23.2404 second,  Total Time 6603.14 second, Dirty Pages: 0kb.
+	[Total Loops: 251000, Total Edges: 1625504747] Time 22.8888 second,  Total Time 6626.03 second, Dirty Pages: 0kb.
+	[Total Loops: 252000, Total Edges: 1625504747] Time 22.1736 second,  Total Time 6648.21 second, Dirty Pages: 0kb.
+	[Total Loops: 253000, Total Edges: 1625504747] Time 22.5012 second,  Total Time 6670.71 second, Dirty Pages: 0kb.
+	[Total Loops: 254000, Total Edges: 1625504747] Time 21.9896 second,  Total Time 6692.7 second, Dirty Pages: 0kb.
+	[Total Loops: 255000, Total Edges: 1625504747] Time 22.3875 second,  Total Time 6715.08 second, Dirty Pages: 0kb.
+	[Total Loops: 256000, Total Edges: 1625504747] Time 22.2132 second,  Total Time 6737.3 second, Dirty Pages: 0kb.
+	[Total Loops: 257000, Total Edges: 1625504747] Time 22.4856 second,  Total Time 6759.78 second, Dirty Pages: 0kb.
+	[Total Loops: 258000, Total Edges: 1625504747] Time 22.1589 second,  Total Time 6781.94 second, Dirty Pages: 0kb.
+	[Total Loops: 259000, Total Edges: 1625504747] Time 21.9598 second,  Total Time 6803.9 second, Dirty Pages: 0kb.
+	[Total Loops: 260000, Total Edges: 1625504747] Time 22.1603 second,  Total Time 6826.06 second, Dirty Pages: 0kb.
+	[Total Loops: 261000, Total Edges: 1625504747] Time 21.4622 second,  Total Time 6847.52 second, Dirty Pages: 0kb.
+	[Total Loops: 262000, Total Edges: 1625504747] Time 21.3796 second,  Total Time 6868.9 second, Dirty Pages: 0kb.
+	[Total Loops: 263000, Total Edges: 1625504747] Time 21.3849 second,  Total Time 6890.29 second, Dirty Pages: 0kb.
+	[Total Loops: 264000, Total Edges: 1625504747] Time 21.5997 second,  Total Time 6911.89 second, Dirty Pages: 0kb.
+	[Total Loops: 265000, Total Edges: 1625504747] Time 21.7273 second,  Total Time 6933.62 second, Dirty Pages: 0kb.
+	[Total Loops: 266000, Total Edges: 1625504747] Time 21.5352 second,  Total Time 6955.15 second, Dirty Pages: 0kb.
+	[Total Loops: 267000, Total Edges: 1625504747] Time 21.5022 second,  Total Time 6976.65 second, Dirty Pages: 0kb.
+	[Total Loops: 268000, Total Edges: 1625504747] Time 21.0487 second,  Total Time 6997.7 second, Dirty Pages: 0kb.
+	[Total Loops: 269000, Total Edges: 1625504747] Time 21.7804 second,  Total Time 7019.48 second, Dirty Pages: 0kb.
+	[Total Loops: 270000, Total Edges: 1625504747] Time 20.7618 second,  Total Time 7040.24 second, Dirty Pages: 0kb.
+	[Total Loops: 271000, Total Edges: 1625504747] Time 21.5151 second,  Total Time 7061.76 second, Dirty Pages: 0kb.
+	[Total Loops: 272000, Total Edges: 1625504747] Time 20.9077 second,  Total Time 7082.67 second, Dirty Pages: 0kb.
+	[Total Loops: 273000, Total Edges: 1625504747] Time 21.1574 second,  Total Time 7103.82 second, Dirty Pages: 0kb.
+	[Total Loops: 274000, Total Edges: 1625504747] Time 20.775 second,  Total Time 7124.6 second, Dirty Pages: 0kb.
+	[Total Loops: 275000, Total Edges: 1625504747] Time 20.8564 second,  Total Time 7145.46 second, Dirty Pages: 0kb.
+	[Total Loops: 276000, Total Edges: 1625504747] Time 21.1208 second,  Total Time 7166.58 second, Dirty Pages: 0kb.
+	[Total Loops: 277000, Total Edges: 1625504747] Time 20.4484 second,  Total Time 7187.03 second, Dirty Pages: 0kb.
+	[Total Loops: 278000, Total Edges: 1625504747] Time 20.2271 second,  Total Time 7207.25 second, Dirty Pages: 0kb.
+	[Total Loops: 279000, Total Edges: 1625504747] Time 20.6861 second,  Total Time 7227.94 second, Dirty Pages: 0kb.
+	[Total Loops: 280000, Total Edges: 1625504747] Time 20.0305 second,  Total Time 7247.97 second, Dirty Pages: 0kb.
+	[Total Loops: 281000, Total Edges: 1625504747] Time 19.7817 second,  Total Time 7267.75 second, Dirty Pages: 0kb.
+	[Total Loops: 282000, Total Edges: 1625504747] Time 19.3536 second,  Total Time 7287.1 second, Dirty Pages: 0kb.
+	[Total Loops: 283000, Total Edges: 1625504747] Time 18.695 second,  Total Time 7305.8 second, Dirty Pages: 0kb.
+	[Total Loops: 284000, Total Edges: 1625504747] Time 18.3361 second,  Total Time 7324.14 second, Dirty Pages: 0kb.
+	[Total Loops: 285000, Total Edges: 1625504747] Time 18.9114 second,  Total Time 7343.05 second, Dirty Pages: 0kb.
+	[Total Loops: 286000, Total Edges: 1625504747] Time 18.7883 second,  Total Time 7361.84 second, Dirty Pages: 0kb.
+	[Total Loops: 287000, Total Edges: 1625504747] Time 18.7106 second,  Total Time 7380.55 second, Dirty Pages: 0kb.
+	[Total Loops: 288000, Total Edges: 1625504747] Time 18.8723 second,  Total Time 7399.42 second, Dirty Pages: 0kb.
+	[Total Loops: 289000, Total Edges: 1625504747] Time 18.7555 second,  Total Time 7418.17 second, Dirty Pages: 0kb.
+	[Total Loops: 290000, Total Edges: 1625504747] Time 18.5726 second,  Total Time 7436.75 second, Dirty Pages: 0kb.
+	[Total Loops: 291000, Total Edges: 1625504747] Time 18.6793 second,  Total Time 7455.43 second, Dirty Pages: 0kb.
+	[Total Loops: 292000, Total Edges: 1625504747] Time 18.2428 second,  Total Time 7473.67 second, Dirty Pages: 0kb.
+	[Total Loops: 293000, Total Edges: 1625504747] Time 18.2429 second,  Total Time 7491.91 second, Dirty Pages: 0kb.
+	[Total Loops: 294000, Total Edges: 1625504747] Time 17.8142 second,  Total Time 7509.73 second, Dirty Pages: 0kb.
+	[Total Loops: 295000, Total Edges: 1625504747] Time 17.3804 second,  Total Time 7527.11 second, Dirty Pages: 0kb.
+	[Total Loops: 296000, Total Edges: 1625504747] Time 17.4146 second,  Total Time 7544.52 second, Dirty Pages: 0kb.
+	[Total Loops: 297000, Total Edges: 1625504747] Time 17.2254 second,  Total Time 7561.75 second, Dirty Pages: 0kb.
+	[Total Loops: 298000, Total Edges: 1625504747] Time 17.2583 second,  Total Time 7579 second, Dirty Pages: 0kb.
+	[Total Loops: 299000, Total Edges: 1625504747] Time 16.81 second,  Total Time 7595.81 second, Dirty Pages: 0kb.
+	[Total Loops: 300000, Total Edges: 1625504747] Time 17.0384 second,  Total Time 7612.85 second, Dirty Pages: 0kb.
+	[Total Loops: 301000, Total Edges: 1625504747] Time 17.2172 second,  Total Time 7630.07 second, Dirty Pages: 0kb.
+	[Total Loops: 302000, Total Edges: 1625504747] Time 17.1572 second,  Total Time 7647.23 second, Dirty Pages: 0kb.
+	[Total Loops: 303000, Total Edges: 1625504747] Time 16.8524 second,  Total Time 7664.08 second, Dirty Pages: 0kb.
+	[Total Loops: 304000, Total Edges: 1625504747] Time 17.2004 second,  Total Time 7681.28 second, Dirty Pages: 0kb.
+	[Total Loops: 305000, Total Edges: 1625504747] Time 17.1075 second,  Total Time 7698.39 second, Dirty Pages: 0kb.
+	[Total Loops: 306000, Total Edges: 1625504747] Time 16.9643 second,  Total Time 7715.35 second, Dirty Pages: 0kb.
+	[Total Loops: 307000, Total Edges: 1625504747] Time 16.8493 second,  Total Time 7732.2 second, Dirty Pages: 0kb.
+	[Total Loops: 308000, Total Edges: 1625504747] Time 16.577 second,  Total Time 7748.78 second, Dirty Pages: 0kb.
+	[Total Loops: 309000, Total Edges: 1625504747] Time 16.5775 second,  Total Time 7765.36 second, Dirty Pages: 0kb.
+	[Total Loops: 310000, Total Edges: 1625504747] Time 16.5643 second,  Total Time 7781.92 second, Dirty Pages: 0kb.
+	[Total Loops: 311000, Total Edges: 1625504747] Time 16.5767 second,  Total Time 7798.5 second, Dirty Pages: 0kb.
+	[Total Loops: 312000, Total Edges: 1625504747] Time 16.5801 second,  Total Time 7815.08 second, Dirty Pages: 0kb.
+	[Total Loops: 313000, Total Edges: 1625504747] Time 16.5619 second,  Total Time 7831.64 second, Dirty Pages: 0kb.
+	[Total Loops: 314000, Total Edges: 1625504747] Time 16.6911 second,  Total Time 7848.33 second, Dirty Pages: 0kb.
+	[Total Loops: 315000, Total Edges: 1625504747] Time 16.9596 second,  Total Time 7865.29 second, Dirty Pages: 0kb.
+	[Total Loops: 316000, Total Edges: 1625504747] Time 17.091 second,  Total Time 7882.38 second, Dirty Pages: 0kb.
+	[Total Loops: 317000, Total Edges: 1625504747] Time 16.9629 second,  Total Time 7899.34 second, Dirty Pages: 0kb.
+	[Total Loops: 318000, Total Edges: 1625504747] Time 16.8635 second,  Total Time 7916.21 second, Dirty Pages: 0kb.
+	[Total Loops: 319000, Total Edges: 1625504747] Time 16.8954 second,  Total Time 7933.1 second, Dirty Pages: 0kb.
+	[Total Loops: 320000, Total Edges: 1625504747] Time 16.7253 second,  Total Time 7949.83 second, Dirty Pages: 0kb.
+	[Total Loops: 321000, Total Edges: 1625504747] Time 16.6264 second,  Total Time 7966.45 second, Dirty Pages: 0kb.
+	[Total Loops: 322000, Total Edges: 1625504747] Time 16.989 second,  Total Time 7983.44 second, Dirty Pages: 0kb.
+	[Total Loops: 323000, Total Edges: 1625504747] Time 17.1893 second,  Total Time 8000.63 second, Dirty Pages: 0kb.
+	[Total Loops: 324000, Total Edges: 1625504747] Time 16.9429 second,  Total Time 8017.57 second, Dirty Pages: 0kb.
+	[Total Loops: 325000, Total Edges: 1625504747] Time 17.2313 second,  Total Time 8034.81 second, Dirty Pages: 0kb.
+	[Total Loops: 326000, Total Edges: 1625504747] Time 16.8725 second,  Total Time 8051.68 second, Dirty Pages: 0kb.
+	[Total Loops: 327000, Total Edges: 1625504747] Time 16.6961 second,  Total Time 8068.37 second, Dirty Pages: 0kb.
+	[Total Loops: 327299, Total Edges: 1625504747] Time 4.86873 second,  Total Time 8073.24 second, Dirty Pages: 0kb.
+	Number of Delegates: 0
+Finished: count_edge_degree in 8073.27 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[984]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[312]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[360]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[792]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[504]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1272]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1080]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1320]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1320] Dirty Pages: 0kb.
+	[1008]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1008] Dirty Pages: 0kb.
+Starting:  initialize_low_meta_data
+	[0] Dirty Pages: 0kb.
+	[576]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[384]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1392]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1440]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[528]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[480]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[432]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1296]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[768]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[672]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1104]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[960]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[912]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[648]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1464]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[456]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1416]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[744]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[936]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[696]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[552]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[600]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[624]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1200]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[216] Dirty Pages: 0kb.
+	[408]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[408] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[1512]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[984] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[312] Dirty Pages: 0kb.
+	[1032]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1032] Dirty Pages: 0kb.
+	[360] Dirty Pages: 0kb.
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[792] Dirty Pages: 0kb.
+	[504] Dirty Pages: 0kb.
+	[1272] Dirty Pages: 0kb.
+	[1080] Dirty Pages: 0kb.
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[336]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[576] Dirty Pages: 0kb.
+	[720]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[720] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[816]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[816] Dirty Pages: 0kb.
+	[1056]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1056] Dirty Pages: 0kb.
+	[1344]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1392] Dirty Pages: 0kb.
+	[1440] Dirty Pages: 0kb.
+	[528] Dirty Pages: 0kb.
+	[480] Dirty Pages: 0kb.
+	[432] Dirty Pages: 0kb.
+	[1248]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1248] Dirty Pages: 0kb.
+	[1296] Dirty Pages: 0kb.
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[768] Dirty Pages: 0kb.
+	[1488]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1488] Dirty Pages: 0kb.
+	[672] Dirty Pages: 0kb.
+	[1104] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[1152]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[960] Dirty Pages: 0kb.
+	[864]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[864] Dirty Pages: 0kb.
+	[912] Dirty Pages: 0kb.
+	[648] Dirty Pages: 0kb.
+	[1464] Dirty Pages: 0kb.
+	[456] Dirty Pages: 0kb.
+	[1128]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1416] Dirty Pages: 0kb.
+	[744] Dirty Pages: 0kb.
+	[936] Dirty Pages: 0kb.
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[264] Dirty Pages: 0kb.
+	[696] Dirty Pages: 0kb.
+	[1368]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1368] Dirty Pages: 0kb.
+	[552] Dirty Pages: 0kb.
+	[840]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[840] Dirty Pages: 0kb.
+	[1224]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1224] Dirty Pages: 0kb.
+	[600] Dirty Pages: 0kb.
+	[1176]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1176] Dirty Pages: 0kb.
+	[624] Dirty Pages: 0kb.
+	[1200] Dirty Pages: 0kb.
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[888]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[888] Dirty Pages: 0kb.
+	[1512] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[336] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[1344] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[1152] Dirty Pages: 0kb.
+	[1128] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[384] Dirty Pages: 0kb.
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1903548313
+	MB Written: -1
+	[408]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2091326490
+	MB Written: -1
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1946170834
+	MB Written: -1
+	[1512]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1557123405
+	MB Written: -1
+	[984]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1906303609
+	MB Written: -1
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1994905526
+	MB Written: -1
+	[312]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1805186305
+	MB Written: -1
+	[1032]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 2084746366
+	MB Written: -1
+	[360]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1869468957
+	MB Written: -1
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2037491693
+	MB Written: -1
+	[792]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2031543976
+	MB Written: -1
+	[504]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2081164013
+	MB Written: -1
+	[1272]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2110486175
+	MB Written: -1
+	[1080]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1979594542
+	MB Written: -1
+	[1320]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1976097331
+	MB Written: -1
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2133545073
+	MB Written: -1
+	[1008]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2042209835
+	MB Written: -1
+	[336]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1613745324
+	MB Written: -1
+Finished: initialize_low_meta_data in 0.0383995 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1625504748
+	MB Written: -1
+Starting:  initialize_high_meta_data
+	[0] Dirty Pages: 0kb.
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2043905550
+	MB Written: -1
+	[576]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1924604165
+	MB Written: -1
+	[720]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1972615624
+	MB Written: -1
+	[384]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1887451191
+	MB Written: -1
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2069671949
+	MB Written: -1
+	[816]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2108841412
+	MB Written: -1
+	[1056]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1927784928
+	MB Written: -1
+	[1344]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1990195028
+	MB Written: -1
+	[1392]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2070781120
+	MB Written: -1
+	[1440]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1349983883
+	MB Written: -1
+	[528]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2059004663
+	MB Written: -1
+	[480]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2110692889
+	MB Written: -1
+	[432]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1926215229
+	MB Written: -1
+	[1248]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1985007450
+	MB Written: -1
+	[1296]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 2005738299
+	MB Written: -1
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1991186306
+	MB Written: -1
+	[768]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2088921112
+	MB Written: -1
+	[1488]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1075001234
+	MB Written: -1
+	[672]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2002866167
+	MB Written: -1
+	[1104]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2112199978
+	MB Written: -1
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2072277329
+	MB Written: -1
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 2030078849
+	MB Written: -1
+	[1152]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2075010869
+	MB Written: -1
+	[960]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1934423976
+	MB Written: -1
+	[864]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2110481615
+	MB Written: -1
+	[912]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1885415381
+	MB Written: -1
+	[648]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1992856022
+	MB Written: -1
+	[1464]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -543093674
+	MB Written: -1
+	[456]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2050251212
+	MB Written: -1
+	[1128]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2054286230
+	MB Written: -1
+	[1416]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 2005281112
+	MB Written: -1
+	[744]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2021259065
+	MB Written: -1
+	[936]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2025726377
+	MB Written: -1
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2005862015
+	MB Written: -1
+	[696]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2088848504
+	MB Written: -1
+	[1368]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1937585547
+	MB Written: -1
+	[552]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2013254751
+	MB Written: -1
+	[840]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1864121662
+	MB Written: -1
+	[1224]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 2029105911
+	MB Written: -1
+	[600]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2083858701
+	MB Written: -1
+	[1176]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1921913929
+	MB Written: -1
+	[624]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1848855835
+	MB Written: -1
+	[1200]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1927880729
+	MB Written: -1
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2130051401
+	MB Written: -1
+	[888]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1867691115
+	MB Written: -1
+	[216] Dirty Pages: 0kb.
+	[408] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[1512] Dirty Pages: 0kb.
+	[984] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[312] Dirty Pages: 0kb.
+	[1032] Dirty Pages: 0kb.
+	[360] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[792] Dirty Pages: 0kb.
+	[504] Dirty Pages: 0kb.
+	[1272] Dirty Pages: 0kb.
+	[1080] Dirty Pages: 0kb.
+	[1320] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[1008] Dirty Pages: 0kb.
+	[336] Dirty Pages: 0kb.
+	 Setup and Compute Hub information: 0/24.
+	[144] Dirty Pages: 0kb.
+	[576] Dirty Pages: 0kb.
+	[720] Dirty Pages: 0kb.
+	[384] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[816] Dirty Pages: 0kb.
+	[1056] Dirty Pages: 0kb.
+	[1344] Dirty Pages: 0kb.
+	[1392] Dirty Pages: 0kb.
+	[1440] Dirty Pages: 0kb.
+	[528] Dirty Pages: 0kb.
+	[480] Dirty Pages: 0kb.
+	[432] Dirty Pages: 0kb.
+	[1248] Dirty Pages: 0kb.
+	[1296] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[768] Dirty Pages: 0kb.
+	[1488] Dirty Pages: 0kb.
+	[672] Dirty Pages: 0kb.
+	[1104] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[1152] Dirty Pages: 0kb.
+	[960] Dirty Pages: 0kb.
+	[864] Dirty Pages: 0kb.
+	[912] Dirty Pages: 0kb.
+	[648] Dirty Pages: 0kb.
+	[1464] Dirty Pages: 0kb.
+	[456] Dirty Pages: 0kb.
+	[1128] Dirty Pages: 0kb.
+	[1416] Dirty Pages: 0kb.
+	[744] Dirty Pages: 0kb.
+	[936] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[696] Dirty Pages: 0kb.
+	[1368] Dirty Pages: 0kb.
+	[552] Dirty Pages: 0kb.
+	[840] Dirty Pages: 0kb.
+	[1224] Dirty Pages: 0kb.
+	[600] Dirty Pages: 0kb.
+	[1176] Dirty Pages: 0kb.
+	[624] Dirty Pages: 0kb.
+	[1200] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[888] Dirty Pages: 0kb.
+	 Setup and Compute Hub information: 1/24.
+	 Setup and Compute Hub information: 2/24.
+	 Setup and Compute Hub information: 3/24.
+	 Setup and Compute Hub information: 4/24.
+	 Setup and Compute Hub information: 5/24.
+	 Setup and Compute Hub information: 6/24.
+	 Setup and Compute Hub information: 7/24.
+	 Setup and Compute Hub information: 8/24.
+	 Setup and Compute Hub information: 9/24.
+	 Setup and Compute Hub information: 10/24.
+	 Setup and Compute Hub information: 11/24.
+	 Setup and Compute Hub information: 12/24.
+	 Setup and Compute Hub information: 13/24.
+	 Setup and Compute Hub information: 14/24.
+	 Setup and Compute Hub information: 15/24.
+	 Setup and Compute Hub information: 16/24.
+	 Setup and Compute Hub information: 17/24.
+	 Setup and Compute Hub information: 18/24.
+	 Setup and Compute Hub information: 19/24.
+	 Setup and Compute Hub information: 20/24.
+	 Setup and Compute Hub information: 21/24.
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1903548313
+	MB Written: -1
+	[408]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2091326490
+	MB Written: -1
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1946170834
+	MB Written: -1
+	[1512]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1557123405
+	MB Written: -1
+	[984]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1906303609
+	MB Written: -1
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1994905526
+	MB Written: -1
+	[312]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1805186305
+	MB Written: -1
+	[1032]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 2084746366
+	MB Written: -1
+	[360]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1869468957
+	MB Written: -1
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2037491693
+	MB Written: -1
+	[792]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2031543976
+	MB Written: -1
+	[504]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2081164013
+	MB Written: -1
+	[1272]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2110486175
+	MB Written: -1
+	[1080]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1979594542
+	MB Written: -1
+	[1320]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1976097331
+	MB Written: -1
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2133545073
+	MB Written: -1
+	[1008]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2042209835
+	MB Written: -1
+	[336]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1613745324
+	MB Written: -1
+	 Setup and Compute Hub information: 22/24.
+	 Setup and Compute Hub information: 23/24.
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2043905550
+	MB Written: -1
+	[576]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1924604165
+	MB Written: -1
+	[720]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1972615624
+	MB Written: -1
+	[384]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1887451191
+	MB Written: -1
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2069671949
+	MB Written: -1
+	[816]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2108841412
+	MB Written: -1
+	[1056]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1927784928
+	MB Written: -1
+	[1344]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1990195028
+	MB Written: -1
+	[1392]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2070781120
+	MB Written: -1
+	[1440]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1349983883
+	MB Written: -1
+	[528]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2059004663
+	MB Written: -1
+	[480]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2110692889
+	MB Written: -1
+	[432]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1926215229
+	MB Written: -1
+	[1248]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1985007450
+	MB Written: -1
+	[1296]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 2005738299
+	MB Written: -1
+	[1296] Dirty Pages: 0kb.
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1991186306
+	MB Written: -1
+	[768]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2088921112
+	MB Written: -1
+	[1488]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1075001234
+	MB Written: -1
+	[672]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2002866167
+	MB Written: -1
+	[1104]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2112199978
+	MB Written: -1
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2072277329
+	MB Written: -1
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 2030078849
+	MB Written: -1
+	[1152]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2075010869
+	MB Written: -1
+	[960]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1934423976
+	MB Written: -1
+	[864]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2110481615
+	MB Written: -1
+	[912]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1885415381
+	MB Written: -1
+	[648]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1992856022
+	MB Written: -1
+	[1464]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -543093674
+	MB Written: -1
+	[456]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2050251212
+	MB Written: -1
+	[1128]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2054286230
+	MB Written: -1
+	[1416]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 2005281112
+	MB Written: -1
+	[744]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2021259065
+	MB Written: -1
+	[936]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2025726377
+	MB Written: -1
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2005862015
+	MB Written: -1
+	[696]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2088848504
+	MB Written: -1
+	[1368]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1937585547
+	MB Written: -1
+	[552]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2013254751
+	MB Written: -1
+	[840]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1864121662
+	MB Written: -1
+	[1224]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 2029105911
+	MB Written: -1
+	[600]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2083858701
+	MB Written: -1
+	[1176]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1921913929
+	MB Written: -1
+	[624]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1848855835
+	MB Written: -1
+	[1200]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1927880729
+	MB Written: -1
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -2130051401
+	MB Written: -1
+	[888]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1867691115
+	MB Written: -1
+	[216] Dirty Pages: 0kb.
+	[408] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[1512] Dirty Pages: 0kb.
+	[984] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[312] Dirty Pages: 0kb.
+	[1032] Dirty Pages: 0kb.
+	[360] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[792] Dirty Pages: 0kb.
+	[504] Dirty Pages: 0kb.
+	[1272] Dirty Pages: 0kb.
+	[1080] Dirty Pages: 0kb.
+	[1320] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[1008] Dirty Pages: 0kb.
+	[336] Dirty Pages: 0kb.
+Finished: initialize_high_meta_data in 0.0712357 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1625504748
+	MB Written: -1
+	[144] Dirty Pages: 0kb.
+	[576] Dirty Pages: 0kb.
+	[720] Dirty Pages: 0kb.
+	[384] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[816] Dirty Pages: 0kb.
+	[1056] Dirty Pages: 0kb.
+	[1344] Dirty Pages: 0kb.
+	[1392] Dirty Pages: 0kb.
+	[1440] Dirty Pages: 0kb.
+	[528] Dirty Pages: 0kb.
+	[480] Dirty Pages: 0kb.
+	[432] Dirty Pages: 0kb.
+	[1248] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[768] Dirty Pages: 0kb.
+	[1488] Dirty Pages: 0kb.
+	[672] Dirty Pages: 0kb.
+	[1104] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[1152] Dirty Pages: 0kb.
+	[960] Dirty Pages: 0kb.
+	[864] Dirty Pages: 0kb.
+	[912] Dirty Pages: 0kb.
+	[648] Dirty Pages: 0kb.
+	[1464] Dirty Pages: 0kb.
+	[456] Dirty Pages: 0kb.
+	[1128] Dirty Pages: 0kb.
+	[1416] Dirty Pages: 0kb.
+	[744] Dirty Pages: 0kb.
+	[936] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[696] Dirty Pages: 0kb.
+	[1368] Dirty Pages: 0kb.
+	[552] Dirty Pages: 0kb.
+	[840] Dirty Pages: 0kb.
+	[1224] Dirty Pages: 0kb.
+	[600] Dirty Pages: 0kb.
+	[1176] Dirty Pages: 0kb.
+	[624] Dirty Pages: 0kb.
+	[1200] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[888] Dirty Pages: 0kb.
+Starting:  count_high_degree_edges
+	[0] Dirty Pages: 0kb.
+	[CH][Total Loops: 0, Total Edges: 0] Time 0.0179138 second,  Total Time 0.0179138 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 1000, Total Edges: 8192000] Time 19.4485 second,  Total Time 19.4664 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 2000, Total Edges: 16384000] Time 19.6802 second,  Total Time 39.1466 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 3000, Total Edges: 24576000] Time 19.7871 second,  Total Time 58.9337 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 4000, Total Edges: 32768000] Time 19.872 second,  Total Time 78.8057 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 5000, Total Edges: 40960000] Time 19.9416 second,  Total Time 98.7473 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 6000, Total Edges: 49152000] Time 19.3773 second,  Total Time 118.125 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 7000, Total Edges: 57344000] Time 19.3077 second,  Total Time 137.432 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 8000, Total Edges: 65536000] Time 19.4524 second,  Total Time 156.885 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 9000, Total Edges: 73728000] Time 19.1769 second,  Total Time 176.062 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 10000, Total Edges: 81920000] Time 19.0986 second,  Total Time 195.16 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 11000, Total Edges: 90112000] Time 19.1111 second,  Total Time 214.271 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 12000, Total Edges: 98304000] Time 19.1031 second,  Total Time 233.374 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 13000, Total Edges: 106496000] Time 19.2727 second,  Total Time 252.647 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 14000, Total Edges: 114688000] Time 18.9747 second,  Total Time 271.622 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 15000, Total Edges: 122880000] Time 19.3055 second,  Total Time 290.927 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 16000, Total Edges: 131072000] Time 19.3513 second,  Total Time 310.279 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 17000, Total Edges: 139264000] Time 19.2793 second,  Total Time 329.558 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 18000, Total Edges: 147456000] Time 19.2757 second,  Total Time 348.834 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 19000, Total Edges: 155648000] Time 19.5402 second,  Total Time 368.374 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 20000, Total Edges: 163840000] Time 19.5007 second,  Total Time 387.875 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 21000, Total Edges: 172032000] Time 19.0055 second,  Total Time 406.88 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 22000, Total Edges: 180224000] Time 19.3915 second,  Total Time 426.272 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 23000, Total Edges: 188416000] Time 19.6458 second,  Total Time 445.917 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 24000, Total Edges: 196608000] Time 19.6396 second,  Total Time 465.557 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 25000, Total Edges: 204800000] Time 19.5494 second,  Total Time 485.106 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 26000, Total Edges: 212992000] Time 19.468 second,  Total Time 504.574 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 27000, Total Edges: 221184000] Time 19.4776 second,  Total Time 524.052 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 28000, Total Edges: 229376000] Time 19.3597 second,  Total Time 543.412 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 29000, Total Edges: 237568000] Time 19.4663 second,  Total Time 562.878 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 30000, Total Edges: 245760000] Time 19.5635 second,  Total Time 582.441 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 31000, Total Edges: 253952000] Time 19.856 second,  Total Time 602.297 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 32000, Total Edges: 262144000] Time 19.7899 second,  Total Time 622.087 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 33000, Total Edges: 270336000] Time 19.952 second,  Total Time 642.039 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 34000, Total Edges: 278528000] Time 19.5031 second,  Total Time 661.542 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 35000, Total Edges: 286720000] Time 19.8187 second,  Total Time 681.361 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 36000, Total Edges: 294912000] Time 19.7696 second,  Total Time 701.13 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 37000, Total Edges: 303104000] Time 19.5663 second,  Total Time 720.697 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 38000, Total Edges: 311296000] Time 19.4177 second,  Total Time 740.114 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 39000, Total Edges: 319488000] Time 19.1208 second,  Total Time 759.235 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 40000, Total Edges: 327680000] Time 19.2048 second,  Total Time 778.44 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 41000, Total Edges: 335872000] Time 19.2635 second,  Total Time 797.704 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 42000, Total Edges: 344064000] Time 19.1063 second,  Total Time 816.81 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 43000, Total Edges: 352256000] Time 19.1651 second,  Total Time 835.975 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 44000, Total Edges: 360448000] Time 19.3187 second,  Total Time 855.294 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 45000, Total Edges: 368640000] Time 19.0955 second,  Total Time 874.389 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 46000, Total Edges: 376832000] Time 18.9603 second,  Total Time 893.349 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 47000, Total Edges: 385024000] Time 19.1476 second,  Total Time 912.497 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 48000, Total Edges: 393216000] Time 19.4634 second,  Total Time 931.96 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 49000, Total Edges: 401408000] Time 19.1648 second,  Total Time 951.125 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 50000, Total Edges: 409600000] Time 18.9161 second,  Total Time 970.041 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 51000, Total Edges: 417792000] Time 18.8734 second,  Total Time 988.915 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 52000, Total Edges: 425984000] Time 18.7117 second,  Total Time 1007.63 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 53000, Total Edges: 434176000] Time 18.7699 second,  Total Time 1026.4 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 54000, Total Edges: 442368000] Time 18.7483 second,  Total Time 1045.14 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 55000, Total Edges: 450560000] Time 18.7469 second,  Total Time 1063.89 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 56000, Total Edges: 458752000] Time 18.2643 second,  Total Time 1082.16 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 57000, Total Edges: 466944000] Time 18.2064 second,  Total Time 1100.36 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 58000, Total Edges: 475136000] Time 18.3087 second,  Total Time 1118.67 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 59000, Total Edges: 483328000] Time 18.7811 second,  Total Time 1137.45 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 60000, Total Edges: 491520000] Time 18.4691 second,  Total Time 1155.92 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 61000, Total Edges: 499712000] Time 18.6341 second,  Total Time 1174.56 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 62000, Total Edges: 507904000] Time 18.3628 second,  Total Time 1192.92 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 63000, Total Edges: 516096000] Time 18.5864 second,  Total Time 1211.5 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 64000, Total Edges: 524288000] Time 18.6457 second,  Total Time 1230.15 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 65000, Total Edges: 532480000] Time 18.6719 second,  Total Time 1248.82 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 66000, Total Edges: 540672000] Time 18.9649 second,  Total Time 1267.79 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 67000, Total Edges: 548864000] Time 19.0441 second,  Total Time 1286.83 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 68000, Total Edges: 557056000] Time 19.0887 second,  Total Time 1305.92 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 69000, Total Edges: 565248000] Time 18.7983 second,  Total Time 1324.72 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 70000, Total Edges: 573440000] Time 18.6631 second,  Total Time 1343.38 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 71000, Total Edges: 581632000] Time 18.4025 second,  Total Time 1361.78 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 72000, Total Edges: 589824000] Time 18.5321 second,  Total Time 1380.32 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 73000, Total Edges: 598016000] Time 18.676 second,  Total Time 1398.99 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 74000, Total Edges: 606208000] Time 18.4956 second,  Total Time 1417.49 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 75000, Total Edges: 614400000] Time 18.4772 second,  Total Time 1435.96 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 76000, Total Edges: 622592000] Time 18.7381 second,  Total Time 1454.7 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 77000, Total Edges: 630784000] Time 18.5788 second,  Total Time 1473.28 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 78000, Total Edges: 638976000] Time 18.602 second,  Total Time 1491.88 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 79000, Total Edges: 647168000] Time 18.4383 second,  Total Time 1510.32 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 80000, Total Edges: 655360000] Time 18.5409 second,  Total Time 1528.86 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 81000, Total Edges: 663552000] Time 18.3741 second,  Total Time 1547.24 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 82000, Total Edges: 671744000] Time 18.5745 second,  Total Time 1565.81 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 83000, Total Edges: 679936000] Time 18.5419 second,  Total Time 1584.35 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 84000, Total Edges: 688128000] Time 18.5317 second,  Total Time 1602.89 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 85000, Total Edges: 696320000] Time 18.485 second,  Total Time 1621.37 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 86000, Total Edges: 704512000] Time 18.5748 second,  Total Time 1639.94 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 87000, Total Edges: 712704000] Time 18.7148 second,  Total Time 1658.66 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 88000, Total Edges: 720896000] Time 18.444 second,  Total Time 1677.1 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 89000, Total Edges: 729088000] Time 18.3733 second,  Total Time 1695.48 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 90000, Total Edges: 737280000] Time 18.2002 second,  Total Time 1713.68 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 91000, Total Edges: 745472000] Time 18.2835 second,  Total Time 1731.96 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 92000, Total Edges: 753664000] Time 18.1253 second,  Total Time 1750.09 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 93000, Total Edges: 761856000] Time 18.4663 second,  Total Time 1768.55 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 94000, Total Edges: 770048000] Time 18.2163 second,  Total Time 1786.77 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 95000, Total Edges: 778240000] Time 18.1057 second,  Total Time 1804.87 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 96000, Total Edges: 786432000] Time 18.0524 second,  Total Time 1822.93 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 97000, Total Edges: 794624000] Time 18.3 second,  Total Time 1841.23 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 98000, Total Edges: 802816000] Time 18.3148 second,  Total Time 1859.54 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 99000, Total Edges: 811008000] Time 18.3636 second,  Total Time 1877.91 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 100000, Total Edges: 819200000] Time 18.2645 second,  Total Time 1896.17 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 101000, Total Edges: 827392000] Time 18.1629 second,  Total Time 1914.33 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 102000, Total Edges: 835584000] Time 18.1911 second,  Total Time 1932.52 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 103000, Total Edges: 843776000] Time 18.2169 second,  Total Time 1950.74 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 104000, Total Edges: 851968000] Time 18.2608 second,  Total Time 1969 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 105000, Total Edges: 860160000] Time 18.2556 second,  Total Time 1987.26 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 106000, Total Edges: 868352000] Time 18.1454 second,  Total Time 2005.4 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 107000, Total Edges: 876544000] Time 18.1329 second,  Total Time 2023.54 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 108000, Total Edges: 884736000] Time 18.015 second,  Total Time 2041.55 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 109000, Total Edges: 892928000] Time 18.1733 second,  Total Time 2059.72 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 110000, Total Edges: 901120000] Time 18.1991 second,  Total Time 2077.92 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 111000, Total Edges: 909312000] Time 18.2915 second,  Total Time 2096.21 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 112000, Total Edges: 917504000] Time 18.3526 second,  Total Time 2114.57 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 113000, Total Edges: 925696000] Time 18.1901 second,  Total Time 2132.76 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 114000, Total Edges: 933888000] Time 18.3044 second,  Total Time 2151.06 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 115000, Total Edges: 942080000] Time 18.1131 second,  Total Time 2169.17 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 116000, Total Edges: 950272000] Time 18.0542 second,  Total Time 2187.23 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 117000, Total Edges: 958464000] Time 18.2334 second,  Total Time 2205.46 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 118000, Total Edges: 966656000] Time 18.4144 second,  Total Time 2223.88 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 119000, Total Edges: 974848000] Time 18.2437 second,  Total Time 2242.12 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 120000, Total Edges: 983040000] Time 18.4021 second,  Total Time 2260.52 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 121000, Total Edges: 991232000] Time 18.2919 second,  Total Time 2278.81 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 122000, Total Edges: 999424000] Time 18.2131 second,  Total Time 2297.03 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 123000, Total Edges: 1007616000] Time 18.1347 second,  Total Time 2315.16 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 124000, Total Edges: 1015808000] Time 18.3347 second,  Total Time 2333.5 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 125000, Total Edges: 1024000000] Time 18.0935 second,  Total Time 2351.59 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 126000, Total Edges: 1032192000] Time 18.2156 second,  Total Time 2369.81 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 127000, Total Edges: 1040384000] Time 18.2478 second,  Total Time 2388.05 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 128000, Total Edges: 1048576000] Time 18.2083 second,  Total Time 2406.26 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 129000, Total Edges: 1056768000] Time 18.2029 second,  Total Time 2424.46 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 130000, Total Edges: 1064960000] Time 18.3185 second,  Total Time 2442.78 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 131000, Total Edges: 1073152000] Time 18.4543 second,  Total Time 2461.24 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 132000, Total Edges: 1081344000] Time 18.2674 second,  Total Time 2479.5 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 133000, Total Edges: 1089536000] Time 18.3476 second,  Total Time 2497.85 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 134000, Total Edges: 1097728000] Time 18.3721 second,  Total Time 2516.22 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 135000, Total Edges: 1105920000] Time 18.3523 second,  Total Time 2534.58 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 136000, Total Edges: 1114112000] Time 18.2216 second,  Total Time 2552.8 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 137000, Total Edges: 1122304000] Time 18.2852 second,  Total Time 2571.08 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 138000, Total Edges: 1130496000] Time 18.3364 second,  Total Time 2589.42 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 139000, Total Edges: 1138688000] Time 18.4242 second,  Total Time 2607.84 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 140000, Total Edges: 1146880000] Time 18.1414 second,  Total Time 2625.99 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 141000, Total Edges: 1155072000] Time 18.2708 second,  Total Time 2644.26 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 142000, Total Edges: 1163264000] Time 18.3798 second,  Total Time 2662.64 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 143000, Total Edges: 1171456000] Time 18.3356 second,  Total Time 2680.97 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 144000, Total Edges: 1179648000] Time 18.382 second,  Total Time 2699.35 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 145000, Total Edges: 1187840000] Time 18.4486 second,  Total Time 2717.8 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 146000, Total Edges: 1196032000] Time 18.2467 second,  Total Time 2736.05 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 147000, Total Edges: 1204224000] Time 18.3537 second,  Total Time 2754.4 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 148000, Total Edges: 1212416000] Time 18.4079 second,  Total Time 2772.81 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 149000, Total Edges: 1220608000] Time 18.3344 second,  Total Time 2791.15 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 150000, Total Edges: 1228800000] Time 18.5485 second,  Total Time 2809.69 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 151000, Total Edges: 1236992000] Time 18.2333 second,  Total Time 2827.93 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 152000, Total Edges: 1245184000] Time 18.1724 second,  Total Time 2846.1 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 153000, Total Edges: 1253376000] Time 18.3543 second,  Total Time 2864.45 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 154000, Total Edges: 1261568000] Time 18.3372 second,  Total Time 2882.79 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 155000, Total Edges: 1269760000] Time 18.366 second,  Total Time 2901.16 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 156000, Total Edges: 1277952000] Time 18.3768 second,  Total Time 2919.53 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 157000, Total Edges: 1286144000] Time 18.3136 second,  Total Time 2937.85 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 158000, Total Edges: 1294336000] Time 18.4028 second,  Total Time 2956.25 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 159000, Total Edges: 1302528000] Time 18.4744 second,  Total Time 2974.72 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 160000, Total Edges: 1310720000] Time 18.4655 second,  Total Time 2993.19 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 161000, Total Edges: 1318912000] Time 18.4936 second,  Total Time 3011.68 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 162000, Total Edges: 1327104000] Time 18.7447 second,  Total Time 3030.43 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 163000, Total Edges: 1335296000] Time 18.5009 second,  Total Time 3048.93 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 164000, Total Edges: 1343488000] Time 18.3942 second,  Total Time 3067.32 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 165000, Total Edges: 1351680000] Time 18.4378 second,  Total Time 3085.76 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 166000, Total Edges: 1359872000] Time 18.5096 second,  Total Time 3104.27 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 167000, Total Edges: 1368064000] Time 18.2731 second,  Total Time 3122.54 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 168000, Total Edges: 1376256000] Time 18.2783 second,  Total Time 3140.82 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 169000, Total Edges: 1384448000] Time 18.4259 second,  Total Time 3159.25 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 170000, Total Edges: 1392640000] Time 18.0996 second,  Total Time 3177.35 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 171000, Total Edges: 1400832000] Time 18.4631 second,  Total Time 3195.81 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 172000, Total Edges: 1409024000] Time 18.393 second,  Total Time 3214.2 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 173000, Total Edges: 1417216000] Time 18.2216 second,  Total Time 3232.43 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 174000, Total Edges: 1425408000] Time 18.3692 second,  Total Time 3250.79 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 175000, Total Edges: 1433600000] Time 18.1793 second,  Total Time 3268.97 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 176000, Total Edges: 1441792000] Time 18.2222 second,  Total Time 3287.2 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 177000, Total Edges: 1449984000] Time 18.181 second,  Total Time 3305.38 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 178000, Total Edges: 1458176000] Time 18.4141 second,  Total Time 3323.79 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 179000, Total Edges: 1466368000] Time 18.5075 second,  Total Time 3342.3 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 180000, Total Edges: 1474560000] Time 18.3957 second,  Total Time 3360.69 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 181000, Total Edges: 1482752000] Time 18.4511 second,  Total Time 3379.15 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 182000, Total Edges: 1490944000] Time 19.1157 second,  Total Time 3398.26 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 183000, Total Edges: 1499136000] Time 18.83 second,  Total Time 3417.09 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 184000, Total Edges: 1507328000] Time 18.5467 second,  Total Time 3435.64 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 185000, Total Edges: 1515520000] Time 18.3718 second,  Total Time 3454.01 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 186000, Total Edges: 1523712000] Time 18.4554 second,  Total Time 3472.46 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 187000, Total Edges: 1531904000] Time 18.4028 second,  Total Time 3490.87 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 188000, Total Edges: 1540096000] Time 18.4473 second,  Total Time 3509.31 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 189000, Total Edges: 1548288000] Time 18.4729 second,  Total Time 3527.79 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 190000, Total Edges: 1556480000] Time 18.383 second,  Total Time 3546.17 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 191000, Total Edges: 1564672000] Time 18.4902 second,  Total Time 3564.66 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 192000, Total Edges: 1572864000] Time 18.2758 second,  Total Time 3582.94 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 193000, Total Edges: 1581056000] Time 18.1757 second,  Total Time 3601.11 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 194000, Total Edges: 1589248000] Time 18.2951 second,  Total Time 3619.41 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 195000, Total Edges: 1597440000] Time 18.1615 second,  Total Time 3637.57 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 196000, Total Edges: 1605632000] Time 18.4167 second,  Total Time 3655.99 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 197000, Total Edges: 1613824000] Time 18.4361 second,  Total Time 3674.42 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 198000, Total Edges: 1622016000] Time 18.5864 second,  Total Time 3693.01 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 199000, Total Edges: 1625504747] Time 18.4878 second,  Total Time 3711.5 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 200000, Total Edges: 1625504747] Time 18.4542 second,  Total Time 3729.95 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 201000, Total Edges: 1625504747] Time 18.4196 second,  Total Time 3748.37 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 202000, Total Edges: 1625504747] Time 18.3265 second,  Total Time 3766.7 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 203000, Total Edges: 1625504747] Time 18.469 second,  Total Time 3785.17 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 204000, Total Edges: 1625504747] Time 18.4241 second,  Total Time 3803.59 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 205000, Total Edges: 1625504747] Time 18.282 second,  Total Time 3821.87 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 206000, Total Edges: 1625504747] Time 18.4665 second,  Total Time 3840.34 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 207000, Total Edges: 1625504747] Time 18.5234 second,  Total Time 3858.86 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 208000, Total Edges: 1625504747] Time 18.5467 second,  Total Time 3877.41 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 209000, Total Edges: 1625504747] Time 18.3877 second,  Total Time 3895.8 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 210000, Total Edges: 1625504747] Time 18.1588 second,  Total Time 3913.95 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 211000, Total Edges: 1625504747] Time 18.4367 second,  Total Time 3932.39 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 212000, Total Edges: 1625504747] Time 18.5167 second,  Total Time 3950.91 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 213000, Total Edges: 1625504747] Time 18.473 second,  Total Time 3969.38 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 214000, Total Edges: 1625504747] Time 18.3742 second,  Total Time 3987.76 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 215000, Total Edges: 1625504747] Time 18.3243 second,  Total Time 4006.08 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 216000, Total Edges: 1625504747] Time 18.3765 second,  Total Time 4024.46 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 217000, Total Edges: 1625504747] Time 18.413 second,  Total Time 4042.87 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 218000, Total Edges: 1625504747] Time 18.2156 second,  Total Time 4061.08 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 219000, Total Edges: 1625504747] Time 18.275 second,  Total Time 4079.36 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 220000, Total Edges: 1625504747] Time 18.5002 second,  Total Time 4097.86 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 221000, Total Edges: 1625504747] Time 18.3129 second,  Total Time 4116.17 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 222000, Total Edges: 1625504747] Time 18.4446 second,  Total Time 4134.62 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 223000, Total Edges: 1625504747] Time 18.3841 second,  Total Time 4153 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 224000, Total Edges: 1625504747] Time 18.3043 second,  Total Time 4171.31 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 225000, Total Edges: 1625504747] Time 18.5106 second,  Total Time 4189.82 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 226000, Total Edges: 1625504747] Time 18.3911 second,  Total Time 4208.21 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 227000, Total Edges: 1625504747] Time 18.3043 second,  Total Time 4226.51 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 228000, Total Edges: 1625504747] Time 18.5643 second,  Total Time 4245.08 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 229000, Total Edges: 1625504747] Time 18.2414 second,  Total Time 4263.32 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 230000, Total Edges: 1625504747] Time 18.2387 second,  Total Time 4281.56 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 231000, Total Edges: 1625504747] Time 18.2704 second,  Total Time 4299.83 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 232000, Total Edges: 1625504747] Time 18.2664 second,  Total Time 4318.09 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 233000, Total Edges: 1625504747] Time 18.197 second,  Total Time 4336.29 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 234000, Total Edges: 1625504747] Time 18.3195 second,  Total Time 4354.61 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 235000, Total Edges: 1625504747] Time 18.6345 second,  Total Time 4373.24 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 236000, Total Edges: 1625504747] Time 18.2753 second,  Total Time 4391.52 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 237000, Total Edges: 1625504747] Time 18.3682 second,  Total Time 4409.89 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 238000, Total Edges: 1625504747] Time 18.4622 second,  Total Time 4428.35 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 239000, Total Edges: 1625504747] Time 18.3067 second,  Total Time 4446.66 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 240000, Total Edges: 1625504747] Time 18.3609 second,  Total Time 4465.02 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 241000, Total Edges: 1625504747] Time 18.4 second,  Total Time 4483.42 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 242000, Total Edges: 1625504747] Time 18.5505 second,  Total Time 4501.97 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 243000, Total Edges: 1625504747] Time 18.5232 second,  Total Time 4520.49 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 244000, Total Edges: 1625504747] Time 18.2602 second,  Total Time 4538.75 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 245000, Total Edges: 1625504747] Time 18.4212 second,  Total Time 4557.17 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 246000, Total Edges: 1625504747] Time 18.4362 second,  Total Time 4575.61 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 247000, Total Edges: 1625504747] Time 18.3031 second,  Total Time 4593.91 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 248000, Total Edges: 1625504747] Time 18.2225 second,  Total Time 4612.13 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 249000, Total Edges: 1625504747] Time 18.462 second,  Total Time 4630.6 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 250000, Total Edges: 1625504747] Time 18.0743 second,  Total Time 4648.67 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 251000, Total Edges: 1625504747] Time 18.0168 second,  Total Time 4666.69 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 252000, Total Edges: 1625504747] Time 18.462 second,  Total Time 4685.15 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 253000, Total Edges: 1625504747] Time 18.4164 second,  Total Time 4703.57 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 254000, Total Edges: 1625504747] Time 18.3024 second,  Total Time 4721.87 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 255000, Total Edges: 1625504747] Time 18.3016 second,  Total Time 4740.17 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 256000, Total Edges: 1625504747] Time 18.411 second,  Total Time 4758.58 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 257000, Total Edges: 1625504747] Time 18.0575 second,  Total Time 4776.64 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 258000, Total Edges: 1625504747] Time 18.3498 second,  Total Time 4794.99 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 259000, Total Edges: 1625504747] Time 18.1952 second,  Total Time 4813.18 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 260000, Total Edges: 1625504747] Time 18.2812 second,  Total Time 4831.46 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 261000, Total Edges: 1625504747] Time 18.326 second,  Total Time 4849.79 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 262000, Total Edges: 1625504747] Time 18.1757 second,  Total Time 4867.97 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 263000, Total Edges: 1625504747] Time 17.9694 second,  Total Time 4885.94 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 264000, Total Edges: 1625504747] Time 18.3201 second,  Total Time 4904.26 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 265000, Total Edges: 1625504747] Time 18.084 second,  Total Time 4922.34 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 266000, Total Edges: 1625504747] Time 18.2154 second,  Total Time 4940.55 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 267000, Total Edges: 1625504747] Time 18.246 second,  Total Time 4958.8 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 268000, Total Edges: 1625504747] Time 18.0533 second,  Total Time 4976.85 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 269000, Total Edges: 1625504747] Time 18.3098 second,  Total Time 4995.16 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 270000, Total Edges: 1625504747] Time 18.2396 second,  Total Time 5013.4 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 271000, Total Edges: 1625504747] Time 18.2528 second,  Total Time 5031.66 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 272000, Total Edges: 1625504747] Time 18.1904 second,  Total Time 5049.85 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 273000, Total Edges: 1625504747] Time 18.0673 second,  Total Time 5067.91 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 274000, Total Edges: 1625504747] Time 17.9694 second,  Total Time 5085.88 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 275000, Total Edges: 1625504747] Time 18.0089 second,  Total Time 5103.89 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 276000, Total Edges: 1625504747] Time 18.1141 second,  Total Time 5122.01 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 277000, Total Edges: 1625504747] Time 17.8933 second,  Total Time 5139.9 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 278000, Total Edges: 1625504747] Time 17.8919 second,  Total Time 5157.79 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 279000, Total Edges: 1625504747] Time 18.0651 second,  Total Time 5175.86 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 280000, Total Edges: 1625504747] Time 17.6836 second,  Total Time 5193.54 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 281000, Total Edges: 1625504747] Time 17.5442 second,  Total Time 5211.08 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 282000, Total Edges: 1625504747] Time 17.0735 second,  Total Time 5228.16 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 283000, Total Edges: 1625504747] Time 16.9247 second,  Total Time 5245.08 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 284000, Total Edges: 1625504747] Time 16.8326 second,  Total Time 5261.92 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 285000, Total Edges: 1625504747] Time 16.7604 second,  Total Time 5278.68 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 286000, Total Edges: 1625504747] Time 16.7146 second,  Total Time 5295.39 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 287000, Total Edges: 1625504747] Time 16.7518 second,  Total Time 5312.14 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 288000, Total Edges: 1625504747] Time 16.7581 second,  Total Time 5328.9 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 289000, Total Edges: 1625504747] Time 16.7307 second,  Total Time 5345.63 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 290000, Total Edges: 1625504747] Time 16.2441 second,  Total Time 5361.88 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 291000, Total Edges: 1625504747] Time 16.2005 second,  Total Time 5378.08 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 292000, Total Edges: 1625504747] Time 16.1937 second,  Total Time 5394.27 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 293000, Total Edges: 1625504747] Time 16.2314 second,  Total Time 5410.5 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 294000, Total Edges: 1625504747] Time 16.2039 second,  Total Time 5426.7 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 295000, Total Edges: 1625504747] Time 16.2119 second,  Total Time 5442.92 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 296000, Total Edges: 1625504747] Time 16.2357 second,  Total Time 5459.15 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 297000, Total Edges: 1625504747] Time 16.2047 second,  Total Time 5475.36 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 298000, Total Edges: 1625504747] Time 16.1608 second,  Total Time 5491.52 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 299000, Total Edges: 1625504747] Time 16.1356 second,  Total Time 5507.65 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 300000, Total Edges: 1625504747] Time 16.1165 second,  Total Time 5523.77 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 301000, Total Edges: 1625504747] Time 16.1615 second,  Total Time 5539.93 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 302000, Total Edges: 1625504747] Time 16.1843 second,  Total Time 5556.12 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 303000, Total Edges: 1625504747] Time 16.1639 second,  Total Time 5572.28 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 304000, Total Edges: 1625504747] Time 16.1451 second,  Total Time 5588.42 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 305000, Total Edges: 1625504747] Time 16.1768 second,  Total Time 5604.6 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 306000, Total Edges: 1625504747] Time 16.1315 second,  Total Time 5620.73 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 307000, Total Edges: 1625504747] Time 16.1285 second,  Total Time 5636.86 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 308000, Total Edges: 1625504747] Time 16.1284 second,  Total Time 5652.99 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 309000, Total Edges: 1625504747] Time 16.1404 second,  Total Time 5669.13 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 310000, Total Edges: 1625504747] Time 16.127 second,  Total Time 5685.26 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 311000, Total Edges: 1625504747] Time 16.1403 second,  Total Time 5701.4 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 312000, Total Edges: 1625504747] Time 16.1402 second,  Total Time 5717.54 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 313000, Total Edges: 1625504747] Time 16.1395 second,  Total Time 5733.68 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 314000, Total Edges: 1625504747] Time 16.1499 second,  Total Time 5749.83 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 315000, Total Edges: 1625504747] Time 16.1631 second,  Total Time 5765.99 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 316000, Total Edges: 1625504747] Time 16.1547 second,  Total Time 5782.15 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 317000, Total Edges: 1625504747] Time 16.1301 second,  Total Time 5798.28 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 318000, Total Edges: 1625504747] Time 16.1369 second,  Total Time 5814.41 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 319000, Total Edges: 1625504747] Time 16.1495 second,  Total Time 5830.56 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 320000, Total Edges: 1625504747] Time 16.1416 second,  Total Time 5846.7 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 321000, Total Edges: 1625504747] Time 16.2676 second,  Total Time 5862.97 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 322000, Total Edges: 1625504747] Time 16.1915 second,  Total Time 5879.16 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 323000, Total Edges: 1625504747] Time 16.1405 second,  Total Time 5895.3 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 324000, Total Edges: 1625504747] Time 16.1876 second,  Total Time 5911.49 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 325000, Total Edges: 1625504747] Time 16.1705 second,  Total Time 5927.66 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 326000, Total Edges: 1625504747] Time 16.1532 second,  Total Time 5943.81 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 327000, Total Edges: 1625504747] Time 16.1843 second,  Total Time 5960 second, Dirty Pages: 0kb.
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1512]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[504]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1272]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1080]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1320]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[336]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[CH][Total Loops: 327298, Total Edges: 1625504747] Time 4.71897 second,  Total Time 5964.72 second, Dirty Pages: 0kb.
+Finished: count_high_degree_edges in 5964.72 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[384]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1056]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1344]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1392]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1440]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[528]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[480]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[432]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1248]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1296]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1488]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[672]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1104]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[960]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[912]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[648]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1464]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[456]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1128]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[744]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[936]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[696]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1368]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[552]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[600]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[624]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1200]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[888]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[408]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[984]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1032]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[360]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[792]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1008]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[576]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[720]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[816]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[768]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1152]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[864]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1416]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[840]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1224]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[1176]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[312]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[216] Dirty Pages: 0kb.
+	[360] Dirty Pages: 0kb.
+	[792] Dirty Pages: 0kb.
+	[1080] Dirty Pages: 0kb.
+	[336] Dirty Pages: 0kb.
+	[144] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[1056] Dirty Pages: 0kb.
+	[1440] Dirty Pages: 0kb.
+	[528] Dirty Pages: 0kb.
+	[1296] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[1488] Dirty Pages: 0kb.
+	[672] Dirty Pages: 0kb.
+	[1104] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[864] Dirty Pages: 0kb.
+	[1464] Dirty Pages: 0kb.
+	[1128] Dirty Pages: 0kb.
+	[744] Dirty Pages: 0kb.
+	[696] Dirty Pages: 0kb.
+	[888] Dirty Pages: 0kb.
+	[408] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[1512] Dirty Pages: 0kb.
+	[984] Dirty Pages: 0kb.
+	[168] Dirty Pages: 0kb.
+	[312] Dirty Pages: 0kb.
+	[1032] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[504] Dirty Pages: 0kb.
+	[1272] Dirty Pages: 0kb.
+	[1320] Dirty Pages: 0kb.
+	[96] Dirty Pages: 0kb.
+	[1008] Dirty Pages: 0kb.
+Starting:  calculate_overflow
+	[0] Dirty Pages: 0kb.
+	[576] Dirty Pages: 0kb.
+	[720] Dirty Pages: 0kb.
+	[384] Dirty Pages: 0kb.
+	[816] Dirty Pages: 0kb.
+	[1344] Dirty Pages: 0kb.
+	[1392] Dirty Pages: 0kb.
+	[480] Dirty Pages: 0kb.
+	[432] Dirty Pages: 0kb.
+	[1248] Dirty Pages: 0kb.
+	[768] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[1152] Dirty Pages: 0kb.
+	[960] Dirty Pages: 0kb.
+	[912] Dirty Pages: 0kb.
+	[648] Dirty Pages: 0kb.
+	[456] Dirty Pages: 0kb.
+	[1416] Dirty Pages: 0kb.
+	[936] Dirty Pages: 0kb.
+	[264] Dirty Pages: 0kb.
+	[1368] Dirty Pages: 0kb.
+	[552] Dirty Pages: 0kb.
+	[840] Dirty Pages: 0kb.
+	[1224] Dirty Pages: 0kb.
+	[600] Dirty Pages: 0kb.
+	[1176] Dirty Pages: 0kb.
+	[624] Dirty Pages: 0kb.
+	[1200] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[144]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[216]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[1512]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[168]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[360]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[504]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[1272]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[96]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[336]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[576]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[720]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[384]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[240]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[1056]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[1392]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[528]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[480]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[432]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[1296]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[288]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[1488]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[672]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[1104]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[192]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21631
+	MB Written: -32768
+	[648]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[1464]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[456]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[1128]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[744]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[264]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[696]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[1368]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[552]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[840]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[600]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[1200]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[120]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[888]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[216] Dirty Pages: 0kb.
+	[408]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21631
+	MB Written: -32768
+	[1512] Dirty Pages: 0kb.
+	[984]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21663
+	MB Written: -32768
+	[168] Dirty Pages: 0kb.
+	[312]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[1032]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[360] Dirty Pages: 0kb.
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21631
+	MB Written: -32768
+	[792]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[504] Dirty Pages: 0kb.
+	[1272] Dirty Pages: 0kb.
+	[1080]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[1320]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[96] Dirty Pages: 0kb.
+	[1008]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[336] Dirty Pages: 0kb.
+Finished: calculate_overflow in 0.000811338 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21615
+	MB Written: -32768
+	[144] Dirty Pages: 0kb.
+	[576] Dirty Pages: 0kb.
+	[720] Dirty Pages: 0kb.
+	[384] Dirty Pages: 0kb.
+	[240] Dirty Pages: 0kb.
+	[816]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[1056] Dirty Pages: 0kb.
+	[1344]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[1392] Dirty Pages: 0kb.
+	[1440]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[528] Dirty Pages: 0kb.
+	[480] Dirty Pages: 0kb.
+	[432] Dirty Pages: 0kb.
+	[1248]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[1296] Dirty Pages: 0kb.
+	[288] Dirty Pages: 0kb.
+	[768]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[1488] Dirty Pages: 0kb.
+	[672] Dirty Pages: 0kb.
+	[1104] Dirty Pages: 0kb.
+	[192] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[1152]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[960]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[864]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[912]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[648] Dirty Pages: 0kb.
+	[1464] Dirty Pages: 0kb.
+	[456] Dirty Pages: 0kb.
+	[1128] Dirty Pages: 0kb.
+	[1416]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[744] Dirty Pages: 0kb.
+	[936]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[264] Dirty Pages: 0kb.
+	[696] Dirty Pages: 0kb.
+	[1368] Dirty Pages: 0kb.
+	[552] Dirty Pages: 0kb.
+	[840] Dirty Pages: 0kb.
+	[1224]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[600] Dirty Pages: 0kb.
+	[1176]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21679
+	MB Written: -32768
+	[624]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 21647
+	MB Written: -32768
+	[1200] Dirty Pages: 0kb.
+	[120] Dirty Pages: 0kb.
+	[888] Dirty Pages: 0kb.
+	[408] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[984] Dirty Pages: 0kb.
+	[312] Dirty Pages: 0kb.
+	[1032] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[792] Dirty Pages: 0kb.
+	[1080] Dirty Pages: 0kb.
+	[1008] Dirty Pages: 0kb.
+Starting:  initialize_edge_storage
+	[0] Dirty Pages: 0kb.
+	[816] Dirty Pages: 0kb.
+	[1344] Dirty Pages: 0kb.
+	[1440] Dirty Pages: 0kb.
+	[1248] Dirty Pages: 0kb.
+	[768] Dirty Pages: 0kb.
+	[1152] Dirty Pages: 0kb.
+	[960] Dirty Pages: 0kb.
+	[864] Dirty Pages: 0kb.
+	[912] Dirty Pages: 0kb.
+	[1416] Dirty Pages: 0kb.
+	[936] Dirty Pages: 0kb.
+	[1224] Dirty Pages: 0kb.
+	[1176] Dirty Pages: 0kb.
+	[624] Dirty Pages: 0kb.
+	Resizing m_owned_targets and m_delegate_targets: 0/24.
+	[1320] Dirty Pages: 0kb.
+slurmd[catalyst189]: *** STEP 2485511.0 CANCELLED AT 2017-06-08T09:15:15 ***
+srun: error: catalyst229: tasks 960-983: Terminated
+srun: error: catalyst198: tasks 216-239: Terminated
+srun: error: catalyst192: tasks 72-95: Terminated
+srun: error: catalyst191: tasks 48-71: Terminated
+srun: error: catalyst196: tasks 168-191: Terminated
+srun: error: catalyst217: tasks 672-695: Terminated
+srun: error: catalyst220: tasks 744-767: Terminated
+srun: error: catalyst227: tasks 912-935: Terminated
+srun: error: catalyst212: tasks 552-575: Terminated
+srun: error: catalyst189: tasks 0-23: Terminated
+srun: error: catalyst250: tasks 1464-1487: Terminated
+srun: error: catalyst234: tasks 1080-1103: Terminated
+srun: error: catalyst204: tasks 360-383: Terminated
+srun: error: catalyst243: tasks 1296-1319: Terminated
+srun: error: catalyst218: tasks 696-719: Terminated
+srun: error: catalyst237: tasks 1152-1175: Terminated
+srun: error: catalyst246: tasks 1368-1391: Terminated
+srun: error: catalyst190: tasks 24-47: Terminated
+srun: error: catalyst197: tasks 192-215: Terminated
+srun: error: catalyst245: tasks 1344-1367: Terminated
+srun: error: catalyst203: tasks 336-359: Terminated
+srun: error: catalyst248: tasks 1416-1439: Terminated
+srun: error: catalyst249: tasks 1440-1463: Terminated
+srun: error: catalyst195: tasks 144-167: Terminated
+srun: error: catalyst233: tasks 1056-1079: Terminated
+srun: error: catalyst199: tasks 240-263: Terminated
+srun: error: catalyst242: tasks 1272-1295: Terminated
+srun: error: catalyst193: tasks 96-119: Terminated
+srun: error: catalyst231: tasks 1008-1031: Terminated
+srun: error: catalyst238: tasks 1176-1199: Terminated
+srun: error: catalyst235: tasks 1104-1127: Terminated
+srun: error: catalyst232: tasks 1032-1055: Terminated
+srun: error: catalyst247: tasks 1392-1415: Terminated
+srun: error: catalyst216: tasks 648-671: Terminated
+srun: error: catalyst214: tasks 600-623: Terminated
+srun: error: catalyst208: tasks 456-479: Terminated
+srun: error: catalyst211: tasks 528-551: Terminated
+srun: error: catalyst219: tasks 720-743: Terminated
+srun: error: catalyst201: tasks 288-311: Terminated
+srun: error: catalyst239: tasks 1200-1223: Terminated
+srun: error: catalyst207: tasks 432-455: Terminated
+srun: error: catalyst244: tasks 1320-1343: Terminated
+srun: error: catalyst210: tasks 504-527: Terminated
+srun: error: catalyst221: tasks 768-791: Terminated
+srun: error: catalyst241: tasks 1248-1271: Terminated
+srun: error: catalyst230: tasks 984-1007: Terminated
+srun: error: catalyst213: tasks 576-599: Terminated
+srun: error: catalyst225: tasks 864-887: Terminated
+srun: error: catalyst224: tasks 840-863: Terminated
+srun: error: catalyst200: tasks 264-287: Terminated
+srun: error: catalyst194: tasks 120-143: Terminated
+srun: error: catalyst240: tasks 1224-1247: Terminated
+srun: error: catalyst223: tasks 816-839: Terminated
+srun: error: catalyst236: tasks 1128-1151: Terminated
+srun: error: catalyst251: tasks 1488-1511: Terminated
+srun: error: catalyst228: tasks 936-959: Terminated
+srun: error: catalyst222: tasks 792-815: Terminated
+srun: error: catalyst205: tasks 384-407: Terminated
+srun: error: catalyst226: tasks 888-911: Terminated
+srun: error: catalyst253: tasks 1512-1535: Terminated
+srun: error: catalyst209: tasks 480-503: Terminated
+srun: error: catalyst215: tasks 624-647: Terminated
+srun: error: catalyst202: tasks 312-335: Terminated
+srun: error: catalyst206: tasks 408-431: Terminated
+srun: Force Terminated job step 2485511.0

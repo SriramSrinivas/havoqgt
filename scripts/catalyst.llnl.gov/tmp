@@ -1,0 +1,420 @@
+MPI initialized with 202 ranks.
+HAVOQGT_MAILBOX_NUM_IRECV         = 8
+HAVOQGT_MAILBOX_NUM_ISEND         = 8
+HAVOQGT_MAILBOX_AGGREGATION       = 1024
+HAVOQGT_MAILBOX_TREE_AGGREGATION  = 64
+HAVOQGT_MAILBOX_PRINT_STATS       = 0
+CMD line: /g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/./src/run_randwalk -i ../../../wikidat/g -s 2
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+terminate called after throwing an instance of 'boost::interprocess::interprocess_exception'
+  what():  boost::interprocess_exception::library_error
+  what():  boost::interprocess_exception::library_error
+srun: error: catalyst56: tasks 180-201: Aborted (core dumped)
+srun: error: catalyst52: tasks 114-135: Aborted (core dumped)
+srun: error: catalyst48: tasks 23-45: Aborted (core dumped)
+srun: error: catalyst53: tasks 136-157: Aborted (core dumped)
+srun: error: catalyst42: tasks 0-22: Aborted (core dumped)
+srun: error: catalyst50: tasks 69-91: Aborted (core dumped)
+srun: error: catalyst51: tasks 92-113: Aborted (core dumped)
+srun: error: catalyst49: tasks 46-68: Aborted (core dumped)
+srun: error: catalyst54: tasks 158-179: Aborted (core dumped)

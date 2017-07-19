@@ -1,0 +1,79 @@
+srun: job 2491182 queued and waiting for resources
+srun: job 2491182 has been allocated resources
+MPI initialized with 1536 ranks.
+HAVOQGT_MAILBOX_NUM_IRECV         = 8
+HAVOQGT_MAILBOX_NUM_ISEND         = 8
+HAVOQGT_MAILBOX_AGGREGATION       = 1024
+HAVOQGT_MAILBOX_TREE_AGGREGATION  = 64
+HAVOQGT_MAILBOX_PRINT_STATS       = 0
+CMD line: /g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/./src/run_randwalk -b /p/lscratchf/zhang50/graph6424 -s 6462711
+Usage: -i <string> -s <int>
+ -i <string>   - input graph base filename (required)
+ -b <string>   - backup graph base filename.  If set, "input" graph will be deleted if it exists
+ -s <int>      - Source vertex of BFS (Default is 0)
+ -h            - print help and exit
+
+srun: error: catalyst274: tasks 912-935: Exited with exit code 255
+srun: error: catalyst289: tasks 1272-1295: Exited with exit code 255
+srun: error: catalyst284: tasks 1152-1175: Exited with exit code 255
+srun: error: catalyst66: tasks 408-431: Exited with exit code 255
+srun: error: catalyst196: tasks 576-599: Exited with exit code 255
+srun: error: catalyst60: tasks 264-287: Exited with exit code 255
+srun: error: catalyst45: tasks 240-263: Exited with exit code 255
+srun: error: catalyst37: tasks 72-95: Exited with exit code 255
+srun: error: catalyst198: tasks 624-647: Exited with exit code 255
+srun: error: catalyst283: tasks 1128-1151: Exited with exit code 255
+srun: error: catalyst36: tasks 48-71: Exited with exit code 255
+srun: error: catalyst270: tasks 840-863: Exited with exit code 255
+srun: error: catalyst271: tasks 864-887: Exited with exit code 255
+srun: error: catalyst197: tasks 600-623: Exited with exit code 255
+srun: error: catalyst290: tasks 1296-1319: Exited with exit code 255
+srun: error: catalyst303: tasks 1416-1439: Exited with exit code 255
+srun: error: catalyst278: tasks 1008-1031: Exited with exit code 255
+srun: error: catalyst35: tasks 24-47: Exited with exit code 255
+srun: error: catalyst288: tasks 1248-1271: Exited with exit code 255
+srun: error: catalyst191: tasks 456-479: Exited with exit code 255
+srun: error: catalyst38: tasks 96-119: Exited with exit code 255
+srun: error: catalyst307: tasks 1512-1535: Exited with exit code 255
+srun: error: catalyst276: tasks 960-983: Exited with exit code 255
+srun: error: catalyst272: tasks 888-911: Exited with exit code 255
+srun: error: catalyst194: tasks 528-551: Exited with exit code 255
+srun: error: catalyst287: tasks 1224-1247: Exited with exit code 255
+srun: error: catalyst280: tasks 1056-1079: Exited with exit code 255
+srun: error: catalyst193: tasks 504-527: Exited with exit code 255
+srun: error: catalyst61: tasks 288-311: Exited with exit code 255
+srun: error: catalyst305: tasks 1464-1487: Exited with exit code 255
+srun: error: catalyst302: tasks 1392-1415: Exited with exit code 255
+srun: error: catalyst279: tasks 1032-1055: Exited with exit code 255
+srun: error: catalyst265: tasks 720-743: Exited with exit code 255
+srun: error: catalyst301: tasks 1368-1391: Exited with exit code 255
+srun: error: catalyst282: tasks 1104-1127: Exited with exit code 255
+srun: error: catalyst64: tasks 360-383: Exited with exit code 255
+srun: error: catalyst63: tasks 336-359: Exited with exit code 255
+srun: error: catalyst264: tasks 696-719: Exited with exit code 255
+srun: error: catalyst300: tasks 1344-1367: Exited with exit code 255
+srun: error: catalyst44: tasks 216-239: Exited with exit code 255
+srun: error: catalyst286: tasks 1200-1223: Exited with exit code 255
+srun: error: catalyst262: tasks 648-671: Exited with exit code 255
+srun: error: catalyst190: tasks 432-455: Exited with exit code 255
+srun: error: catalyst266: tasks 744-767: Exited with exit code 255
+srun: error: catalyst192: tasks 480-503: Exited with exit code 255
+srun: error: catalyst285: tasks 1176-1199: Exited with exit code 255
+srun: error: catalyst263: tasks 672-695: Exited with exit code 255
+srun: error: catalyst62: tasks 312-335: Exited with exit code 255
+srun: error: catalyst34: tasks 0-23: Exited with exit code 255
+srun: error: catalyst275: tasks 936-959: Exited with exit code 255
+srun: error: catalyst267: tasks 768-791: Exited with exit code 255
+srun: error: catalyst299: tasks 1320-1343: Exited with exit code 255
+srun: error: catalyst304: tasks 1440-1463: Exited with exit code 255
+srun: error: catalyst39: tasks 120-143: Exited with exit code 255
+srun: error: catalyst306: tasks 1488-1511: Exited with exit code 255
+srun: error: catalyst281: tasks 1080-1103: Exited with exit code 255
+srun: error: catalyst65: tasks 384-407: Exited with exit code 255
+srun: error: catalyst41: tasks 168-191: Exited with exit code 255
+srun: error: catalyst269: tasks 816-839: Exited with exit code 255
+srun: error: catalyst268: tasks 792-815: Exited with exit code 255
+srun: error: catalyst40: tasks 144-167: Exited with exit code 255
+srun: error: catalyst277: tasks 984-1007: Exited with exit code 255
+srun: error: catalyst42: tasks 192-215: Exited with exit code 255
+srun: error: catalyst195: tasks 552-575: Exited with exit code 255
