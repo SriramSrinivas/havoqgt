@@ -179,10 +179,14 @@ int main(int argc, char** argv) {
   graph_type::vertex_data<uint16_t, std::allocator<uint16_t> >                      vertex_data(*graph); //how many times each vertex has been visited
   //graph_type::vertex_data<std::discrete_distribution<>,  std::allocator< std::discrete_distribution<> >>   prob_data(*graph);
   //typedef graph_type::vertex_locator vector_type;
-  typedef uint64_t vector_type;
+ // typedef uint64_t vector_type;
+  typedef graph_type::vertex_locator vector_type;
   graph_type::vertex_data<std::vector<vector_type>, std::allocator<std::vector<vector_type>>>  upstream(*graph);
   graph_type::vertex_data<std::vector<vector_type>, std::allocator<std::vector<vector_type>>>  downstream(*graph);
   graph_type::vertex_data<std::vector<vector_type>, std::allocator<std::vector<vector_type>>>  curstream(*graph);
+  //graph_type::vertex_data<std::vector<graph_type::vertex_locator, std::allocator<std::vector<graph_type::vertex_locator>>>  upstream(*graph);
+  //graph_type::vertex_data<std::vector<graph_type::vertex_locator, std::allocator<std::vector<graph_type::vertex_locator>>>  downstream(*graph);
+  //graph_type::vertex_data<std::vector<graph_type::vertex_locator, std::allocator<std::vector<graph_type::vertex_locator>>>  curstream(*graph);
     MPI_Barrier(MPI_COMM_WORLD);
     if (mpi_rank == 0) {
       std::cout << "BFS data allocated.  Starting BFS from vertex " << source_vertex << std::endl;

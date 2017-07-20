@@ -116,7 +116,8 @@ public:
       }
       // find the next vertex to walk
       //vertex_locator next = g.label_to_locator(std::get<3>(alg_data)[vertex](gen));
-      uint64_t next; 
+      //uint64_t next; 
+      vertex_locator next;
       std::uniform_int_distribution<> unit_dis;
      // auto direction = disc_dis(std::get<7>(alg_data));
      std::cout<<"start to walk"<<std::endl;
@@ -164,11 +165,12 @@ public:
 		flag=1;
 		break;
       }
-     //std::cout<<"next is "<<g.locator_to_label(next)<<std::endl;
-     std::cout<<"next is "<<next<<std::endl;
+     std::cout<<"next is "<<g.locator_to_label(next)<<std::endl;
+     //std::cout<<"next is "<<next<<std::endl;
 
       if(meta_data+1<100) {
-         bias_randwalk_visitor new_visitor(g.label_to_locator(next), vertex, meta_data+1);
+         //bias_randwalk_visitor new_visitor(g.label_to_locator(next), vertex, meta_data+1);
+         bias_randwalk_visitor new_visitor(next, vertex, meta_data+1);
 	 vis_queue->queue_visitor(new_visitor); 
  
       }
