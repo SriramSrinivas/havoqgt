@@ -13,7 +13,5 @@ ADD_TEST(static_bfs_2 "/usr/bin/srun" "-np" "2" "/g/g91/zhang50/havoqgt/scripts/
 ADD_TEST(static_bfs_4 "/usr/bin/srun" "-np" "4" "/g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/test/test_static_bfs")
 ADD_TEST(copy_2 "/usr/bin/srun" "-np" "2" "/g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/test/test_copy")
 ADD_TEST(copy_4 "/usr/bin/srun" "-np" "4" "/g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/test/test_copy")
-ADD_TEST(bias_randwalk_2 "/usr/bin/srun" "-np" "2" "/g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/test/test_bias_randwalk")
-ADD_TEST(bias_randwalk_4 "/usr/bin/srun" "-np" "4" "/g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/test/test_bias_randwalk")
 SUBDIRS(gtest)
 SUBDIRS(include)
