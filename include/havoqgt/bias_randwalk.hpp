@@ -83,17 +83,25 @@ public:
   
   template<typename VisitorQueueHandle, typename AlgData>
   bool init_visit(Graph& g, VisitorQueueHandle vis_queue, AlgData& alg_data) const {
+	 /*
       	    for(auto eitr = g.edges_begin(vertex); eitr != g.edges_end(vertex); ++eitr) {
 		//copy_edge_visitor new_visitor(eitr.target(), *vitr, std::get<0>(alg_data)[*vitr] );
 		if( vertex == std::get<5>(alg_data)) {
-		for(int i=0; i<100; i++) {
+		for(int i=0; i<10; i++) {
 		bias_randwalk_visitor new_visitor(eitr.target(), vertex, 0 );
 		vis_queue->queue_visitor(new_visitor); 
 		}
                 std::cout<<" in init_visit of "<< g.locator_to_label(vertex) << " to " << g.locator_to_label(eitr.target()) <<std::endl;
                 }
 	    }
-	    std::get<7>(alg_data)[vertex]=std::discrete_distribution<>({0.05, 0.9, 0.1});
+	 */
+        if( vertex == std::get<5>(alg_data))
+	    for(int i=0; i<800; i++) {
+		bias_randwalk_visitor new_visitor(vertex, vertex, 0 );
+		vis_queue->queue_visitor(new_visitor); 
+            }
+		
+	    std::get<7>(alg_data)[vertex]=std::discrete_distribution<>({0.9, 0.1, 0.1});
 	    //if(g.locator_to_label(vertex)==0)
 	    //   std::get<7>(alg_data)=std::discrete_distribution<>({0.05, 0.9, 0.1});
 	    return true;
@@ -102,12 +110,10 @@ public:
 
   template<typename VisitorQueueHandle, typename AlgData>
   bool visit(Graph& g, VisitorQueueHandle vis_queue, AlgData& alg_data) const {
-      std::cout<<"in visit function of randwalk"<<g.locator_to_label(vertex)<<" from "<<g.locator_to_label(from)<<std::endl;
-	    //if(g.locator_to_label(vertex)==0)
-	      // std::get<7>(alg_data)=std::discrete_distribution<>({0.05, 0.9, 0.1});
+      std::cout<<"in visit function of randwalk "<<g.locator_to_label(vertex)<<" from "<<g.locator_to_label(from)<<std::endl;
       // increment visit count of this vertex
       std::get<1>(alg_data)[vertex]++;
- 	std::cout<<"vertex data "<<std::get<1>(alg_data)[vertex]<<std::endl;
+ 	//std::cout<<"vertex data "<<std::get<1>(alg_data)[vertex]<<std::endl;
       // increment visit count of this incoming edge
       for(auto eitr = g.edges_begin(vertex); eitr != g.edges_end(vertex); ++eitr) {
         auto neighbor = eitr.target();
@@ -120,36 +126,36 @@ public:
       vertex_locator next;
       std::uniform_int_distribution<> unit_dis;
      // auto direction = disc_dis(std::get<7>(alg_data));
-     std::cout<<"start to walk"<<std::endl;
+     //std::cout<<"start to walk"<<std::endl;
      auto dir = std::get<7>(alg_data)[vertex](std::get<6>(alg_data));
      //auto dir = std::get<7>(alg_data)(std::get<6>(alg_data));
-     std::cout<<"dir is "<<dir<<std::endl;
+     //std::cout<<"dir is "<<dir<<std::endl;
      int ver;
      bool flag=0;
      while(!flag)
       switch (dir){
 	case 0: //go upstream
-		std::cout<<"go upstream"<<std::endl;
+		//std::cout<<"go upstream"<<std::endl;
 		if (std::get<3>(alg_data)[vertex].size()<1) {
-		   std::cout<<"unfornately no ancestor"<<std::endl;
+		  // std::cout<<"unfornately no ancestor"<<std::endl;
 		   return true;
                 }
-		std::cout<<"in unit "<<std::get<3>(alg_data)[vertex].size()<<std::endl;
+		//std::cout<<"in unit "<<std::get<3>(alg_data)[vertex].size()<<std::endl;
 		unit_dis = std::uniform_int_distribution<>(0, std::get<3>(alg_data)[vertex].size()-1);
 		ver = unit_dis(std::get<6>(alg_data));
-		std::cout<<"done unit "<<ver<<std::endl;
+		//std::cout<<"done unit "<<ver<<std::endl;
 		//next = std::get<4>(alg_data)[uni_dis(gen)];
 		next = std::get<3>(alg_data)[vertex][ver];
 		flag=1;
 		break;
 	case 1: // go downstream
 		//std::uniform_int_distribution<> uni_dis(0, downstream.size()-1);
-		std::cout<<"go downstream"<<std::endl;
+		//std::cout<<"go downstream"<<std::endl;
 		if (std::get<2>(alg_data)[vertex].size()<1) {
-		   std::cout<<"unfornately no decendents"<<std::endl;
+		  // std::cout<<"unfornately no decendents"<<std::endl;
 		   return true;
                 }
-		std::cout<<"in unit "<<std::get<2>(alg_data)[vertex].size()<<std::endl;
+		//std::cout<<"in unit "<<std::get<2>(alg_data)[vertex].size()<<std::endl;
 		unit_dis = std::uniform_int_distribution<>(0, std::get<2>(alg_data)[vertex].size()-1);
 		//next = std::get<3>(alg_data)[uni_dis(gen)];
 		next = std::get<2>(alg_data)[vertex][unit_dis(std::get<6>(alg_data))];
@@ -157,18 +163,18 @@ public:
 		break;
  	case 2: 
 		//std::uniform_int_distribution<> uni_dis(0, curstream.size()-1);
-		std::cout<<"go curstream"<<std::endl;
-		std::cout<<"in unit "<<std::get<4>(alg_data)[vertex].size()<<std::endl;
+		//std::cout<<"go curstream"<<std::endl;
+		//std::cout<<"in unit "<<std::get<4>(alg_data)[vertex].size()<<std::endl;
 		unit_dis = std::uniform_int_distribution<>(0, std::get<4>(alg_data)[vertex].size()-1);
 		//next = std::get<5>(alg_data)[uni_dis(gen)];
 		next = std::get<4>(alg_data)[vertex][unit_dis(std::get<6>(alg_data))];
 		flag=1;
 		break;
       }
-     std::cout<<"next is "<<g.locator_to_label(next)<<std::endl;
+     //std::cout<<"next is "<<g.locator_to_label(next)<<std::endl;
      //std::cout<<"next is "<<next<<std::endl;
 
-      if(meta_data+1<100) {
+      if(meta_data+1<12) {
          //bias_randwalk_visitor new_visitor(g.label_to_locator(next), vertex, meta_data+1);
          bias_randwalk_visitor new_visitor(next, vertex, meta_data+1);
 	 vis_queue->queue_visitor(new_visitor); 

@@ -89,7 +89,7 @@ public:
   }
 */
   template<typename AlgData>
-  inline void insert(AlgData& alg_data){
+  void insert(AlgData& alg_data) const{
 		if (meta_data<std::get<0>(alg_data)[vertex])
 			std::get<1>(alg_data)[vertex].push_back(from);
 		else

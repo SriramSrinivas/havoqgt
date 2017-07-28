@@ -83,7 +83,7 @@ void usage()  {
   }
 }
 
-void parse_cmd_line(int argc, char** argv, std::string& input_filename, std::string& backup_filename, uint64_t& source_vertex) {
+void parse_cmd_line(int argc, char** argv, std::string& input_filename, std::string& backup_filename, uint64_t& source_vertex, uint64_t& dest_vertex) {
   if(havoqgt_env()->world_comm().rank() == 0) {
     std::cout << "CMD line:";
     for (int i=0; i<argc; ++i) {
@@ -94,10 +94,11 @@ void parse_cmd_line(int argc, char** argv, std::string& input_filename, std::str
   
   bool found_input_filename = false;
   source_vertex = 0;
+  dest_vertex = 0;
   
   char c;
   bool prn_help = false;
-  while ((c = getopt(argc, argv, "i:s:b:h ")) != -1) {
+  while ((c = getopt(argc, argv, "i:s:b:h:d:")) != -1) {
      switch (c) {
        case 'h':  
          prn_help = true;
@@ -111,6 +112,9 @@ void parse_cmd_line(int argc, char** argv, std::string& input_filename, std::str
          break;
       case 'b':
          backup_filename = optarg;
+         break;
+      case 'd':
+	 dest_vertex = atoll(optarg);
          break;
       default:
          std::cerr << "Unrecognized option: "<<c<<", ignore."<<std::endl;
@@ -147,9 +151,9 @@ int main(int argc, char** argv) {
   std::string graph_input;
   std::string backup_filename;
   uint64_t source_vertex = 0;
+  uint64_t dest_vertex = 0;
   
-  parse_cmd_line(argc, argv, graph_input, backup_filename, source_vertex);
-
+  parse_cmd_line(argc, argv, graph_input, backup_filename, source_vertex, dest_vertex);
 
   MPI_Barrier(MPI_COMM_WORLD);
   if(backup_filename.size() > 0) {
@@ -196,7 +200,9 @@ int main(int argc, char** argv) {
     double time(0);
     int count(0);
     uint64_t isource = source_vertex;
+    uint64_t idest = dest_vertex;
       graph_type::vertex_locator source = graph->label_to_locator(isource);
+      graph_type::vertex_locator dest = graph->label_to_locator(idest);
       uint64_t global_degree(0);
       do {
         uint64_t local_degree = 0;
@@ -211,6 +217,8 @@ int main(int argc, char** argv) {
             MPI_COMM_WORLD);
         if(global_degree == 0) ++isource;
       } while (global_degree == 0);
+
+
       if (uint32_t(mpi_rank) == source.owner()) {
         if(isource != source_vertex) {
           std::cout << "Vertex " << source_vertex << " has a degree of 0.   New source vertex = " << isource << std::endl;
@@ -221,6 +229,7 @@ int main(int argc, char** argv) {
         std::cout << "local_id = " << source.local_id() << std::endl;
         std::cout << "degree = " << graph->degree(source) << std::endl;
       }
+ 
 
       bfs_level_data.reset(std::numeric_limits<uint16_t>::max());
 
@@ -233,7 +242,7 @@ int main(int argc, char** argv) {
   havoqgt::copy_neigh_level(graph, bfs_level_data, upstream, downstream, curstream);
       MPI_Barrier(MPI_COMM_WORLD);
   std::cout<< "~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~" << std::endl;
-  havoqgt::bias_randwalk(graph,  upstream, downstream, curstream, edge_data, vertex_data, source);
+  havoqgt::bias_randwalk(graph,  upstream, downstream, curstream, edge_data, vertex_data, dest);
   std::cout << "FINISHED BIAS RAND WALK" << std::endl;
       MPI_Barrier(MPI_COMM_WORLD);
       double time_end = MPI_Wtime();
@@ -249,7 +258,7 @@ int main(int argc, char** argv) {
              ++vitr) {
           if (bfs_level_data[*vitr] == level) {
             ++local_count;
-	    std::cout<<"level id "<<level<<" "<<graph->locator_to_label(*vitr)<<std::endl;
+	    //std::cout<<"level id "<<level<<" "<<graph->locator_to_label(*vitr)<<std::endl;
           }
         }
 
@@ -293,7 +302,7 @@ int main(int argc, char** argv) {
         vitr !=graph->vertices_end();
         ++vitr) {
 	if(vertex_data[*vitr]>2)
-      std::cout << "Vertex " << graph->locator_to_label(*vitr) << " is visted " << vertex_data[*vitr] << std::endl;
+      std::cout << "Vertex " << graph->locator_to_label(*vitr) << " is visted " << vertex_data[*vitr] << " at level " << bfs_level_data[*vitr]<<std::endl;
     }
   }  // End BFS Test
   }  // END Main MPI
