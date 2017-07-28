@@ -1,0 +1,2663 @@
+MPI initialized with 96 ranks.
+HAVOQGT_MAILBOX_NUM_IRECV         = 8
+HAVOQGT_MAILBOX_NUM_ISEND         = 8
+HAVOQGT_MAILBOX_AGGREGATION       = 1024
+HAVOQGT_MAILBOX_TREE_AGGREGATION  = 64
+HAVOQGT_MAILBOX_PRINT_STATS       = 0
+CMD line: /g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/./src/run_randwalk -i /dev/shm/graph -b /p/lscratchh/zhang50/graphrmat_s15 -s 64 -d 10
+Transfer time = 0.100319
+Graph Loaded Ready.
+BFS data allocated.  Starting BFS from vertex 64
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+sizeof(message_type) = 18
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+Starting vertex = 64
+delegate? = 0
+local_id = 0
+degree = 5511
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+sizeof(message_type) = 18
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+sizeof(message_type) = 18
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+in visit function of randwalk 10 from 10
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+in visit function of randwalk 10 from 10
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+in visit function of randwalk 10 from 10
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+in visit function of randwalk 10 from 10
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+in visit function of randwalk 10 from 10
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 3082 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 27156 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 68 from 10
+in visit function of randwalk 13316 from 10
+in visit function of randwalk 20900 from 10
+in visit function of randwalk 260 from 20756
+in visit function of randwalk 24848 from 10
+in visit function of randwalk 464 from 10
+in visit function of randwalk 752 from 10
+in visit function of randwalk 14672 from 10
+in visit function of randwalk 18129 from 10
+in visit function of randwalk 11985 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 4186 from 10
+in visit function of randwalk 524 from 10
+in visit function of randwalk 17228 from 10
+in visit function of randwalk 84 from 10
+in visit function of randwalk 16404 from 10
+in visit function of randwalk 564 from 8004
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 8344 from 10
+in visit function of randwalk 17370 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 8236 from 19792
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 2460 from 10
+in visit function of randwalk 17436 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 25280 from 10
+in visit function of randwalk 17408 from 10
+in visit function of randwalk 4736 from 10
+in visit function of randwalk 4160 from 10
+in visit function of randwalk 20576 from 10
+in visit function of randwalk 12704 from 10
+in visit function of randwalk 8192 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 129 from 3082
+in visit function of randwalk 24609 from 10
+in visit function of randwalk 33 from 10
+in visit function of randwalk 8289 from 10
+in visit function of randwalk 18561 from 10
+in visit function of randwalk 3201 from 10
+in visit function of randwalk 31041 from 10
+in visit function of randwalk 7553 from 10
+in visit function of randwalk 65 from 10
+in visit function of randwalk 24641 from 10
+in visit function of randwalk 11777 from 10
+in visit function of randwalk 12545 from 10
+in visit function of randwalk 5122 from 17370
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 8341 from 10
+in visit function of randwalk 1045 from 10
+in visit function of randwalk 8514 from 10
+in visit function of randwalk 28770 from 10
+in visit function of randwalk 16962 from 10
+in visit function of randwalk 6402 from 10
+in visit function of randwalk 30468 from 10
+in visit function of randwalk 8196 from 10
+in visit function of randwalk 8004 from 27156
+in visit function of randwalk 8004 from 8004
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 1049 from 8341
+in visit function of randwalk 4676 from 10
+in visit function of randwalk 26660 from 10
+in visit function of randwalk 1028 from 10
+in visit function of randwalk 68 from 17228
+in visit function of randwalk 4676 from 10
+in visit function of randwalk 16772 from 10
+in visit function of randwalk 12932 from 10
+in visit function of randwalk 24613 from 10
+in visit function of randwalk 37 from 10
+in visit function of randwalk 4549 from 10
+in visit function of randwalk 4549 from 10
+in visit function of randwalk 517 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 8328 from 1045
+in visit function of randwalk 16390 from 10
+in visit function of randwalk 16390 from 10
+in visit function of randwalk 16390 from 464
+in visit function of randwalk 904 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 8713 from 10
+in visit function of randwalk 8304 from 752
+in visit function of randwalk 20586 from 10
+in visit function of randwalk 22026 from 10
+in visit function of randwalk 16554 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 2187 from 8304
+in visit function of randwalk 4177 from 10
+in visit function of randwalk 28736 from 9517
+in visit function of randwalk 16448 from 8344
+in visit function of randwalk 18176 from 10
+in visit function of randwalk 2048 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10258 from 10
+in visit function of randwalk 341 from 10
+in visit function of randwalk 4642 from 10
+in visit function of randwalk 6274 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 566 from 10
+in visit function of randwalk 516 from 8328
+in visit function of randwalk 36 from 20691
+in visit function of randwalk 10 from 10
+in visit function of randwalk 10 from 10
+in visit function of randwalk 14960 from 1
+in visit function of randwalk 717 from 27410
+in visit function of randwalk 6150 from 10
+in visit function of randwalk 1136 from 24641
+in visit function of randwalk 2168 from 22
+in visit function of randwalk 8590 from 516
+in visit function of randwalk 0 from 10
+in visit function of randwalk 1339 from 16962
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 2048 from 341
+in visit function of randwalk 12304 from 10
+in visit function of randwalk 784 from 10
+in visit function of randwalk 16720 from 10
+in visit function of randwalk 19792 from 10
+in visit function of randwalk 16528 from 10
+in visit function of randwalk 1168 from 10
+in visit function of randwalk 22049 from 10
+in visit function of randwalk 30977 from 10
+in visit function of randwalk 9857 from 16554
+in visit function of randwalk 1556 from 10
+in visit function of randwalk 1556 from 10
+in visit function of randwalk 20756 from 10
+in visit function of randwalk 16579 from 10
+in visit function of randwalk 20995 from 10
+in visit function of randwalk 10273 from 10
+in visit function of randwalk 24836 from 24613
+in visit function of randwalk 1160 from 10
+in visit function of randwalk 18696 from 2048
+in visit function of randwalk 27410 from 10
+in visit function of randwalk 8457 from 10
+in visit function of randwalk 20691 from 8590
+in visit function of randwalk 531 from 10
+in visit function of randwalk 8193 from 8641
+in visit function of randwalk 9324 from 10
+in visit function of randwalk 4190 from 10
+in visit function of randwalk 8192 from 10
+in visit function of randwalk 978 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 8193 from 31500
+in visit function of randwalk 8641 from 10
+in visit function of randwalk 1 from 10
+in visit function of randwalk 19201 from 10
+in visit function of randwalk 12289 from 19201
+in visit function of randwalk 20480 from 10
+in visit function of randwalk 2 from 10
+in visit function of randwalk 17024 from 10
+in visit function of randwalk 32 from 8192
+in visit function of randwalk 484 from 8514
+in visit function of randwalk 4 from 20586
+in visit function of randwalk 33 from 4676
+in visit function of randwalk 10 from 18129
+in visit function of randwalk 10 from 11985
+in visit function of randwalk 522 from 645
+in visit function of randwalk 9517 from 10
+in visit function of randwalk 9517 from 9517
+in visit function of randwalk 8768 from 12932
+in visit function of randwalk 32 from 16804
+in visit function of randwalk 10771 from 10
+in visit function of randwalk 12549 from 10
+in visit function of randwalk 2181 from 10
+in visit function of randwalk 645 from 10
+in visit function of randwalk 17411 from 4676
+in visit function of randwalk 22 from 10
+in visit function of randwalk 10390 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 25664 from 16564
+in visit function of randwalk 320 from 25664
+in visit function of randwalk 1 from 31041
+in visit function of randwalk 257 from 8450
+in visit function of randwalk 19821 from 257
+in visit function of randwalk 19821 from 19821
+in visit function of randwalk 2306 from 10
+in visit function of randwalk 6146 from 10
+in visit function of randwalk 194 from 10
+in visit function of randwalk 16994 from 10
+in visit function of randwalk 8450 from 3201
+in visit function of randwalk 64 from 10
+in visit function of randwalk 16804 from 10
+in visit function of randwalk 16708 from 10
+in visit function of randwalk 16516 from 2168
+in visit function of randwalk 15364 from 16579
+in visit function of randwalk 2692 from 10
+in visit function of randwalk 4612 from 10
+in visit function of randwalk 4216 from 33
+in visit function of randwalk 16385 from 6402
+in visit function of randwalk 10 from 4549
+in visit function of randwalk 11282 from 22049
+in visit function of randwalk 18448 from 10273
+in visit function of randwalk 64 from 10
+in visit function of randwalk 28800 from 10
+in visit function of randwalk 192 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 18433 from 16994
+in visit function of randwalk 4097 from 25280
+in visit function of randwalk 2 from 717
+in visit function of randwalk 25601 from 4097
+in visit function of randwalk 4 from 12549
+in visit function of randwalk 164 from 20480
+in visit function of randwalk 297 from 566
+in visit function of randwalk 64 from 10
+in visit function of randwalk 10368 from 10
+in visit function of randwalk 0 from 1556
+in visit function of randwalk 64 from 2460
+in visit function of randwalk 16924 from 19821
+in visit function of randwalk 31500 from 8193
+in visit function of randwalk 64 from 16528
+in visit function of randwalk 4609 from 1136
+in visit function of randwalk 64 from 65
+in visit function of randwalk 18448 from 8236
+in visit function of randwalk 23936 from 26642
+in visit function of randwalk 0 from 1168
+in visit function of randwalk 10561 from 12704
+in visit function of randwalk 29571 from 18176
+in visit function of randwalk 21607 from 10561
+in visit function of randwalk 4232 from 21607
+in visit function of randwalk 8256 from 10390
+in visit function of randwalk 8328 from 10
+in visit function of randwalk 16392 from 10
+in visit function of randwalk 0 from 10
+in visit function of randwalk 10 from 20900
+in visit function of randwalk 264 from 10
+in visit function of randwalk 16392 from 9617
+in visit function of randwalk 8268 from 1556
+in visit function of randwalk 28892 from 0
+in visit function of randwalk 16564 from 10
+in visit function of randwalk 2164 from 10
+in visit function of randwalk 1088 from 28800
+in visit function of randwalk 4240 from 1339
+in visit function of randwalk 28680 from 10
+in visit function of randwalk 1320 from 10
+in visit function of randwalk 8520 from 10
+in visit function of randwalk 1121 from 18696
+in visit function of randwalk 11 from 2164
+in visit function of randwalk 28108 from 4140
+in visit function of randwalk 29240 from 16708
+in visit function of randwalk 16512 from 22026
+in visit function of randwalk 0 from 4177
+in visit function of randwalk 264 from 10273
+in visit function of randwalk 552 from 3009
+in visit function of randwalk 64 from 524
+in visit function of randwalk 0 from 20995
+in visit function of randwalk 80 from 1320
+in visit function of randwalk 64 from 24848
+in visit function of randwalk 9617 from 16390
+in visit function of randwalk 64 from 16390
+in visit function of randwalk 16900 from 23936
+in visit function of randwalk 256 from 16772
+in visit function of randwalk 696 from 15364
+in visit function of randwalk 12576 from 4642
+in visit function of randwalk 1056 from 4190
+in visit function of randwalk 6208 from 531
+in visit function of randwalk 64 from 2181
+in visit function of randwalk 8192 from 696
+in visit function of randwalk 6144 from 12545
+in visit function of randwalk 64 from 18561
+in visit function of randwalk 3009 from 6144
+in visit function of randwalk 2304 from 11777
+in visit function of randwalk 64 from 564
+in visit function of randwalk 2048 from 0
+in visit function of randwalk 6144 from 4549
+in visit function of randwalk 16512 from 68
+in visit function of randwalk 64 from 16385
+in visit function of randwalk 1536 from 10
+in visit function of randwalk 8208 from 1121
+in visit function of randwalk 2112 from 10
+in visit function of randwalk 64 from 11282
+in visit function of randwalk 8448 from 10
+in visit function of randwalk 26642 from 8208
+in visit function of randwalk 25152 from 10
+in visit function of randwalk 19008 from 10
+in visit function of randwalk 64 from 8193
+in visit function of randwalk 10273 from 0
+in visit function of randwalk 64 from 10258
+in visit function of randwalk 4140 from 10416
+in visit function of randwalk 64 from 164
+in visit function of randwalk 292 from 912
+in visit function of randwalk 64 from 32
+in visit function of randwalk 4140 from 28108
+in visit function of randwalk 10416 from 10
+in visit function of randwalk 912 from 10
+in visit function of randwalk 24591 from 1553
+in visit function of randwalk 64 from 8268
+in visit function of randwalk 1553 from 4140
+in visit function of randwalk 8208 from 484
+in visit function of randwalk 18576 from 10
+in visit function of randwalk 0 from 28892
+in visit function of randwalk 19440 from 10
+in visit function of randwalk 10 from 19440
+in visit function of randwalk 1025 from 25152
+in visit function of randwalk 21120 from 264
+in visit function of randwalk 640 from 25601
+in visit function of randwalk 64 from 320
+in visit function of randwalk 64 from 11
+in visit function of randwalk 64 from 16924
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 16900
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 32
+in visit function of randwalk 64 from 8768
+in visit function of randwalk 64 from 19008
+in visit function of randwalk 64 from 1088
+in visit function of randwalk 64 from 8208
+in visit function of randwalk 64 from 1025
+in visit function of randwalk 64 from 292
+in visit function of randwalk 64 from 64
+in visit function of randwalk 5248 from 8520
+in visit function of randwalk 64 from 8192
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 21120
+in visit function of randwalk 64 from 80
+in visit function of randwalk 64 from 2048
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 552
+in visit function of randwalk 64 from 28680
+in visit function of randwalk 64 from 16392
+in visit function of randwalk 64 from 5248
+in visit function of randwalk 64 from 264
+in visit function of randwalk 64 from 16392
+in visit function of randwalk 64 from 8328
+in visit function of randwalk 64 from 8448
+in visit function of randwalk 64 from 2112
+in visit function of randwalk 64 from 1536
+in visit function of randwalk 64 from 16512
+in visit function of randwalk 64 from 2304
+in visit function of randwalk 4768 from 64
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 6144
+in visit function of randwalk 64 from 1056
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 12576
+in visit function of randwalk 64 from 0
+in visit function of randwalk 64 from 16512
+in visit function of randwalk 64 from 0
+in visit function of randwalk 64 from 8256
+in visit function of randwalk 64 from 4768
+in visit function of randwalk 64 from 0
+in visit function of randwalk 64 from 0
+in visit function of randwalk 64 from 10368
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 192
+in visit function of randwalk 64 from 17411
+in visit function of randwalk 64 from 522
+in visit function of randwalk 64 from 4
+in visit function of randwalk 64 from 4612
+in visit function of randwalk 256 from 2692
+in visit function of randwalk 64 from 16516
+in visit function of randwalk 64 from 4
+in visit function of randwalk 64 from 4240
+in visit function of randwalk 64 from 4232
+in visit function of randwalk 16384 from 64
+in visit function of randwalk 64 from 4609
+in visit function of randwalk 64 from 18448
+in visit function of randwalk 64 from 2
+in visit function of randwalk 64 from 18433
+in visit function of randwalk 64 from 297
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 194
+in visit function of randwalk 64 from 16384
+in visit function of randwalk 64 from 6146
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 2306
+in visit function of randwalk 64 from 2
+in visit function of randwalk 64 from 18448
+in visit function of randwalk 64 from 12289
+in visit function of randwalk 64 from 1
+in visit function of randwalk 8704 from 978
+in visit function of randwalk 64 from 1160
+in visit function of randwalk 64 from 8457
+in visit function of randwalk 17920 from 9324
+in visit function of randwalk 64 from 6208
+in visit function of randwalk 64 from 17024
+in visit function of randwalk 64 from 2048
+in visit function of randwalk 64 from 16448
+in visit function of randwalk 64 from 28736
+in visit function of randwalk 64 from 8192
+in visit function of randwalk 29056 from 20576
+in visit function of randwalk 64 from 4160
+in visit function of randwalk 64 from 4736
+in visit function of randwalk 64 from 17920
+in visit function of randwalk 64 from 17408
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 256
+in visit function of randwalk 64 from 24836
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 2187
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 8713
+in visit function of randwalk 64 from 1049
+in visit function of randwalk 64 from 36
+in visit function of randwalk 64 from 6274
+in visit function of randwalk 64 from 517
+in visit function of randwalk 64 from 37
+in visit function of randwalk 2080 from 9857
+in visit function of randwalk 64 from 16404
+in visit function of randwalk 64 from 84
+in visit function of randwalk 64 from 8289
+in visit function of randwalk 64 from 33
+in visit function of randwalk 64 from 24609
+in visit function of randwalk 64 from 129
+in visit function of randwalk 64 from 5122
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 8196
+in visit function of randwalk 64 from 2080
+in visit function of randwalk 640 from 30468
+in visit function of randwalk 64 from 68
+in visit function of randwalk 64 from 1028
+in visit function of randwalk 4384 from 26660
+in visit function of randwalk 64 from 260
+in visit function of randwalk 64 from 13316
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 16390
+in visit function of randwalk 64 from 904
+in visit function of randwalk 12544 from 7553
+in visit function of randwalk 64 from 16720
+in visit function of randwalk 64 from 784
+in visit function of randwalk 64 from 12304
+in visit function of randwalk 64 from 4384
+in visit function of randwalk 64 from 6150
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 4384 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 4384
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 15040 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 16576 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 16576
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 1024 from 64
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 1024
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 19552 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 256 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 256
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 24832 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 24832 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 24832
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 9472 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 9472
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 18688 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 8704 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 18688
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 8704
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 256 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 16960 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 256
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 16960
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 1024 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 1024
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 64 from 10
+in visit function of randwalk 16392 from 64
+in visit function of randwalk 16896 from 64
+in visit function of randwalk 3016 from 28770
+in visit function of randwalk 24712 from 64
+in visit function of randwalk 520 from 64
+in visit function of randwalk 17576 from 64
+in visit function of randwalk 4112 from 64
+in visit function of randwalk 2106 from 64
+in visit function of randwalk 0 from 64
+in visit function of randwalk 3 from 3016
+in visit function of randwalk 528 from 19552
+in visit function of randwalk 816 from 64
+in visit function of randwalk 17688 from 64
+in visit function of randwalk 7128 from 64
+in visit function of randwalk 4626 from 64
+in visit function of randwalk 300 from 520
+in visit function of randwalk 11251 from 5128
+in visit function of randwalk 3333 from 64
+in visit function of randwalk 933 from 64
+in visit function of randwalk 16640 from 64
+in visit function of randwalk 8192 from 64
+in visit function of randwalk 16472 from 64
+in visit function of randwalk 152 from 64
+in visit function of randwalk 5128 from 64
+in visit function of randwalk 64 from 3333
+in visit function of randwalk 64 from 933
+in visit function of randwalk 20493 from 64
+in visit function of randwalk 24641 from 16392
+in visit function of randwalk 3392 from 64
+in visit function of randwalk 5312 from 64
+in visit function of randwalk 5120 from 64
+in visit function of randwalk 19458 from 64
+in visit function of randwalk 26658 from 8704
+in visit function of randwalk 1410 from 64
+in visit function of randwalk 23874 from 64
+in visit function of randwalk 8322 from 64
+in visit function of randwalk 8322 from 64
+in visit function of randwalk 4098 from 8322
+in visit function of randwalk 2049 from 300
+in visit function of randwalk 64 from 528
+in visit function of randwalk 3786 from 64
+in visit function of randwalk 3594 from 64
+in visit function of randwalk 64 from 816
+in visit function of randwalk 21536 from 64
+in visit function of randwalk 32 from 64
+in visit function of randwalk 4752 from 4929
+in visit function of randwalk 17120 from 64
+in visit function of randwalk 7296 from 64
+in visit function of randwalk 8736 from 64
+in visit function of randwalk 64 from 152
+in visit function of randwalk 4929 from 17120
+in visit function of randwalk 18048 from 64
+in visit function of randwalk 384 from 24641
+in visit function of randwalk 10277 from 26658
+in visit function of randwalk 64 from 23874
+in visit function of randwalk 5128 from 11251
+in visit function of randwalk 98 from 3081
+in visit function of randwalk 2578 from 7296
+in visit function of randwalk 64 from 4098
+in visit function of randwalk 3081 from 2578
+in visit function of randwalk 64 from 17576
+in visit function of randwalk 2066 from 4752
+in visit function of randwalk 64 from 7128
+in visit function of randwalk 28771 from 384
+in visit function of randwalk 272 from 8736
+in visit function of randwalk 924 from 28771
+in visit function of randwalk 64 from 4112
+in visit function of randwalk 1030 from 924
+in visit function of randwalk 64 from 2106
+in visit function of randwalk 64 from 4626
+in visit function of randwalk 64 from 3594
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 2066
+in visit function of randwalk 64 from 2049
+in visit function of randwalk 64 from 32
+in visit function of randwalk 64 from 10277
+in visit function of randwalk 64 from 272
+in visit function of randwalk 64 from 5128
+in visit function of randwalk 64 from 98
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 18048
+in visit function of randwalk 64 from 0
+in visit function of randwalk 64 from 16896
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 21536
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 5120
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 5312
+in visit function of randwalk 64 from 3392
+in visit function of randwalk 64 from 8192
+in visit function of randwalk 64 from 1030
+in visit function of randwalk 64 from 16640
+in visit function of randwalk 64 from 3786
+in visit function of randwalk 64 from 3
+in visit function of randwalk 64 from 17688
+in visit function of randwalk 64 from 20493
+in visit function of randwalk 64 from 24712
+in visit function of randwalk 64 from 1410
+in visit function of randwalk 64 from 8322
+in visit function of randwalk 64 from 19458
+in visit function of randwalk 64 from 16472
+in visit function of randwalk 64 from 64
+in visit function of randwalk 362 from 64
+in visit function of randwalk 16768 from 64
+in visit function of randwalk 64 from 16768
+in visit function of randwalk 10540 from 64
+in visit function of randwalk 9196 from 64
+in visit function of randwalk 260 from 64
+in visit function of randwalk 1092 from 64
+in visit function of randwalk 516 from 64
+in visit function of randwalk 1552 from 18576
+in visit function of randwalk 16 from 64
+in visit function of randwalk 5756 from 64
+in visit function of randwalk 8978 from 256
+in visit function of randwalk 2305 from 64
+in visit function of randwalk 10561 from 64
+in visit function of randwalk 1 from 64
+in visit function of randwalk 649 from 64
+in visit function of randwalk 6484 from 64
+in visit function of randwalk 148 from 64
+in visit function of randwalk 4660 from 64
+in visit function of randwalk 22804 from 64
+in visit function of randwalk 9106 from 12544
+in visit function of randwalk 8338 from 64
+in visit function of randwalk 4690 from 9196
+in visit function of randwalk 386 from 64
+in visit function of randwalk 5282 from 64
+in visit function of randwalk 4 from 64
+in visit function of randwalk 22276 from 64
+in visit function of randwalk 3460 from 64
+in visit function of randwalk 4132 from 64
+in visit function of randwalk 13524 from 64
+in visit function of randwalk 1332 from 64
+in visit function of randwalk 8228 from 15040
+in visit function of randwalk 2756 from 64
+in visit function of randwalk 12812 from 64
+in visit function of randwalk 5132 from 64
+in visit function of randwalk 24586 from 64
+in visit function of randwalk 281 from 6484
+in visit function of randwalk 20496 from 8978
+in visit function of randwalk 17792 from 10540
+in visit function of randwalk 18828 from 64
+in visit function of randwalk 3084 from 64
+in visit function of randwalk 1236 from 8323
+in visit function of randwalk 49 from 29056
+in visit function of randwalk 145 from 64
+in visit function of randwalk 625 from 64
+in visit function of randwalk 17794 from 640
+in visit function of randwalk 205 from 64
+in visit function of randwalk 17722 from 64
+in visit function of randwalk 12803 from 362
+in visit function of randwalk 24592 from 64
+in visit function of randwalk 64 from 20496
+in visit function of randwalk 10404 from 64
+in visit function of randwalk 516 from 64
+in visit function of randwalk 13956 from 64
+in visit function of randwalk 900 from 16916
+in visit function of randwalk 401 from 7174
+in visit function of randwalk 16386 from 281
+in visit function of randwalk 20581 from 64
+in visit function of randwalk 21061 from 10404
+in visit function of randwalk 16916 from 640
+in visit function of randwalk 64 from 8228
+in visit function of randwalk 1280 from 12803
+in visit function of randwalk 6272 from 4690
+in visit function of randwalk 8323 from 516
+in visit function of randwalk 1281 from 21061
+in visit function of randwalk 16 from 17794
+in visit function of randwalk 7174 from 8338
+in visit function of randwalk 16776 from 4660
+in visit function of randwalk 21672 from 625
+in visit function of randwalk 64 from 260
+in visit function of randwalk 64 from 148
+in visit function of randwalk 16 from 1236
+in visit function of randwalk 64 from 22804
+in visit function of randwalk 1568 from 16776
+in visit function of randwalk 64 from 17722
+in visit function of randwalk 64 from 145
+in visit function of randwalk 64 from 16386
+in visit function of randwalk 64 from 5132
+in visit function of randwalk 64 from 5756
+in visit function of randwalk 2178 from 21672
+in visit function of randwalk 64 from 16
+in visit function of randwalk 64 from 3084
+in visit function of randwalk 64 from 516
+in visit function of randwalk 64 from 900
+in visit function of randwalk 256 from 9106
+in visit function of randwalk 16972 from 16
+in visit function of randwalk 64 from 401
+in visit function of randwalk 1028 from 16972
+in visit function of randwalk 64 from 2178
+in visit function of randwalk 64 from 1
+in visit function of randwalk 64 from 1281
+in visit function of randwalk 64 from 256
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 16
+in visit function of randwalk 64 from 1568
+in visit function of randwalk 64 from 1028
+in visit function of randwalk 64 from 10561
+in visit function of randwalk 64 from 2305
+in visit function of randwalk 64 from 4132
+in visit function of randwalk 64 from 3460
+in visit function of randwalk 64 from 22276
+in visit function of randwalk 64 from 4
+in visit function of randwalk 64 from 24586
+in visit function of randwalk 64 from 205
+in visit function of randwalk 64 from 649
+in visit function of randwalk 64 from 1332
+in visit function of randwalk 64 from 13524
+in visit function of randwalk 64 from 6272
+in visit function of randwalk 64 from 1280
+in visit function of randwalk 64 from 1092
+in visit function of randwalk 64 from 13956
+in visit function of randwalk 64 from 17792
+in visit function of randwalk 64 from 20581
+in visit function of randwalk 64 from 18828
+in visit function of randwalk 64 from 24592
+in visit function of randwalk 64 from 5282
+in visit function of randwalk 64 from 1552
+in visit function of randwalk 64 from 386
+in visit function of randwalk 64 from 12812
+in visit function of randwalk 64 from 2756
+in visit function of randwalk 64 from 49
+in visit function of randwalk 2134 from 64
+in visit function of randwalk 17 from 64
+in visit function of randwalk 655 from 24832
+in visit function of randwalk 4097 from 64
+in visit function of randwalk 16930 from 4097
+in visit function of randwalk 454 from 64
+in visit function of randwalk 17417 from 64
+in visit function of randwalk 92 from 2134
+in visit function of randwalk 8216 from 92
+in visit function of randwalk 16930 from 9310
+in visit function of randwalk 9310 from 16930
+in visit function of randwalk 64 from 454
+in visit function of randwalk 641 from 64
+in visit function of randwalk 20513 from 64
+in visit function of randwalk 16665 from 17
+in visit function of randwalk 64 from 64
+in visit function of randwalk 6401 from 16665
+in visit function of randwalk 64 from 8216
+in visit function of randwalk 64 from 641
+in visit function of randwalk 64 from 20513
+in visit function of randwalk 64 from 17417
+in visit function of randwalk 64 from 16930
+in visit function of randwalk 64 from 6401
+in visit function of randwalk 64 from 64
+in visit function of randwalk 88 from 64
+in visit function of randwalk 64 from 88
+in visit function of randwalk 1 from 7242
+in visit function of randwalk 16403 from 64
+in visit function of randwalk 64 from 24707
+in visit function of randwalk 24707 from 64
+in visit function of randwalk 19139 from 64
+in visit function of randwalk 18436 from 1
+in visit function of randwalk 64 from 19139
+in visit function of randwalk 6279 from 64
+in visit function of randwalk 7242 from 16403
+in visit function of randwalk 64 from 6279
+in visit function of randwalk 64 from 18436
+in visit function of randwalk 8227 from 64
+in visit function of randwalk 307 from 64
+in visit function of randwalk 64 from 8227
+in visit function of randwalk 4166 from 64
+in visit function of randwalk 12384 from 64
+in visit function of randwalk 2324 from 12384
+in visit function of randwalk 64 from 307
+in visit function of randwalk 64 from 4166
+in visit function of randwalk 64 from 64
+in visit function of randwalk 64 from 2324
+in visit function of randwalk 25218 from 64
+in visit function of randwalk 2307 from 64
+in visit function of randwalk 64 from 25218
+in visit function of randwalk 4513 from 64
+in visit function of randwalk 64 from 2307
+in visit function of randwalk 64 from 4513
+in visit function of randwalk 64 from 64
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+Level 0: 1
+Level 1: 2855
+Level 2: 20588
+Level 3: 1590
+Level 4: 11
+Vertex 32 is visted 3
+Vertex 2048 is visted 3
+Vertex 8192 is visted 4
+Visited total = 25045
+BFS Time = 0.0799401
+Count BFS = 1
+AVERAGE BFS = 0.0799401
+Vertex 0 is visted 8
+Vertex 16392 is visted 3
+Vertex 1 is visted 4
+Vertex 4 is visted 3
+Vertex 64 is visted 997
+Vertex 256 is visted 5
+Vertex 516 is visted 3
+Vertex 10 is visted 805
+Vertex 16 is visted 3
+Vertex 16390 is visted 3

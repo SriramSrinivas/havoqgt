@@ -1,0 +1,139 @@
+catalyst64.112609Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+catalyst61.75886Driver initialization failure on /dev/ipath (err=23)
+catalyst61.75893Driver initialization failure on /dev/ipath (err=23)
+catalyst61.75872Driver initialization failure on /dev/ipath (err=23)
+catalyst61.75878Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst61.75895Driver initialization failure on /dev/ipath (err=23)
+catalyst61.75875Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst61.75890Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst61.75882Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+catalyst61.75887Driver initialization failure on /dev/ipath (err=23)
+catalyst61.75892Driver initialization failure on /dev/ipath (err=23)
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst61.75880Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst61.75874Driver initialization failure on /dev/ipath (err=23)
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+catalyst61.75888Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+catalyst61.75891Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst61.75894Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst61.75876Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+catalyst61.75881Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+catalyst61.75889Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+catalyst61.75873Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+catalyst61.75884Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 1 of 10 in 10 seconds
+catalyst61.75886Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst61.75893Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst61.75874Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst61.75876Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst61.75880Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst61.75882Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst61.75887Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst61.75881Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst61.75888Driver initialization failure on /dev/ipath (err=23)
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst61.75889Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst61.75891Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst61.75895Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst61.75892Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst61.75872Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst61.75875Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 2 of 10 in 10 seconds
+catalyst61.75888Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+catalyst61.75891Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 3 of 10 in 10 seconds
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 3 of 10 in 10 seconds
+catalyst61.75889Driver initialization failure on /dev/ipath (err=23)
+[][mv2_psm_err_handler] PSM error handler: Failure in initializing endpoint : Driver initialization failure on /dev/ipath
+[][psm_doinit] MV2_WARNING: Failed to open an end-point: Failure in initializing endpoint, retry attempt 3 of 10 in 10 seconds
+MPI initialized with 1536 ranks.
+HAVOQGT_MAILBOX_NUM_IRECV         = 8
+HAVOQGT_MAILBOX_NUM_ISEND         = 8
+HAVOQGT_MAILBOX_AGGREGATION       = 1024
+HAVOQGT_MAILBOX_TREE_AGGREGATION  = 64
+HAVOQGT_MAILBOX_PRINT_STATS       = 0
+CMD line: /g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/./src/run_randwalk -i /dev/shm/graph -b /p/lscratchf/havoqgtu/WebDataCommons/2012/ingested_undirected/N64/graph -s 6462711 -d 1401303791
+Transfer time = 919.672
+srun: error: catalyst65: tasks 576-599: Bus error (core dumped)
+srun: error: catalyst209: tasks 1008-1031: Bus error (core dumped)
+srun: error: catalyst64: tasks 552-575: Bus error (core dumped)
+srun: error: catalyst50: tasks 384-407: Bus error (core dumped)
+srun: error: catalyst51: tasks 408-431: Bus error (core dumped)
+srun: error: catalyst54: tasks 480-503: Bus error (core dumped)
+srun: error: catalyst245: tasks 1272-1295: Bus error (core dumped)
+srun: error: catalyst53: tasks 456-479: Bus error (core dumped)
+srun: error: catalyst208: tasks 984-1007: Bus error (core dumped)
+srun: error: catalyst207: tasks 960-983: Bus error (core dumped)
+srun: error: catalyst270: tasks 1464-1487: Bus error (core dumped)
+srun: error: catalyst82: tasks 792-815: Bus error (core dumped)
+srun: error: catalyst80: tasks 744-767: Bus error (core dumped)
+srun: error: catalyst61: tasks 504-527: Bus error (core dumped)

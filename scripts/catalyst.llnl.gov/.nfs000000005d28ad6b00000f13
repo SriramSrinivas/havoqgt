@@ -1,0 +1,5 @@
+#!/bin/bash
+
+line=$(grep -m 1 "visted" quartz_out3 -n | cut -f1 -d:)
+tail -n +$line > cutted_out
+sort -k4,4 -n cutted_out 

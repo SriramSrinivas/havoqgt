@@ -74,33 +74,10 @@ public:
     : vertex(_vertex)
     , from(_vertex) {}
   //  , meta_data(0) { }
-
-  template<typename AlgData>
-  bool pre_visit(AlgData& alg_data) const {
-      return true;
-  }
-  
-  template<typename VisitorQueueHandle, typename AlgData>
-  bool init_visit(Graph& g, VisitorQueueHandle vis_queue, AlgData& alg_data) const {
-      	    for(auto eitr = g.edges_begin(vertex); eitr != g.edges_end(vertex); ++eitr) {
-		if( eitr.source() == vertex) {
-		copy_neigh_level_visitor new_visitor(eitr.target(), vertex, std::get<0>(alg_data)[vertex] );
-		vis_queue->queue_visitor(new_visitor); 
-                //std::cout<<" in visit "<< vertex.local_id() << " " << eitr.target().local_id() <<std::endl;
-                }
-	    }
  
-	    std::get<3>(alg_data)[vertex].push_back(g.locator_to_label(vertex));
-	  return true;
-  }
-
-  template<typename VisitorQueueHandle, typename AlgData>
-  bool visit(Graph& g, VisitorQueueHandle vis_queue, AlgData& alg_data) const {
-      //for(auto eitr = g.edges_begin(vertex); eitr != g.edges_end(vertex); ++eitr) {
-        //auto neighbor = eitr.target(); 
-	//if( g.locator_to_label(neighbor) == g.locator_to_label(from) ) 
-	//  std::cout << "locater "<<from.local_id() << " " <<vertex.local_id() << " " <<meta_data << " "<< std::get<0>(alg_data)[vertex]<<" " << std::get<0>(alg_data)[from]<<std::endl;
-        //if( g.locator_to_label(from) == g.locator_to_label(neighbor)) {
+/*
+  template<typename AlgData>
+  inline void insert(Graph& g, AlgData& alg_data){
 		if (meta_data<std::get<0>(alg_data)[vertex])
 			std::get<1>(alg_data)[vertex].push_back(g.locator_to_label(from));
 		else
@@ -108,9 +85,56 @@ public:
 			std::get<2>(alg_data)[vertex].push_back(g.locator_to_label(from));
 		   else
 			std::get<3>(alg_data)[vertex].push_back(g.locator_to_label(from));
-	//	std::cout<<"in visit of copy_edge "<<g.locator_to_label(vertex)<<std::endl;
-	//}
-     // }
+
+  }
+*/
+  template<typename AlgData>
+  void insert(AlgData& alg_data) const{
+		if (meta_data<std::get<0>(alg_data)[vertex])
+			std::get<1>(alg_data)[vertex].push_back(from);
+		else
+		   if(meta_data>std::get<0>(alg_data)[vertex])
+			std::get<2>(alg_data)[vertex].push_back(from);
+		   else
+			std::get<3>(alg_data)[vertex].push_back(from);
+
+  }
+
+  template<typename AlgData>
+  bool pre_visit( AlgData& alg_data) const {
+    if(vertex.is_delegate()) {
+      if(vertex.is_delegate_master()) {
+         // INSERT INTO LISTS
+          insert(alg_data);
+          return false;
+         }
+          return true;
+    }   
+         // means 'low degree'
+         //INSERT INTO LISTS
+         insert(alg_data);
+         return false;
+  }
+  
+  template<typename VisitorQueueHandle, typename AlgData>
+  bool init_visit(Graph& g, VisitorQueueHandle vis_queue, AlgData& alg_data) const {
+      	    for(auto eitr = g.edges_begin(vertex); eitr != g.edges_end(vertex); ++eitr) {
+		copy_neigh_level_visitor new_visitor(eitr.target(), vertex, std::get<0>(alg_data)[vertex] );
+		vis_queue->queue_visitor(new_visitor); 
+                //std::cout<<" in visit "<< vertex.local_id() << " " << eitr.target().local_id() <<std::endl;
+	    }
+ 
+	    std::get<3>(alg_data)[vertex].push_back(vertex);
+	  return true;
+  }
+
+  template<typename VisitorQueueHandle, typename AlgData>
+  bool visit(Graph& g, VisitorQueueHandle vis_queue, AlgData& alg_data) const {
+      	    for(auto eitr = g.edges_begin(vertex); eitr != g.edges_end(vertex); ++eitr) {
+		copy_neigh_level_visitor new_visitor(eitr.target(), vertex, std::get<0>(alg_data)[vertex] );
+		vis_queue->queue_visitor(new_visitor); 
+                //std::cout<<" in visit "<< vertex.local_id() << " " << eitr.target().local_id() <<std::endl;
+	    }
       return true;
   }
 
