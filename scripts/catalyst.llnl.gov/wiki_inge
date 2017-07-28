@@ -1,0 +1,595 @@
+MPI initialized with 96 ranks.
+HAVOQGT_MAILBOX_NUM_IRECV         = 8
+HAVOQGT_MAILBOX_NUM_ISEND         = 8
+HAVOQGT_MAILBOX_AGGREGATION       = 1024
+HAVOQGT_MAILBOX_TREE_AGGREGATION  = 64
+HAVOQGT_MAILBOX_PRINT_STATS       = 0
+CMD line: /g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/./src/ingest_edge_list -o /dev/shm/wiki -b /p/lscratchh/zhang50/wikipedia/wiki_ingest -u 1 /p/lscratchh/zhang50/wikipedia/wikipedia/4_edge_list_0_of_1 /p/lscratchh/zhang50/wikipedia/wikipedia/4_edge_list_0_of_11 /p/lscratchh/zhang50/wikipedia/wikipedia/4_edge_list_10_of_11 /p/lscratchh/zhang50/wikipedia/wikipedia/4_edge_list_1_of_11 /p/lscratchh/zhang50/wikipedia/wikipedia/4_edge_list_2_of_11 /p/lscratchh/zhang50/wikipedia/wikipedia/4_edge_list_3_of_11 /p/lscratchh/zhang50/wikipedia/wikipedia/4_edge_list_4_of_11 /p/lscratchh/zhang50/wikipedia/wikipedia/4_edge_list_5_of_11 /p/lscratchh/zhang50/wikipedia/wikipedia/4_edge_list_6_of_11 /p/lscratchh/zhang50/wikipedia/wikipedia/4_edge_list_7_of_11 /p/lscratchh/zhang50/wikipedia/wikipedia/4_edge_list_8_of_11 /p/lscratchh/zhang50/wikipedia/wikipedia/4_edge_list_9_of_11
+Ingesting graph from 12 files.
+Ingesting from 12 files.
+Generating new graph.
+Starting:  Delegate Partitioning
+	[0] Dirty Pages: 0kb.
+Starting:  Allocating 4 Arrays of length max local vertex.
+	[0] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[24] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -26706186
+	MB Written: -1
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -26706186
+	MB Written: -1
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -26706186
+	MB Written: -1
+	[24] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+Finished: Allocating 4 Arrays of length max local vertex. in 0.00475335 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -26706186
+	MB Written: -1
+Starting:  count_edge_degree
+	[0] Dirty Pages: 0kb.
+	[Total Loops: 0, Total Edges: 0] Time 0.000837088 second,  Total Time 0.000837088 second, Dirty Pages: 0kb.
+	[Total Loops: 1000, Total Edges: 0] Time 5.18273 second,  Total Time 5.18357 second, Dirty Pages: 0kb.
+	[Total Loops: 2000, Total Edges: 0] Time 5.19971 second,  Total Time 10.3833 second, Dirty Pages: 0kb.
+	[Total Loops: 3000, Total Edges: 0] Time 5.21997 second,  Total Time 15.6033 second, Dirty Pages: 0kb.
+	[Total Loops: 4000, Total Edges: 0] Time 5.20065 second,  Total Time 20.8039 second, Dirty Pages: 0kb.
+	[Total Loops: 5000, Total Edges: 0] Time 5.18594 second,  Total Time 25.9898 second, Dirty Pages: 0kb.
+	[Total Loops: 6000, Total Edges: 0] Time 5.13721 second,  Total Time 31.1271 second, Dirty Pages: 0kb.
+	[Total Loops: 7000, Total Edges: 0] Time 5.11651 second,  Total Time 36.2436 second, Dirty Pages: 0kb.
+	[Total Loops: 8000, Total Edges: 0] Time 5.01849 second,  Total Time 41.2621 second, Dirty Pages: 0kb.
+	[Total Loops: 9000, Total Edges: 0] Time 5.01396 second,  Total Time 46.276 second, Dirty Pages: 0kb.
+	[Total Loops: 10000, Total Edges: 0] Time 5.00002 second,  Total Time 51.276 second, Dirty Pages: 0kb.
+	[Total Loops: 11000, Total Edges: 0] Time 4.9998 second,  Total Time 56.2758 second, Dirty Pages: 0kb.
+	[Total Loops: 12000, Total Edges: 0] Time 4.99918 second,  Total Time 61.275 second, Dirty Pages: 0kb.
+	[Total Loops: 13000, Total Edges: 0] Time 5.00074 second,  Total Time 66.2758 second, Dirty Pages: 0kb.
+	[Total Loops: 14000, Total Edges: 0] Time 5.00318 second,  Total Time 71.2789 second, Dirty Pages: 0kb.
+	[Total Loops: 15000, Total Edges: 0] Time 4.99882 second,  Total Time 76.2778 second, Dirty Pages: 0kb.
+	[Total Loops: 15007, Total Edges: 0] Time 0.0306232 second,  Total Time 76.3084 second, Dirty Pages: 0kb.
+	Number of Delegates: 7
+Finished: count_edge_degree in 76.3098 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[24] Dirty Pages: 0kb.
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[72] Dirty Pages: 0kb.
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[48] Dirty Pages: 0kb.
+Starting:  initialize_low_meta_data
+	[0] Dirty Pages: 0kb.
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -8809157
+	MB Written: -1
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -18334377
+	MB Written: -1
+Finished: initialize_low_meta_data in 0.00434184 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[24] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+Starting:  initialize_high_meta_data
+	[0] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	 Setup and Compute Hub information: 0/24.
+	 Setup and Compute Hub information: 1/24.
+	 Setup and Compute Hub information: 2/24.
+	 Setup and Compute Hub information: 3/24.
+	 Setup and Compute Hub information: 4/24.
+	 Setup and Compute Hub information: 5/24.
+	 Setup and Compute Hub information: 6/24.
+	 Setup and Compute Hub information: 7/24.
+	 Setup and Compute Hub information: 8/24.
+	 Setup and Compute Hub information: 9/24.
+	 Setup and Compute Hub information: 10/24.
+	 Setup and Compute Hub information: 11/24.
+	 Setup and Compute Hub information: 12/24.
+	 Setup and Compute Hub information: 13/24.
+	 Setup and Compute Hub information: 14/24.
+	 Setup and Compute Hub information: 15/24.
+	 Setup and Compute Hub information: 16/24.
+	 Setup and Compute Hub information: 17/24.
+	 Setup and Compute Hub information: 18/24.
+	 Setup and Compute Hub information: 19/24.
+	 Setup and Compute Hub information: 20/24.
+	 Setup and Compute Hub information: 21/24.
+	 Setup and Compute Hub information: 22/24.
+	 Setup and Compute Hub information: 23/24.
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -18334377
+	MB Written: -1
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -8809157
+	MB Written: -1
+	[24] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+Finished: initialize_high_meta_data in 0.000820875 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -1
+	MB Written: -1
+Starting:  count_high_degree_edges
+	[0] Dirty Pages: 0kb.
+	[CH][Total Loops: 0, Total Edges: 0] Time 2.38419e-05 second,  Total Time 2.38419e-05 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 1000, Total Edges: 0] Time 4.08821 second,  Total Time 4.08823 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 2000, Total Edges: 0] Time 4.1128 second,  Total Time 8.20103 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 3000, Total Edges: 0] Time 4.08485 second,  Total Time 12.2859 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 4000, Total Edges: 0] Time 4.08406 second,  Total Time 16.3699 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 5000, Total Edges: 0] Time 4.08584 second,  Total Time 20.4558 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 6000, Total Edges: 0] Time 4.15085 second,  Total Time 24.6066 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 7000, Total Edges: 0] Time 4.12414 second,  Total Time 28.7308 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 8000, Total Edges: 0] Time 4.07621 second,  Total Time 32.807 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 9000, Total Edges: 0] Time 4.07128 second,  Total Time 36.8783 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 10000, Total Edges: 0] Time 4.06492 second,  Total Time 40.9432 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 11000, Total Edges: 0] Time 4.09186 second,  Total Time 45.035 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 12000, Total Edges: 0] Time 4.09636 second,  Total Time 49.1314 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 13000, Total Edges: 0] Time 4.09229 second,  Total Time 53.2237 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 14000, Total Edges: 0] Time 4.09082 second,  Total Time 57.3145 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 15000, Total Edges: 0] Time 4.08817 second,  Total Time 61.4027 second, Dirty Pages: 0kb.
+	[CH][Total Loops: 15006, Total Edges: 0] Time 0.0240703 second,  Total Time 61.4268 second, Dirty Pages: 0kb.
+Finished: count_high_degree_edges in 61.4269 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: -467
+	MB Written: -1
+	[24] Dirty Pages: 0kb.
+Starting:  calculate_overflow
+	[0] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+Finished: calculate_overflow in 0.00180364 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16911
+	MB Written: -32768
+	[24] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+Starting:  initialize_edge_storage
+	[0] Dirty Pages: 0kb.
+	Resizing m_owned_targets and m_delegate_targets: 0/24.
+	[48] Dirty Pages: 0kb.
+	Resizing m_owned_targets and m_delegate_targets: 1/24.
+	Resizing m_owned_targets and m_delegate_targets: 2/24.
+	Resizing m_owned_targets and m_delegate_targets: 3/24.
+	Resizing m_owned_targets and m_delegate_targets: 4/24.
+	Resizing m_owned_targets and m_delegate_targets: 5/24.
+	Resizing m_owned_targets and m_delegate_targets: 6/24.
+	Resizing m_owned_targets and m_delegate_targets: 7/24.
+	Resizing m_owned_targets and m_delegate_targets: 8/24.
+	Resizing m_owned_targets and m_delegate_targets: 9/24.
+	Resizing m_owned_targets and m_delegate_targets: 10/24.
+	Resizing m_owned_targets and m_delegate_targets: 11/24.
+	Resizing m_owned_targets and m_delegate_targets: 12/24.
+	Resizing m_owned_targets and m_delegate_targets: 13/24.
+	Resizing m_owned_targets and m_delegate_targets: 14/24.
+	Resizing m_owned_targets and m_delegate_targets: 15/24.
+	Resizing m_owned_targets and m_delegate_targets: 16/24.
+	Resizing m_owned_targets and m_delegate_targets: 17/24.
+	Resizing m_owned_targets and m_delegate_targets: 18/24.
+	Resizing m_owned_targets and m_delegate_targets: 19/24.
+	Resizing m_owned_targets and m_delegate_targets: 20/24.
+	Resizing m_owned_targets and m_delegate_targets: 21/24.
+	Resizing m_owned_targets and m_delegate_targets: 22/24.
+	Resizing m_owned_targets and m_delegate_targets: 23/24.
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[24] Dirty Pages: 0kb.
+	[72] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+Finished: initialize_edge_storage in 0.0217943 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16911
+	MB Written: -32768
+Starting:  partition_low_degree
+	[0] Dirty Pages: 0kb.
+	***[LP][Partition Number: 0/1, Total Loops: 0, Total Edges: 0] Time 0.000136137 second,  Total Time 0.000136137 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 0, Total Edges: 0] Time 0.000203371 second,  Total Time 0.000203371 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 500, Total Edges: 0] Time 2.75835 second,  Total Time 2.75855 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 1000, Total Edges: 0] Time 2.81501 second,  Total Time 5.57356 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 1500, Total Edges: 0] Time 2.77878 second,  Total Time 8.35234 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 2000, Total Edges: 0] Time 2.77466 second,  Total Time 11.127 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 2500, Total Edges: 0] Time 2.73088 second,  Total Time 13.8579 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 3000, Total Edges: 0] Time 2.72852 second,  Total Time 16.5864 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 3500, Total Edges: 0] Time 2.72225 second,  Total Time 19.3086 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 4000, Total Edges: 0] Time 2.73074 second,  Total Time 22.0394 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 4500, Total Edges: 0] Time 2.71852 second,  Total Time 24.7579 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 5000, Total Edges: 0] Time 2.68127 second,  Total Time 27.4392 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 5500, Total Edges: 0] Time 2.66095 second,  Total Time 30.1001 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 6000, Total Edges: 0] Time 2.53964 second,  Total Time 32.6398 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 6500, Total Edges: 0] Time 2.58462 second,  Total Time 35.2244 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 7000, Total Edges: 0] Time 2.58042 second,  Total Time 37.8048 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 7500, Total Edges: 0] Time 2.63092 second,  Total Time 40.4357 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 8000, Total Edges: 0] Time 2.59969 second,  Total Time 43.0354 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 8500, Total Edges: 0] Time 2.56467 second,  Total Time 45.6001 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 9000, Total Edges: 0] Time 2.54588 second,  Total Time 48.146 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 9500, Total Edges: 0] Time 2.55187 second,  Total Time 50.6978 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 10000, Total Edges: 0] Time 2.5362 second,  Total Time 53.234 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 10500, Total Edges: 0] Time 2.34349 second,  Total Time 55.5775 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 11000, Total Edges: 0] Time 2.27383 second,  Total Time 57.8513 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 11500, Total Edges: 0] Time 2.27544 second,  Total Time 60.1268 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 12000, Total Edges: 0] Time 2.2741 second,  Total Time 62.4009 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 12500, Total Edges: 0] Time 2.27549 second,  Total Time 64.6764 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 13000, Total Edges: 0] Time 2.27887 second,  Total Time 66.9552 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 13500, Total Edges: 0] Time 2.27659 second,  Total Time 69.2318 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 14000, Total Edges: 0] Time 2.27544 second,  Total Time 71.5073 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 14500, Total Edges: 0] Time 2.27516 second,  Total Time 73.7824 second, Dirty Pages: 0kb.
+	[LP][Partition Number: 0/1, Total Loops: 15000, Total Edges: 0] Time 2.40537 second,  Total Time 76.1878 second, Dirty Pages: 0kb.
+	[LP][Total Loops: 15006, Total Edges: 0] Time 0.030988 second,  Total Time 76.2188 second, Dirty Pages: 0kb.
+Finished: partition_low_degree in 76.2189 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16911
+	MB Written: -32768
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[24] Dirty Pages: 0kb.
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[72] Dirty Pages: 0kb.
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[48] Dirty Pages: 0kb.
+Starting:  partition_high_degree
+	[0] Dirty Pages: 0kb.
+	***[HP][Partition Number: 0/1, Total Loops: 0, Total Edges: 0] Time 7.15256e-07 second,  Total Time 7.15256e-07 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 0, Total Edges: 0] Time 0.000165462 second,  Total Time 0.000165462 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 500, Total Edges: 0] Time 2.35528 second,  Total Time 2.35544 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 1000, Total Edges: 0] Time 2.39148 second,  Total Time 4.74693 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 1500, Total Edges: 0] Time 2.40941 second,  Total Time 7.15633 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 2000, Total Edges: 0] Time 2.2836 second,  Total Time 9.43993 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 2500, Total Edges: 0] Time 2.18501 second,  Total Time 11.6249 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 3000, Total Edges: 0] Time 2.18981 second,  Total Time 13.8147 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 3500, Total Edges: 0] Time 2.18117 second,  Total Time 15.9959 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 4000, Total Edges: 0] Time 2.183 second,  Total Time 18.1789 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 4500, Total Edges: 0] Time 2.18525 second,  Total Time 20.3642 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 5000, Total Edges: 0] Time 2.23751 second,  Total Time 22.6017 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 5500, Total Edges: 0] Time 2.40071 second,  Total Time 25.0024 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 6000, Total Edges: 0] Time 2.42547 second,  Total Time 27.4279 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 6500, Total Edges: 0] Time 2.37342 second,  Total Time 29.8013 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 7000, Total Edges: 0] Time 2.37148 second,  Total Time 32.1728 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 7500, Total Edges: 0] Time 2.16283 second,  Total Time 34.3356 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 8000, Total Edges: 0] Time 2.14537 second,  Total Time 36.481 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 8500, Total Edges: 0] Time 2.14657 second,  Total Time 38.6275 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 9000, Total Edges: 0] Time 2.14798 second,  Total Time 40.7755 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 9500, Total Edges: 0] Time 2.1477 second,  Total Time 42.9232 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 10000, Total Edges: 0] Time 2.14914 second,  Total Time 45.0723 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 10500, Total Edges: 0] Time 2.3194 second,  Total Time 47.3917 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 11000, Total Edges: 0] Time 2.39337 second,  Total Time 49.7851 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 11500, Total Edges: 0] Time 2.39371 second,  Total Time 52.1788 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 12000, Total Edges: 0] Time 2.39351 second,  Total Time 54.5723 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 12500, Total Edges: 0] Time 2.39458 second,  Total Time 56.9669 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 13000, Total Edges: 0] Time 2.39299 second,  Total Time 59.3599 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 13500, Total Edges: 0] Time 2.39222 second,  Total Time 61.7521 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 14000, Total Edges: 0] Time 2.38973 second,  Total Time 64.1419 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 14500, Total Edges: 0] Time 2.39091 second,  Total Time 66.5328 second, Dirty Pages: 0kb.
+	[HP][Partition Number: 0/1, Total Loops: 15000, Total Edges: 0] Time 2.291 second,  Total Time 68.8238 second, Dirty Pages: 0kb.
+	[HP][Total Loops: 15006, Total Edges: 0] Time 0.0256624 second,  Total Time 68.8494 second, Dirty Pages: 0kb.
+Finished: partition_high_degree in 68.8496 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16911
+	MB Written: -32768
+Starting:  all-reduce hub degree
+	[0] Dirty Pages: 0kb.
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[24] Dirty Pages: 0kb.
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[72] Dirty Pages: 0kb.
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[24] Dirty Pages: 0kb.
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[48] Dirty Pages: 0kb.
+Finished: all-reduce hub degree in 5.26905e-05 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16911
+	MB Written: -32768
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[72] Dirty Pages: 0kb.
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+Starting:  Build controller lists
+	[0] Dirty Pages: 0kb.
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[72] Dirty Pages: 0kb.
+	[48] Dirty Pages: 0kb.
+Finished: Build controller lists in 2.19345e-05 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16911
+	MB Written: -32768
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[48] Dirty Pages: 0kb.
+Starting:  Verify CSR integration
+	[0] Dirty Pages: 0kb.
+	[48]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[48]
+Finished: Verify CSR integration in 2.19345e-05 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16911
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[72]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1417643263
+	MB Written: -10923
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1417643263
+	MB Written: -10923
+	MB Written: -32768
+Finished: Delegate Partitioning in 282.839 seconds.
+	[0]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1417643263
+	MB Written: -10923
+Graph Ready, Calculating Stats. 
+[0] 193916848/268435440 = 0.722397
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[24] Dirty Pages: 0kb.
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 16927
+	MB Written: -32768
+	[24]
+	Space used: 0gB.
+	Dirty Pages: 0kB.
+	MB Read: 1417643263
+	MB Written: -10923
+[1] 193916848/268435440 = 0.722397
+[2] 193916880/268435440 = 0.722397
+[3] 193916848/268435440 = 0.722397
+[4] 193916880/268435440 = 0.722397
+[5] 193916880/268435440 = 0.722397
+[6] 193916848/268435440 = 0.722397
+[7] 193916848/268435440 = 0.722397
+[8] 193916880/268435440 = 0.722397
+[9] 193916848/268435440 = 0.722397
+[10] 193916880/268435440 = 0.722397
+[11] 193916880/268435440 = 0.722397
+[12] 193916848/268435440 = 0.722397
+[13] 193916880/268435440 = 0.722397
+[14] 193916848/268435440 = 0.722397
+[15] 193916848/268435440 = 0.722397
+[16] 193916880/268435440 = 0.722397
+[17] 193916848/268435440 = 0.722397
+[18] 193916848/268435440 = 0.722397
+[19] 193916880/268435440 = 0.722397
+[20] 193916880/268435440 = 0.722397
+[21] 192723360/268435440 = 0.717951
+[22] 193916880/268435440 = 0.722397
+[23] 190598464/268435440 = 0.710035
+[24] 193512128/268435440 = 0.720889
+[25] 193916880/268435440 = 0.722397
+[26] 193916880/268435440 = 0.722397
+[27] 193916880/268435440 = 0.722397
+[28] 193916848/268435440 = 0.722397
+[29] 193916848/268435440 = 0.722397
+[30] 193916848/268435440 = 0.722397
+[31] 193916848/268435440 = 0.722397
+[32] 193423680/268435440 = 0.720559
+[33] 193916848/268435440 = 0.722397
+[34] 193916880/268435440 = 0.722397
+[35] 193916880/268435440 = 0.722397
+[36] 193916848/268435440 = 0.722397
+[37] 193916880/268435440 = 0.722397
+[38] 193916848/268435440 = 0.722397
+[39] 193916880/268435440 = 0.722397
+[40] 193916848/268435440 = 0.722397
+[41] 193916848/268435440 = 0.722397
+[42] 191862592/268435440 = 0.714744
+[43] 193916880/268435440 = 0.722397
+[44] 193916848/268435440 = 0.722397
+[45] 193916848/268435440 = 0.722397
+[46] 193916848/268435440 = 0.722397
+[47] 193916880/268435440 = 0.722397
+[48] 192106784/268435440 = 0.715654
+[49] 193916848/268435440 = 0.722397
+[50] 192512224/268435440 = 0.717164
+[51] 193333600/268435440 = 0.720224
+[52] 161047040/268435440 = 0.599947
+[53] 196060592/268435440 = 0.730383
+[54] 181795488/268435440 = 0.677241
+[55] 183215712/268435440 = 0.682532
+[56] 206632496/268435440 = 0.769766
+[57] 203302320/268435440 = 0.75736
+[58] 185860256/268435440 = 0.692383
+[59] 196601136/268435440 = 0.732396
+[60] 200811120/268435440 = 0.74808
+[61] 192872800/268435440 = 0.718507
+[62] 193916848/268435440 = 0.722397
+[63] 193916848/268435440 = 0.722397
+[64] 196359376/268435440 = 0.731496
+[65] 202353872/268435440 = 0.753827
+[66] 201707664/268435440 = 0.75142
+[67] 177804288/268435440 = 0.662373
+[68] 195309968/268435440 = 0.727586
+[69] 197448432/268435440 = 0.735553
+[70] 200982320/268435440 = 0.748718
+[71] 193916848/268435440 = 0.722397
+[72] 194225104/268435440 = 0.723545
+[73] 197011376/268435440 = 0.733925
+[74] 198313072/268435440 = 0.738774
+[75] 193916848/268435440 = 0.722397
+[76] 168208384/268435440 = 0.626625
+[77] 198620656/268435440 = 0.73992
+[78] 196815696/268435440 = 0.733196
+[79] 203046576/268435440 = 0.756407
+[80] 194738192/268435440 = 0.725456
+[81] 186588256/268435440 = 0.695095
+[82] 201638160/268435440 = 0.751161
+[83] 200445936/268435440 = 0.746719
+[84] 196668688/268435440 = 0.732648
+[85] 193916880/268435440 = 0.722397
+[86] 193916880/268435440 = 0.722397
+[87] 194079120/268435440 = 0.723001
+[88] 193281824/268435440 = 0.720031
+[89] 202282448/268435440 = 0.753561
+[90] 193930000/268435440 = 0.722446
+[91] 198074992/268435440 = 0.737887
+[92] 193916880/268435440 = 0.722397
+[93] 193916880/268435440 = 0.722397
+[94] 197793392/268435440 = 0.736838
+[95] 196340720/268435440 = 0.731426
+Transfer time = 27.4206

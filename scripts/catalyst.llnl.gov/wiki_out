@@ -1,0 +1,1803 @@
+MPI initialized with 96 ranks.
+HAVOQGT_MAILBOX_NUM_IRECV         = 8
+HAVOQGT_MAILBOX_NUM_ISEND         = 8
+HAVOQGT_MAILBOX_AGGREGATION       = 1024
+HAVOQGT_MAILBOX_TREE_AGGREGATION  = 64
+HAVOQGT_MAILBOX_PRINT_STATS       = 0
+CMD line: /g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/./src/run_randwalk -i /dev/shm/wiki -b /p/lscratchh/zhang50/wikipedia/wiki_ingest -s 77341 -d 419790
+Transfer time = 0.543064
+Graph Loaded Ready.
+BFS data allocated.  Starting BFS from vertex 77341
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+Starting vertex = 77341
+delegate? = 0
+local_id = 805
+degree = 636
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+sizeof(message_type) = 18
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+sizeof(message_type) = 18
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
+sizeof(message_type) = 18
+ in init_visit of 419790 to 2258691
+ in init_visit of 419790 to 2258691
+ in init_visit of 419790 to 2258691
+ in init_visit of 419790 to 2258691
+ in init_visit of 419790 to 23819030
+ in init_visit of 419790 to 913486
+ in init_visit of 419790 to 2178625
+ in init_visit of 419790 to 2178625
+ in init_visit of 419790 to 5350217
+ in init_visit of 419790 to 177644
+ in init_visit of 419790 to 177644
+ in init_visit of 419790 to 177644
+ in init_visit of 419790 to 177644
+ in init_visit of 419790 to 177644
+ in init_visit of 419790 to 177644
+ in init_visit of 419790 to 177644
+ in init_visit of 419790 to 177644
+ in init_visit of 419790 to 2391474
+ in init_visit of 419790 to 2391474
+ in init_visit of 419790 to 1806234
+ in init_visit of 419790 to 3838032
+ in init_visit of 419790 to 1302655
+ in init_visit of 419790 to 1302655
+ in init_visit of 419790 to 23916368
+ in init_visit of 419790 to 23916368
+ in init_visit of 419790 to 23916368
+ in init_visit of 419790 to 23916368
+ in init_visit of 419790 to 501770
+ in init_visit of 419790 to 501770
+ in init_visit of 419790 to 501770
+ in init_visit of 419790 to 501770
+ in init_visit of 419790 to 1614705
+ in init_visit of 419790 to 3922511
+ in init_visit of 419790 to 3922511
+ in init_visit of 419790 to 2290539
+ in init_visit of 419790 to 5603606
+ in init_visit of 419790 to 5927764
+ in init_visit of 419790 to 5927764
+ in init_visit of 419790 to 3967414
+ in init_visit of 419790 to 148075
+ in init_visit of 419790 to 2343250
+ in init_visit of 419790 to 2343250
+ in init_visit of 419790 to 4082668
+ in init_visit of 419790 to 4019704
+ in init_visit of 419790 to 1009223
+ in init_visit of 419790 to 24042466
+ in init_visit of 419790 to 24056544
+ in init_visit of 419790 to 12470830
+ in init_visit of 419790 to 5768313
+ in init_visit of 419790 to 5768313
+ in init_visit of 419790 to 5768313
+ in init_visit of 419790 to 5768313
+ in init_visit of 419790 to 5768313
+ in init_visit of 419790 to 5768313
+ in init_visit of 419790 to 5808840
+ in init_visit of 419790 to 588813
+ in init_visit of 419790 to 588813
+ in init_visit of 419790 to 588813
+ in init_visit of 419790 to 588813
+ in init_visit of 419790 to 588813
+ in init_visit of 419790 to 588813
+ in init_visit of 419790 to 588813
+ in init_visit of 419790 to 2557059
+ in init_visit of 419790 to 2557059
+ in init_visit of 419790 to 2557059
+ in init_visit of 419790 to 23682993
+ in init_visit of 419790 to 1146053
+ in init_visit of 419790 to 21395797
+ in init_visit of 419790 to 2554452
+ in init_visit of 419790 to 741083
+ in init_visit of 419790 to 5960408
+ in init_visit of 419790 to 5960408
+ in init_visit of 419790 to 741083
+ in init_visit of 419790 to 741083
+ in init_visit of 419790 to 492673
+ in init_visit of 419790 to 2621221
+ in init_visit of 419790 to 4294022
+ in init_visit of 419790 to 4311092
+ in init_visit of 419790 to 4311092
+ in init_visit of 419790 to 6089356
+ in init_visit of 419790 to 8564621
+ in init_visit of 419790 to 18324
+ in init_visit of 419790 to 993607
+ in init_visit of 419790 to 8508326
+ in init_visit of 419790 to 4445569
+ in init_visit of 419790 to 6192992
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 893989
+ in init_visit of 419790 to 2159299
+ in init_visit of 419790 to 2159299
+ in init_visit of 419790 to 24446324
+ in init_visit of 419790 to 2197309
+ in init_visit of 419790 to 2434914
+ in init_visit of 419790 to 2434914
+ in init_visit of 419790 to 4524884
+ in init_visit of 419790 to 1151339
+ in init_visit of 419790 to 1118792
+ in init_visit of 419790 to 945654
+ in init_visit of 419790 to 6341786
+ in init_visit of 419790 to 6341786
+ in init_visit of 419790 to 6342974
+ in init_visit of 419790 to 6342974
+ in init_visit of 419790 to 6342974
+ in init_visit of 419790 to 6342974
+ in init_visit of 419790 to 7933293
+ in init_visit of 419790 to 2915976
+ in init_visit of 419790 to 2915976
+ in init_visit of 419790 to 4292400
+ in init_visit of 419790 to 2933429
+ in init_visit of 419790 to 4645213
+ in init_visit of 419790 to 2949004
+ in init_visit of 419790 to 4660353
+ in init_visit of 419790 to 4660353
+ in init_visit of 419790 to 4660353
+ in init_visit of 419790 to 4660353
+ in init_visit of 419790 to 2309095
+ in init_visit of 419790 to 2309095
+ in init_visit of 419790 to 2309095
+ in init_visit of 419790 to 14567453
+ in init_visit of 419790 to 1365717
+ in init_visit of 419790 to 1405268
+ in init_visit of 419790 to 10669853
+ in init_visit of 419790 to 243264
+ in init_visit of 419790 to 243264
+ in init_visit of 419790 to 243264
+ in init_visit of 419790 to 243264
+ in init_visit of 419790 to 273611
+ in init_visit of 419790 to 24221968
+ in init_visit of 419790 to 18273646
+ in init_visit of 419790 to 1468421
+ in init_visit of 419790 to 1530586
+ in init_visit of 419790 to 1294073
+ in init_visit of 419790 to 1495504
+ in init_visit of 419790 to 1495504
+ in init_visit of 419790 to 1495504
+ in init_visit of 419790 to 1495504
+ in init_visit of 419790 to 10740048
+ in init_visit of 419790 to 2214648
+ in init_visit of 419790 to 2214648
+ in init_visit of 419790 to 390479
+ in init_visit of 419790 to 14773409
+ in init_visit of 419790 to 5969287
+ in init_visit of 419790 to 1681856
+ in init_visit of 419790 to 1681856
+ in init_visit of 419790 to 1681856
+ in init_visit of 419790 to 1681856
+ in init_visit of 419790 to 1681856
+ in init_visit of 419790 to 307939
+ in init_visit of 419790 to 307939
+ in init_visit of 419790 to 307939
+ in init_visit of 419790 to 1675445
+ in init_visit of 419790 to 8599294
+ in init_visit of 419790 to 8599294
+ in init_visit of 419790 to 8599294
+ in init_visit of 419790 to 18335493
+ in init_visit of 419790 to 5051675
+ in init_visit of 419790 to 3346666
+ in init_visit of 419790 to 10948483
+ in init_visit of 419790 to 14894988
+ in init_visit of 419790 to 24994534
+ in init_visit of 419790 to 3767080
+ in init_visit of 419790 to 3767080
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 3133070
+ in init_visit of 419790 to 6932291
+ in init_visit of 419790 to 6932291
+ in init_visit of 419790 to 5011347
+ in init_visit of 419790 to 5011347
+ in init_visit of 419790 to 6951532
+ in init_visit of 419790 to 6951532
+ in init_visit of 419790 to 1211851
+ in init_visit of 419790 to 1211851
+ in init_visit of 419790 to 3586115
+ in init_visit of 419790 to 3586115
+ in init_visit of 419790 to 3586115
+ in init_visit of 419790 to 21627460
+ in init_visit of 419790 to 3499510
+ in init_visit of 419790 to 11072288
+ in init_visit of 419790 to 7010987
+ in init_visit of 419790 to 11173933
+ in init_visit of 419790 to 1872089
+ in init_visit of 419790 to 11184438
+ in init_visit of 419790 to 1883734
+ in init_visit of 419790 to 3585699
+ in init_visit of 419790 to 3585699
+ in init_visit of 419790 to 3534081
+ in init_visit of 419790 to 152736
+ in init_visit of 419790 to 15172096
+ in init_visit of 419790 to 15172096
+ in init_visit of 419790 to 15172096
+ in init_visit of 419790 to 11377463
+ in init_visit of 419790 to 25303702
+ in init_visit of 419790 to 11424486
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 77989
+ in init_visit of 419790 to 11431138
+ in init_visit of 419790 to 274544
+ in init_visit of 419790 to 274544
+ in init_visit of 419790 to 274544
+ in init_visit of 419790 to 274544
+ in init_visit of 419790 to 274544
+ in init_visit of 419790 to 274544
+ in init_visit of 419790 to 274544
+ in init_visit of 419790 to 274544
+ in init_visit of 419790 to 274544
+ in init_visit of 419790 to 274544
+ in init_visit of 419790 to 25343856
+ in init_visit of 419790 to 25358368
+ in init_visit of 419790 to 25358368
+ in init_visit of 419790 to 25358368
+ in init_visit of 419790 to 21954766
+ in init_visit of 419790 to 25436214
+ in init_visit of 419790 to 25492884
+ in init_visit of 419790 to 2937671
+ in init_visit of 419790 to 22112248
+ in init_visit of 419790 to 25567592
+ in init_visit of 419790 to 11675218
+ in init_visit of 419790 to 2918036
+ in init_visit of 419790 to 3214865
+ in init_visit of 419790 to 3214865
+ in init_visit of 419790 to 15585230
+ in init_visit of 419790 to 270651
+ in init_visit of 419790 to 270651
+ in init_visit of 419790 to 270651
+ in init_visit of 419790 to 15622051
+ in init_visit of 419790 to 15622051
+ in init_visit of 419790 to 15622051
+ in init_visit of 419790 to 15622051
+ in init_visit of 419790 to 15622051
+ in init_visit of 419790 to 15622051
+ in init_visit of 419790 to 8305830
+ in init_visit of 419790 to 6639202
+ in init_visit of 419790 to 22412959
+ in init_visit of 419790 to 22415846
+ in init_visit of 419790 to 1218049
+ in init_visit of 419790 to 1218049
+ in init_visit of 419790 to 1218049
+ in init_visit of 419790 to 24221289
+ in init_visit of 419790 to 13969232
+ in init_visit of 419790 to 7151017
+ in init_visit of 419790 to 8608277
+ in init_visit of 419790 to 7151017
+ in init_visit of 419790 to 15682708
+ in init_visit of 419790 to 2155358
+ in init_visit of 419790 to 2155358
+ in init_visit of 419790 to 2155358
+ in init_visit of 419790 to 2155358
+ in init_visit of 419790 to 2155358
+ in init_visit of 419790 to 2155358
+ in init_visit of 419790 to 2155358
+ in init_visit of 419790 to 2155358
+ in init_visit of 419790 to 2155358
+ in init_visit of 419790 to 2155358
+ in init_visit of 419790 to 2155358
+ in init_visit of 419790 to 2155358
+ in init_visit of 419790 to 2155358
+ in init_visit of 419790 to 2343260
+ in init_visit of 419790 to 2343260
+ in init_visit of 419790 to 2343260
+ in init_visit of 419790 to 2343260
+ in init_visit of 419790 to 2343260
+ in init_visit of 419790 to 2343260
+ in init_visit of 419790 to 2343260
+ in init_visit of 419790 to 8873467
+ in init_visit of 419790 to 8873467
+ in init_visit of 419790 to 23927157
+ in init_visit of 419790 to 22490130
+ in init_visit of 419790 to 22490130
+ in init_visit of 419790 to 22490130
+ in init_visit of 419790 to 1296410
+ in init_visit of 419790 to 1296410
+ in init_visit of 419790 to 7989675
+ in init_visit of 419790 to 8565189
+ in init_visit of 419790 to 12329197
+ in init_visit of 419790 to 12329197
+ in init_visit of 419790 to 25380825
+ in init_visit of 419790 to 12342843
+ in init_visit of 419790 to 22658995
+ in init_visit of 419790 to 22658995
+ in init_visit of 419790 to 497418
+ in init_visit of 419790 to 26038095
+ in init_visit of 419790 to 26059431
+ in init_visit of 419790 to 15797549
+ in init_visit of 419790 to 18790227
+ in init_visit of 419790 to 12434210
+ in init_visit of 419790 to 12434210
+ in init_visit of 419790 to 12434210
+ in init_visit of 419790 to 1504707
+ in init_visit of 419790 to 3420341
+ in init_visit of 419790 to 12462527
+ in init_visit of 419790 to 4293009
+ in init_visit of 419790 to 4293009
+ in init_visit of 419790 to 4293009
+ in init_visit of 419790 to 4293009
+ in init_visit of 419790 to 26201414
+ in init_visit of 419790 to 22975837
+ in init_visit of 419790 to 23036194
+ in init_visit of 419790 to 12689424
+ in init_visit of 419790 to 23040855
+ in init_visit of 419790 to 26371935
+ in init_visit of 419790 to 1285557
+ in init_visit of 419790 to 2060289
+ in init_visit of 419790 to 2060289
+ in init_visit of 419790 to 2060289
+ in init_visit of 419790 to 23081511
+ in init_visit of 419790 to 23086305
+ in init_visit of 419790 to 7324390
+ in init_visit of 419790 to 7324390
+ in init_visit of 419790 to 7324390
+ in init_visit of 419790 to 7324390
+ in init_visit of 419790 to 7324390
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 865706
+ in init_visit of 419790 to 10230936
+ in init_visit of 419790 to 10230936
+ in init_visit of 419790 to 10230936
+ in init_visit of 419790 to 5511100
+ in init_visit of 419790 to 14010914
+ in init_visit of 419790 to 14010914
+ in init_visit of 419790 to 23246734
+ in init_visit of 419790 to 2808578
+ in init_visit of 419790 to 23279480
+ in init_visit of 419790 to 13015671
+ in init_visit of 419790 to 16386347
+ in init_visit of 419790 to 16386347
+ in init_visit of 419790 to 16386347
+ in init_visit of 419790 to 18975267
+ in init_visit of 419790 to 13065429
+ in init_visit of 419790 to 18978558
+ in init_visit of 419790 to 627932
+ in init_visit of 419790 to 627932
+ in init_visit of 419790 to 627932
+ in init_visit of 419790 to 627932
+ in init_visit of 419790 to 627932
+ in init_visit of 419790 to 627932
+ in init_visit of 419790 to 627932
+ in init_visit of 419790 to 16467167
+ in init_visit of 419790 to 13137024
+ in init_visit of 419790 to 13137024
+ in init_visit of 419790 to 13137024
+ in init_visit of 419790 to 23459532
+ in init_visit of 419790 to 23459532
+ in init_visit of 419790 to 4894726
+ in init_visit of 419790 to 16570890
+ in init_visit of 419790 to 16577530
+ in init_visit of 419790 to 8180604
+ in init_visit of 419790 to 8180604
+ in init_visit of 419790 to 8180604
+ in init_visit of 419790 to 8180604
+ in init_visit of 419790 to 23582707
+ in init_visit of 419790 to 7287606
+ in init_visit of 419790 to 7287606
+ in init_visit of 419790 to 7287606
+ in init_visit of 419790 to 7287606
+ in init_visit of 419790 to 19093611
+ in init_visit of 419790 to 1736972
+ in init_visit of 419790 to 1736972
+ in init_visit of 419790 to 1736972
+ in init_visit of 419790 to 2970582
+ in init_visit of 419790 to 16924861
+ in init_visit of 419790 to 4920229
+ in init_visit of 419790 to 10194041
+ in init_visit of 419790 to 19406297
+ in init_visit of 419790 to 19488054
+ in init_visit of 419790 to 3838211
+ in init_visit of 419790 to 3838211
+ in init_visit of 419790 to 3838211
+ in init_visit of 419790 to 3838211
+ in init_visit of 419790 to 3838211
+ in init_visit of 419790 to 3838211
+ in init_visit of 419790 to 3838211
+ in init_visit of 419790 to 3838211
+ in init_visit of 419790 to 3838211
+ in init_visit of 419790 to 3838211
+ in init_visit of 419790 to 3838211
+ in init_visit of 419790 to 4199052
+ in init_visit of 419790 to 4199052
+ in init_visit of 419790 to 13497695
+ in init_visit of 419790 to 10250987
+ in init_visit of 419790 to 10250987
+ in init_visit of 419790 to 10250987
+ in init_visit of 419790 to 10250987
+ in init_visit of 419790 to 19649524
+ in init_visit of 419790 to 13822332
+ in init_visit of 419790 to 19649524
+ in init_visit of 419790 to 19913866
+ in init_visit of 419790 to 1882122
+ in init_visit of 419790 to 20119749
+ in init_visit of 419790 to 5910167
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 131324
+ in init_visit of 419790 to 20168782
+ in init_visit of 419790 to 18916485
+ in init_visit of 419790 to 4003517
+ in init_visit of 419790 to 4003517
+ in init_visit of 419790 to 4003517
+ in init_visit of 419790 to 4003517
+ in init_visit of 419790 to 20242277
+ in init_visit of 419790 to 20288559
+ in init_visit of 419790 to 20288559
+ in init_visit of 419790 to 20288559
+ in init_visit of 419790 to 20291503
+ in init_visit of 419790 to 5356159
+ in init_visit of 419790 to 5356159
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+FINISHED BIAS RAND WALK
+Level 0: 1
+Level 1: 121
+Level 2: 226222
+Level 3: 4711935
+Level 4: 20842601
+Level 5: 567756
+Level 6: 120786
+Level 7: 1519
+Level 8: 9074
+Level 9: 61
+Level 10: 50
+Level 11: 1
+Visited total = 26480127
+BFS Time = 5.90544
+Count BFS = 1
+AVERAGE BFS = 5.90544
+Vertex 3891 is visted 6
+Vertex 9843 is visted 9
+Vertex 24480 is visted 10
+Vertex 3769 is visted 9
+Vertex 22105 is visted 14
+Vertex 5341 is visted 7
+Vertex 36157 is visted 4
+Vertex 47677 is visted 60
+Vertex 77341 is visted 7005
+Vertex 1634 is visted 6
+Vertex 1850 is visted 5
+Vertex 4010 is visted 3
+Vertex 5642 is visted 8
+Vertex 48 is visted 12
+Vertex 144 is visted 3
+Vertex 3888 is visted 3
+Vertex 5712 is visted 5
+Vertex 9360 is visted 5
+Vertex 22032 is visted 5
+Vertex 31344 is visted 3
+Vertex 44112 is visted 4
+Vertex 5859 is visted 33
+Vertex 75 is visted 26
+Vertex 1323 is visted 12
+Vertex 2187 is visted 3
+Vertex 4011 is visted 9
+Vertex 16875 is visted 10
+Vertex 145 is visted 7
+Vertex 625 is visted 5
+Vertex 7921 is visted 9
+Vertex 22897 is visted 3
+Vertex 40465 is visted 3
+Vertex 30628 is visted 5
+Vertex 487 is visted 5
+Vertex 4039 is visted 9
+Vertex 8263 is visted 4
+Vertex 20551 is visted 3
+Vertex 21531 is visted 8
+Vertex 87675 is visted 3
+Vertex 4013 is visted 3
+Vertex 4301 is visted 4
+Vertex 13901 is visted 9
+Vertex 93101 is visted 3
+Vertex 701 is visted 11
+Vertex 3773 is visted 101
+Vertex 3965 is visted 3
+Vertex 17981 is visted 5
+Vertex 23261 is visted 5
+Vertex 68669 is visted 7
+Vertex 146 is visted 330
+Vertex 11378 is visted 6
+Vertex 53618 is visted 3
+Vertex 87122 is visted 3
+Vertex 16738 is visted 3
+Vertex 1300 is visted 6
+Vertex 3412 is visted 4
+Vertex 16372 is visted 4
+Vertex 30580 is visted 8
+Vertex 1160 is visted 14
+Vertex 20553 is visted 5
+Vertex 40713 is visted 3
+Vertex 3413 is visted 3
+Vertex 4469 is visted 11
+Vertex 8885 is visted 9
+Vertex 3538 is visted 5
+Vertex 6610 is visted 11
+Vertex 14866 is visted 3
+Vertex 2358 is visted 10
+Vertex 3414 is visted 4
+Vertex 21270 is visted 4
+Vertex 103830 is visted 11
+Vertex 127542 is visted 3
+Vertex 11016 is visted 22
+Vertex 164616 is visted 3
+Vertex 206184 is visted 3
+Vertex 111 is visted 10
+Vertex 4047 is visted 3
+Vertex 7695 is visted 3
+Vertex 34191 is visted 4
+Vertex 55215 is visted 4
+Vertex 401 is visted 16
+Vertex 1265 is visted 9
+Vertex 63665 is visted 4
+Vertex 14994 is visted 3
+Vertex 20082 is visted 3
+Vertex 20967 is visted 8
+Vertex 31143 is visted 5
+Vertex 95943 is visted 5
+Vertex 102087 is visted 3
+Vertex 73 is visted 25
+Vertex 4009 is visted 4
+Vertex 11593 is visted 4
+Vertex 17065 is visted 3
+Vertex 21673 is visted 4
+Vertex 620 is visted 11
+Vertex 716 is visted 3
+Vertex 3404 is visted 10
+Vertex 439 is visted 6
+Vertex 6583 is visted 14
+Vertex 31831 is visted 6
+Vertex 94039 is visted 4
+Vertex 364 is visted 8
+Vertex 652 is visted 3
+Vertex 4012 is visted 10
+Vertex 9484 is visted 4
+Vertex 13900 is visted 7
+Vertex 58444 is visted 3
+Vertex 3405 is visted 16
+Vertex 33357 is visted 3
+Vertex 1592 is visted 6
+Vertex 3992 is visted 3
+Vertex 20120 is visted 3
+Vertex 64088 is visted 3
+Vertex 185645 is visted 6
+Vertex 2712 is visted 18
+Vertex 16152 is visted 7
+Vertex 4243 is visted 3
+Vertex 6739 is visted 3
+Vertex 22963 is visted 4
+Vertex 27187 is visted 3
+Vertex 40723 is visted 4
+Vertex 64051 is visted 4
+Vertex 77299 is visted 16
+Vertex 47545 is visted 4
+Vertex 105913 is visted 3
+Vertex 64896 is visted 3
+Vertex 75648 is visted 6
+Vertex 117984 is visted 3
+Vertex 152736 is visted 10
+Vertex 2095 is visted 3
+Vertex 69103 is visted 3
+Vertex 1113 is visted 8
+Vertex 1593 is visted 14
+Vertex 6777 is visted 4
+Vertex 12057 is visted 7
+Vertex 117945 is visted 4
+Vertex 1328 is visted 6
+Vertex 1904 is visted 9
+Vertex 11888 is visted 4
+Vertex 19472 is visted 5
+Vertex 346 is visted 9
+Vertex 1210 is visted 20
+Vertex 6202 is visted 3
+Vertex 24442 is visted 5
+Vertex 127546 is visted 3
+Vertex 209473 is visted 5
+Vertex 2332 is visted 6
+Vertex 3868 is visted 4
+Vertex 72892 is visted 9
+Vertex 11409 is visted 6
+Vertex 19281 is visted 3
+Vertex 43377 is visted 31
+Vertex 119025 is visted 4
+Vertex 118013 is visted 3
+Vertex 443 is visted 4
+Vertex 3611 is visted 5
+Vertex 46715 is visted 3
+Vertex 179 is visted 4
+Vertex 27059 is visted 3
+Vertex 159347 is visted 4
+Vertex 195635 is visted 6
+Vertex 223 is visted 12
+Vertex 4447 is visted 5
+Vertex 4927 is visted 3
+Vertex 39199 is visted 5
+Vertex 3420 is visted 5
+Vertex 42204 is visted 3
+Vertex 184572 is visted 5
+Vertex 581 is visted 3
+Vertex 1925 is visted 9
+Vertex 3749 is visted 13
+Vertex 3941 is visted 6
+Vertex 8357 is visted 3
+Vertex 84869 is visted 3
+Vertex 11966 is visted 10
+Vertex 20702 is visted 5
+Vertex 39518 is visted 9
+Vertex 62462 is visted 5
+Vertex 97310 is visted 3
+Vertex 3615 is visted 4
+Vertex 8319 is visted 7
+Vertex 9951 is visted 7
+Vertex 178911 is visted 5
+Vertex 5248 is visted 5
+Vertex 130720 is visted 5
+Vertex 8646 is visted 5
+Vertex 128 is visted 4
+Vertex 224 is visted 25
+Vertex 2240 is visted 32
+Vertex 46688 is visted 5
+Vertex 6785 is visted 7
+Vertex 682 is visted 11
+Vertex 20554 is visted 3
+Vertex 84 is visted 4
+Vertex 180 is visted 32
+Vertex 1236 is visted 3
+Vertex 18324 is visted 13
+Vertex 18804 is visted 3
+Vertex 32436 is visted 10
+Vertex 274932 is visted 3
+Vertex 281844 is visted 750
+Vertex 297012 is visted 3
+Vertex 5889 is visted 3
+Vertex 64098 is visted 5
+Vertex 84834 is visted 6
+Vertex 3349 is visted 4
+Vertex 5173 is visted 13
+Vertex 23605 is visted 4
+Vertex 31093 is visted 7
+Vertex 161173 is visted 3
+Vertex 5891 is visted 4
+Vertex 708 is visted 5
+Vertex 4260 is visted 3
+Vertex 517 is visted 4
+Vertex 77989 is visted 222
+Vertex 182 is visted 4
+Vertex 1142 is visted 3
+Vertex 1238 is visted 7
+Vertex 4790 is visted 6
+Vertex 40694 is visted 3
+Vertex 84662 is visted 3
+Vertex 451 is visted 5
+Vertex 931 is visted 19
+Vertex 3427 is visted 6
+Vertex 20419 is visted 4
+Vertex 29443 is visted 6
+Vertex 125635 is visted 3
+Vertex 587 is visted 7
+Vertex 55211 is visted 5
+Vertex 471 is visted 4
+Vertex 6711 is visted 5
+Vertex 133815 is visted 3
+Vertex 6404 is visted 7
+Vertex 780 is visted 5
+Vertex 24108 is visted 4
+Vertex 130648 is visted 7
+Vertex 275032 is visted 3
+Vertex 421240 is visted 5
+Vertex 28429 is visted 6
+Vertex 32173 is visted 3
+Vertex 225133 is visted 3
+Vertex 56441 is visted 3
+Vertex 12954 is visted 3
+Vertex 22554 is visted 3
+Vertex 156858 is visted 3
+Vertex 32635 is visted 4
+Vertex 56635 is visted 3
+Vertex 710 is visted 4
+Vertex 6182 is visted 6
+Vertex 34694 is visted 4
+Vertex 59366 is visted 4
+Vertex 95846 is visted 8
+Vertex 741 is visted 7
+Vertex 4389 is visted 4
+Vertex 155301 is visted 228
+Vertex 590 is visted 20
+Vertex 15278 is visted 3
+Vertex 97262 is visted 3
+Vertex 12380 is visted 6
+Vertex 24092 is visted 8
+Vertex 48380 is visted 3
+Vertex 131324 is visted 811
+Vertex 235196 is visted 3
+Vertex 48616 is visted 4
+Vertex 270568 is visted 10
+Vertex 358 is visted 8
+Vertex 742 is visted 4
+Vertex 45766 is visted 5
+Vertex 56806 is visted 3
+Vertex 174214 is visted 5
+Vertex 68943 is visted 4
+Vertex 2345 is visted 4
+Vertex 163721 is visted 3
+Vertex 16 is visted 4
+Vertex 400 is visted 11
+Vertex 1770 is visted 5
+Vertex 72810 is visted 21
+Vertex 331 is visted 6
+Vertex 715 is visted 3
+Vertex 33355 is visted 9
+Vertex 148075 is visted 11
+Vertex 18311 is visted 4
+Vertex 19271 is visted 3
+Vertex 41255 is visted 3
+Vertex 183239 is visted 7
+Vertex 254183 is visted 3
+Vertex 337895 is visted 4
+Vertex 116 is visted 8
+Vertex 1652 is visted 8
+Vertex 11636 is visted 3
+Vertex 175892 is visted 7
+Vertex 176372 is visted 3
+Vertex 20541 is visted 5
+Vertex 33213 is visted 4
+Vertex 72285 is visted 4
+Vertex 142128 is visted 5
+Vertex 184560 is visted 5
+Vertex 21 is visted 4
+Vertex 117 is visted 6
+Vertex 14613 is visted 3
+Vertex 21525 is visted 3
+Vertex 29109 is visted 3
+Vertex 41205 is visted 6
+Vertex 53205 is visted 4
+Vertex 81717 is visted 3
+Vertex 82581 is visted 5
+Vertex 110517 is visted 15
+Vertex 111765 is visted 3
+Vertex 5662 is visted 3
+Vertex 86974 is visted 3
+Vertex 177644 is visted 86
+Vertex 17279 is visted 5
+Vertex 75359 is visted 3
+Vertex 267839 is visted 3
+Vertex 296543 is visted 3
+Vertex 146829 is visted 11
+Vertex 249165 is visted 4
+Vertex 142129 is visted 5
+Vertex 5014 is visted 5
+Vertex 120214 is visted 3
+Vertex 267529 is visted 7
+Vertex 274825 is visted 3
+Vertex 289609 is visted 7
+Vertex 417097 is visted 5
+Vertex 142 is visted 8
+Vertex 3406 is visted 3
+Vertex 8494 is visted 4
+Vertex 38926 is visted 4
+Vertex 111790 is visted 8
+Vertex 192915 is visted 4
+Vertex 119 is visted 14
+Vertex 3671 is visted 3
+Vertex 4055 is visted 3
+Vertex 5975 is visted 7
+Vertex 13271 is visted 9
+Vertex 19799 is visted 3
+Vertex 501770 is visted 44
+Vertex 252603 is visted 3
+Vertex 270651 is visted 30
+Vertex 275476 is visted 4
+Vertex 225984 is visted 3
+Vertex 243264 is visted 43
+Vertex 419790 is visted 154
+Vertex 605070 is visted 12
+Vertex 109877 is visted 3
+Vertex 148902 is visted 3
+Vertex 335142 is visted 4
+Vertex 274544 is visted 152
+Vertex 279991 is visted 3
+Vertex 236071 is visted 3
+Vertex 312607 is visted 6
+Vertex 232546 is visted 6
+Vertex 313497 is visted 3
+Vertex 337958 is visted 5
+Vertex 302460 is visted 11
+Vertex 306536 is visted 3
+Vertex 231879 is visted 3
+Vertex 184234 is visted 3
+Vertex 364714 is visted 5
+Vertex 427048 is visted 3
+Vertex 273611 is visted 11
+Vertex 175409 is visted 3
+Vertex 226001 is visted 3
+Vertex 356338 is visted 5
+Vertex 446269 is visted 3
+Vertex 535863 is visted 3
+Vertex 304670 is visted 3
+Vertex 490142 is visted 3
+Vertex 553530 is visted 3
+Vertex 307939 is visted 31
+Vertex 223603 is visted 4
+Vertex 271795 is visted 6
+Vertex 282167 is visted 7
+Vertex 430775 is visted 3
+Vertex 254826 is visted 4
+Vertex 390479 is visted 10
+Vertex 418320 is visted 24
+Vertex 461021 is visted 3
+Vertex 434935 is visted 4
+Vertex 629022 is visted 5
+Vertex 492673 is visted 10
+Vertex 524263 is visted 3
+Vertex 440750 is visted 116
+Vertex 486430 is visted 3
+Vertex 543320 is visted 3
+Vertex 653747 is visted 6
+Vertex 379642 is visted 3
+Vertex 402106 is visted 4
+Vertex 627932 is visted 70
+Vertex 741085 is visted 8
+Vertex 865706 is visted 179
+Vertex 1009240 is visted 6
+Vertex 305588 is visted 3
+Vertex 521792 is visted 4
+Vertex 715830 is visted 5
+Vertex 490374 is visted 5
+Vertex 508806 is visted 5
+Vertex 1099672 is visted 9
+Vertex 480905 is visted 3
+Vertex 741083 is visted 32
+Vertex 1100733 is visted 20
+Vertex 497418 is visted 10
+Vertex 1171197 is visted 4
+Vertex 588813 is visted 72
+Vertex 584395 is visted 3
+Vertex 899065 is visted 11
+Vertex 517451 is visted 7
+Vertex 865577 is visted 20
+Vertex 635157 is visted 4
+Vertex 893989 is visted 1366
+Vertex 661350 is visted 3
+Vertex 916742 is visted 3
+Vertex 709162 is visted 38
+Vertex 913486 is visted 10
+Vertex 885609 is visted 6
+Vertex 881238 is visted 3
+Vertex 993607 is visted 11
+Vertex 1171198 is visted 4
+Vertex 945654 is visted 11
+Vertex 1294073 is visted 12
+Vertex 1009223 is visted 13
+Vertex 1451600 is visted 3
+Vertex 1125243 is visted 3
+Vertex 1076291 is visted 3
+Vertex 995632 is visted 14
+Vertex 1099704 is visted 14
+Vertex 1118792 is visted 10
+Vertex 1030391 is visted 41
+Vertex 1559418 is visted 79
+Vertex 1711080 is visted 3
+Vertex 1732781 is visted 5
+Vertex 1614705 is visted 12
+Vertex 1727709 is visted 3
+Vertex 1133255 is visted 3
+Vertex 1136517 is visted 4
+Vertex 1218049 is visted 33
+Vertex 1405305 is visted 3
+Vertex 1146053 is visted 11
+Vertex 1806234 is visted 10
+Vertex 1505542 is visted 3
+Vertex 1109388 is visted 3
+Vertex 1151340 is visted 3
+Vertex 1872089 is visted 10
+Vertex 1530586 is visted 11
+Vertex 1296410 is visted 21
+Vertex 1211851 is visted 21
+Vertex 1592614 is visted 4
+Vertex 1302655 is visted 22
+Vertex 1625905 is visted 4
+Vertex 1131952 is visted 5
+Vertex 1369091 is visted 3
+Vertex 1623716 is visted 12
+Vertex 1171411 is visted 3
+Vertex 1675445 is visted 10
+Vertex 1151339 is visted 12
+Vertex 2290539 is visted 10
+Vertex 1618819 is visted 3
+Vertex 1287857 is visted 5
+Vertex 2343250 is visted 20
+Vertex 2197309 is visted 10
+Vertex 1285557 is visted 10
+Vertex 2328187 is visted 9
+Vertex 2155358 is visted 144
+Vertex 1399246 is visted 3
+Vertex 1681856 is visted 54
+Vertex 1736972 is visted 34
+Vertex 2203441 is visted 67
+Vertex 1882122 is visted 11
+Vertex 2268544 is visted 5
+Vertex 1365717 is visted 10
+Vertex 2002397 is visted 3
+Vertex 1423977 is visted 3
+Vertex 1504707 is visted 10
+Vertex 2159299 is visted 21
+Vertex 2434914 is visted 21
+Vertex 2343260 is visted 71
+Vertex 2711301 is visted 3
+Vertex 2554452 is visted 11
+Vertex 1468421 is visted 10
+Vertex 2596319 is visted 3
+Vertex 1495504 is visted 42
+Vertex 2654111 is visted 6
+Vertex 2060289 is visted 30
+Vertex 2607733 is visted 3
+Vertex 2083717 is visted 4
+Vertex 2214648 is visted 23
+Vertex 2937671 is visted 10
+Vertex 2693847 is visted 52
+Vertex 2344743 is visted 15
+Vertex 2933429 is visted 10
+Vertex 2672049 is visted 3
+Vertex 2621221 is visted 11
+Vertex 1405268 is visted 13
+Vertex 2915976 is visted 20
+Vertex 2794495 is visted 6
+Vertex 1684918 is visted 14
+Vertex 2964090 is visted 16
+Vertex 2970582 is visted 10
+Vertex 2949004 is visted 11
+Vertex 3233829 is visted 8
+Vertex 3038780 is visted 22
+Vertex 3420341 is visted 11
+Vertex 3394079 is visted 16
+Vertex 2982562 is visted 3
+Vertex 1883734 is visted 11
+Vertex 3009350 is visted 3
+Vertex 2178625 is visted 20
+Vertex 3113503 is visted 9
+Vertex 2203795 is visted 37
+Vertex 3534081 is visted 10
+Vertex 2258691 is visted 44
+Vertex 2309095 is visted 31
+Vertex 3753756 is visted 64
+Vertex 2427281 is visted 3
+Vertex 2391474 is visted 21
+Vertex 3586115 is visted 30
+Vertex 3533802 is visted 4
+Vertex 3767080 is visted 20
+Vertex 3838211 is visted 117
+Vertex 3770853 is visted 3
+Vertex 2557059 is visted 30
+Vertex 3838032 is visted 10
+Vertex 2585677 is visted 3
+Vertex 2808578 is visted 10
+Vertex 4019704 is visted 10
+Vertex 3907440 is visted 16
+Vertex 2918036 is visted 10
+Vertex 3133070 is visted 407
+Vertex 3214865 is visted 23
+Vertex 3922511 is visted 21
+Vertex 3986811 is visted 137
+Vertex 4082668 is visted 11
+Vertex 4003517 is visted 42
+Vertex 4195710 is visted 25
+Vertex 3346666 is visted 11
+Vertex 3499510 is visted 11
+Vertex 3693792 is visted 3
+Vertex 3585699 is visted 21
+Vertex 4294022 is visted 12
+Vertex 4293009 is visted 43
+Vertex 3634860 is visted 3
+Vertex 3967414 is visted 10
+Vertex 4199052 is visted 22
+Vertex 4550964 is visted 11
+Vertex 4292400 is visted 10
+Vertex 4445569 is visted 10
+Vertex 4311092 is visted 21
+Vertex 4660703 is visted 3
+Vertex 4645213 is visted 13
+Vertex 4621022 is visted 23
+Vertex 4481101 is visted 3
+Vertex 4439244 is visted 7
+Vertex 4524884 is visted 10
+Vertex 4478531 is visted 3
+Vertex 4467974 is visted 5
+Vertex 4894726 is visted 10
+Vertex 4588351 is visted 3
+Vertex 4660353 is visted 40
+Vertex 4777481 is visted 144
+Vertex 5011347 is visted 20
+Vertex 4920229 is visted 11
+Vertex 5051675 is visted 11
+Vertex 5377467 is visted 11
+Vertex 5377251 is visted 10
+Vertex 5288592 is visted 6
+Vertex 5350217 is visted 10
+Vertex 5356159 is visted 21
+Vertex 5349460 is visted 29
+Vertex 5511100 is visted 12
+Vertex 5603606 is visted 11
+Vertex 5743167 is visted 16
+Vertex 5969287 is visted 11
+Vertex 5683384 is visted 3
+Vertex 5808840 is visted 10
+Vertex 5768313 is visted 63
+Vertex 5960408 is visted 20
+Vertex 5910167 is visted 12
+Vertex 5927764 is visted 24
+Vertex 6192992 is visted 10
+Vertex 6341786 is visted 21
+Vertex 6089356 is visted 11
+Vertex 6342974 is visted 46
+Vertex 6532618 is visted 3
+Vertex 6232268 is visted 9
+Vertex 6639202 is visted 10
+Vertex 6735154 is visted 3
+Vertex 6952320 is visted 8
+Vertex 6938831 is visted 6
+Vertex 6954308 is visted 3
+Vertex 7010987 is visted 10
+Vertex 6951532 is visted 1622
+Vertex 6932291 is visted 23
+Vertex 7151017 is visted 23
+Vertex 7287606 is visted 43
+Vertex 7324390 is visted 52
+Vertex 7625745 is visted 4
+Vertex 7564180 is visted 3
+Vertex 7773893 is visted 3
+Vertex 7933293 is visted 10
+Vertex 7914584 is visted 6
+Vertex 7989675 is visted 10
+Vertex 7752880 is visted 3
+Vertex 7894094 is visted 3
+Vertex 8283054 is visted 4
+Vertex 8180604 is visted 40
+Vertex 8305830 is visted 10
+Vertex 8564621 is visted 11
+Vertex 8508326 is visted 10
+Vertex 8378598 is visted 7
+Vertex 8599294 is visted 32
+Vertex 8565189 is visted 10
+Vertex 8642791 is visted 3
+Vertex 8608277 is visted 12
+Vertex 8818564 is visted 41
+Vertex 8813853 is visted 480
+Vertex 8873467 is visted 20
+Vertex 9205924 is visted 4
+Vertex 9019512 is visted 15
+Vertex 9216560 is visted 3
+Vertex 9112733 is visted 4
+Vertex 9014538 is visted 46
+Vertex 10194041 is visted 10
+Vertex 10230936 is visted 32
+Vertex 10250987 is visted 40
+Vertex 10669853 is visted 13
+Vertex 10676556 is visted 28
+Vertex 10658937 is visted 53
+Vertex 10740048 is visted 10
+Vertex 11072288 is visted 10
+Vertex 11173933 is visted 10
+Vertex 10948483 is visted 11
+Vertex 11360473 is visted 86
+Vertex 11184438 is visted 12
+Vertex 11451962 is visted 30
+Vertex 11377463 is visted 10
+Vertex 11431138 is visted 10
+Vertex 11504833 is visted 10
+Vertex 11572448 is visted 17
+Vertex 11424486 is visted 10
+Vertex 11643974 is visted 33
+Vertex 11675218 is visted 14
+Vertex 11644702 is visted 3
+Vertex 12211610 is visted 3
+Vertex 12329197 is visted 21
+Vertex 12222136 is visted 95
+Vertex 12230565 is visted 13
+Vertex 12434210 is visted 32
+Vertex 12342843 is visted 11
+Vertex 12462527 is visted 10
+Vertex 12470830 is visted 11
+Vertex 12718855 is visted 4
+Vertex 12689424 is visted 11
+Vertex 13066770 is visted 90
+Vertex 12908882 is visted 35
+Vertex 13015671 is visted 10
+Vertex 13137024 is visted 35
+Vertex 13065429 is visted 10
+Vertex 13446537 is visted 3
+Vertex 13416483 is visted 3
+Vertex 13497695 is visted 12
+Vertex 14010914 is visted 20
+Vertex 13962750 is visted 3
+Vertex 13769625 is visted 6
+Vertex 13822332 is visted 12
+Vertex 14084472 is visted 3
+Vertex 13969232 is visted 10
+Vertex 14567453 is visted 10
+Vertex 14509207 is visted 5
+Vertex 14773409 is visted 11
+Vertex 14771888 is visted 6
+Vertex 14894988 is visted 10
+Vertex 15006481 is visted 92
+Vertex 15172096 is visted 33
+Vertex 15585230 is visted 12
+Vertex 15572390 is visted 191
+Vertex 15622051 is visted 63
+Vertex 15797549 is visted 12
+Vertex 15682708 is visted 11
+Vertex 16386347 is visted 31
+Vertex 16455162 is visted 79
+Vertex 16518875 is visted 10
+Vertex 16570890 is visted 10
+Vertex 16572089 is visted 4
+Vertex 16577530 is visted 10
+Vertex 16467167 is visted 10
+Vertex 16924861 is visted 10
+Vertex 16619380 is visted 9
+Vertex 18086879 is visted 4
+Vertex 18183590 is visted 4
+Vertex 18255765 is visted 3
+Vertex 18135625 is visted 261
+Vertex 18279180 is visted 3
+Vertex 18286026 is visted 3
+Vertex 18549613 is visted 21
+Vertex 18475124 is visted 3
+Vertex 18335493 is visted 15
+Vertex 18517901 is visted 5
+Vertex 18273646 is visted 10
+Vertex 18472383 is visted 4
+Vertex 18734536 is visted 3
+Vertex 18699928 is visted 4
+Vertex 18978558 is visted 11
+Vertex 18790227 is visted 17
+Vertex 19049576 is visted 4
+Vertex 19078587 is visted 37
+Vertex 18975267 is visted 11
+Vertex 19110948 is visted 4
+Vertex 18761430 is visted 3
+Vertex 19093611 is visted 10
+Vertex 19115434 is visted 5
+Vertex 18916485 is visted 10
+Vertex 18989046 is visted 3
+Vertex 19026814 is visted 5
+Vertex 19042348 is visted 5
+Vertex 19406297 is visted 11
+Vertex 19579512 is visted 5
+Vertex 19488054 is visted 11
+Vertex 19913866 is visted 11
+Vertex 20023719 is visted 3
+Vertex 19649524 is visted 49
+Vertex 20190152 is visted 3
+Vertex 20242277 is visted 10
+Vertex 20151959 is visted 3
+Vertex 20288559 is visted 31
+Vertex 20244984 is visted 3
+Vertex 20119749 is visted 10
+Vertex 20103790 is visted 3
+Vertex 20168782 is visted 10
+Vertex 20283121 is visted 4
+Vertex 20291503 is visted 10
+Vertex 20468765 is visted 3
+Vertex 20255958 is visted 4
+Vertex 20785450 is visted 9
+Vertex 20852353 is visted 47
+Vertex 21627460 is visted 13
+Vertex 21395797 is visted 10
+Vertex 21773473 is visted 7
+Vertex 21632026 is visted 9
+Vertex 21833999 is visted 4
+Vertex 21828173 is visted 3
+Vertex 21920447 is visted 23
+Vertex 21954766 is visted 14
+Vertex 21825381 is visted 34
+Vertex 22112248 is visted 12
+Vertex 22188071 is visted 3
+Vertex 22490130 is visted 164
+Vertex 22412959 is visted 10
+Vertex 22658995 is visted 21
+Vertex 22415846 is visted 10
+Vertex 22913794 is visted 54
+Vertex 23036194 is visted 10
+Vertex 22904994 is visted 6
+Vertex 23043399 is visted 80
+Vertex 23081511 is visted 18
+Vertex 22975837 is visted 12
+Vertex 23081220 is visted 7
+Vertex 22971053 is visted 42
+Vertex 23086305 is visted 13
+Vertex 23040855 is visted 10
+Vertex 23279480 is visted 10
+Vertex 23582707 is visted 10
+Vertex 23433288 is visted 3
+Vertex 23459532 is visted 23
+Vertex 23246734 is visted 11
+Vertex 23927157 is visted 10
+Vertex 24056544 is visted 10
+Vertex 23682993 is visted 10
+Vertex 24042466 is visted 10
+Vertex 23819030 is visted 11
+Vertex 24221289 is visted 11
+Vertex 23916368 is visted 40
+Vertex 24213226 is visted 8
+Vertex 24221968 is visted 13
+Vertex 24334756 is visted 58
+Vertex 24214153 is visted 5
+Vertex 24401202 is visted 13
+Vertex 24446324 is visted 11
+Vertex 24786552 is visted 3
+Vertex 24838338 is visted 32
+Vertex 24994534 is visted 10
+Vertex 25018269 is visted 3
+Vertex 25303702 is visted 10
+Vertex 25567592 is visted 11
+Vertex 25358368 is visted 34
+Vertex 25380825 is visted 10
+Vertex 25492884 is visted 10
+Vertex 25436214 is visted 10
+Vertex 25343856 is visted 10
+Vertex 25459486 is visted 5
+Vertex 26038095 is visted 10
+Vertex 25722697 is visted 4
+Vertex 25934403 is visted 237
+Vertex 26059431 is visted 10
+Vertex 26195333 is visted 3
+Vertex 26201414 is visted 11
+Vertex 26359592 is visted 5
+Vertex 26436676 is visted 15
+Vertex 26371935 is visted 10
+Vertex 26665552 is visted 23
+Vertex 26602937 is visted 4
