@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Scanning dependencies of target run_randwalk
 [100%] Building CXX object src/CMakeFiles/run_randwalk.dir/run_randwalk.cpp.o
 In file included from /g/g91/zhang50/havoqgt/src/run_randwalk.cpp:55:0:
@@ -6,3 +7,14 @@ In file included from /g/g91/zhang50/havoqgt/src/run_randwalk.cpp:55:0:
                                                                                                                                           ^
 Linking CXX executable run_randwalk
 [100%] Built target run_randwalk
+=======
+Could not read from count file.
+Scanning dependencies of target run_randwalk
+Building CXX object src/CMakeFiles/run_randwalk.dir/run_randwalk.cpp.o
+In file included from /g/g91/zhang50/havoqgt/src/run_randwalk.cpp:55:0:
+/g/g91/zhang50/havoqgt/include/havoqgt/bias_randwalk.hpp:205:138: warning: use of 'auto' in parameter declaration only available with -std=c++1y or -std=gnu++1y
+ void bias_randwalk(TGraph* g, QueueType& upstream, QueueType& downstream, QueueType& curstream, EdgeData& edge_data, VerData& vertex_data, auto source, DirType dir_data) {
+                                                                                                                                          ^
+Linking CXX executable run_randwalk
+Built target run_randwalk
+>>>>>>> develop_jiyuan

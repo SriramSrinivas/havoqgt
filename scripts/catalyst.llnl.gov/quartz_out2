@@ -4,6 +4,7 @@ HAVOQGT_MAILBOX_NUM_ISEND         = 8
 HAVOQGT_MAILBOX_AGGREGATION       = 1024
 HAVOQGT_MAILBOX_TREE_AGGREGATION  = 64
 HAVOQGT_MAILBOX_PRINT_STATS       = 0
+<<<<<<< HEAD
 CMD line: /g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/./src/run_randwalk -i /dev/shm/graph -b /p/lscratchh/zhang50/N64/graph -s 6462711 -d 1401303791
 Transfer time = 38.5292
 Graph Loaded Ready.
@@ -14,8 +15,26 @@ local_id = 4207
 degree = 97266
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+=======
+CMD line: /g/g91/zhang50/havoqgt/scripts/catalyst.llnl.gov/./src/run_randwalk -i /dev/shm/graph -b /p/lscratchh/zhang50/graphrmat_s30 -s 2
+Transfer time = 6.29748
+Graph Loaded Ready.
+BFS data allocated.  Starting BFS from vertex 2
+Vertex 2 has a degree of 0.   New source vertex = 4
+delegate? = 0
+local_id = 0
+degree = 7
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+HAVOQGT_MAILBOX_NUM_ISEND     = 4
+HAVOQGT_MAILBOX_NUM_IRECV     = 4
+HAVOQGT_MAILBOX_MPI_SIZE      = 4096
+HAVOQGT_MAILBOX_SHM_SIZE      = 4096
+HAVOQGT_MAILBOX_PRINT_STATS   = 1
+HAVOQGT_MAILBOX_ROUTE_ON_DEST = 0
+msg_bundle_mpi::capacity = 170
+msg_bundle_shm::capacity = 170
+>>>>>>> develop_jiyuan
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
@@ -1416,7 +1435,12 @@ degree = 97266
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
+<<<<<<< HEAD
 sizeof(message_type) = 18
+=======
+>>>>>>> develop_jiyuan
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
@@ -1550,6 +1574,13 @@ sizeof(message_type) = 18
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start BFS~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+<<<<<<< HEAD
+=======
+HAVOQGT_MAILBOX_NUM_ISEND     = 4
+HAVOQGT_MAILBOX_NUM_IRECV     = 4
+HAVOQGT_MAILBOX_MPI_SIZE      = 4096
+HAVOQGT_MAILBOX_SHM_SIZE      = 4096
+>>>>>>> develop_jiyuan
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
@@ -3029,7 +3060,10 @@ sizeof(message_type) = 18
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+<<<<<<< HEAD
 sizeof(message_type) = 18
+=======
+>>>>>>> develop_jiyuan
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
@@ -3059,6 +3093,13 @@ sizeof(message_type) = 18
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+<<<<<<< HEAD
+=======
+HAVOQGT_MAILBOX_PRINT_STATS   = 1
+HAVOQGT_MAILBOX_ROUTE_ON_DEST = 0
+msg_bundle_mpi::capacity = 170
+msg_bundle_shm::capacity = 170
+>>>>>>> develop_jiyuan
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
@@ -3068,24 +3109,52 @@ sizeof(message_type) = 18
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+<<<<<<< HEAD
+=======
+is delegate!!!!!!!!!!277700216
+is delegate!!!!!!!!!!370956364
+is delegate!!!!!!!!!!502423697
+is delegate!!!!!!!!!!481931310
+is delegate!!!!!!!!!!224826683
+>>>>>>> develop_jiyuan
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+<<<<<<< HEAD
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+=======
+is delegate!!!!!!!!!!964679890
+is delegate!!!!!!!!!!1073003379
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+is delegate!!!!!!!!!!922977835
+>>>>>>> develop_jiyuan
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+<<<<<<< HEAD
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+=======
+is delegate!!!!!!!!!!834742185
+is delegate!!!!!!!!!!613008619
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+is delegate!!!!!!!!!!666710903
+is delegate!!!!!!!!!!879233148
+~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+is delegate!!!!!!!!!!767759408
+>>>>>>> develop_jiyuan
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~ start build walk tree~~~~~~~~~~~~~~~~~~~
+<<<<<<< HEAD
 ~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~ start bias walk~~~~~~~~~~~~~~~~~~~
@@ -6527,3 +6596,532 @@ Vertex 1401307877 is visted 4
 Vertex 1401303790 is visted 11
 Vertex 1460922576 is visted 3
 Vertex 2886188340 is visted 3
+=======
+is delegate!!!!!!!!!!5622677
+is delegate!!!!!!!!!!78087582
+is delegate!!!!!!!!!!571203203
+is delegate!!!!!!!!!!337883586
+is delegate!!!!!!!!!!161081971
+is delegate!!!!!!!!!!283727939
+is delegate!!!!!!!!!!356048312
+is delegate!!!!!!!!!!499167225
+is delegate!!!!!!!!!!438647578
+is delegate!!!!!!!!!!187913026
+is delegate!!!!!!!!!!997611128
+is delegate!!!!!!!!!!1056645924
+is delegate!!!!!!!!!!902667862
+is delegate!!!!!!!!!!1030557709
+is delegate!!!!!!!!!!725607028
+is delegate!!!!!!!!!!814983602
+is delegate!!!!!!!!!!604422404
+is delegate!!!!!!!!!!657734214
+is delegate!!!!!!!!!!842311990
+is delegate!!!!!!!!!!753899239
+is delegate!!!!!!!!!!24025466
+is delegate!!!!!!!!!!80223253
+is delegate!!!!!!!!!!565818914
+is delegate!!!!!!!!!!296614892
+is delegate!!!!!!!!!!128379293
+is delegate!!!!!!!!!!253841448
+is delegate!!!!!!!!!!382226639
+is delegate!!!!!!!!!!523432920
+is delegate!!!!!!!!!!442774353
+is delegate!!!!!!!!!!200003247
+is delegate!!!!!!!!!!982163546
+is delegate!!!!!!!!!!1070830696
+is delegate!!!!!!!!!!894402519
+is delegate!!!!!!!!!!1026658243
+is delegate!!!!!!!!!!727755506
+is delegate!!!!!!!!!!818583213
+is delegate!!!!!!!!!!628039759
+is delegate!!!!!!!!!!654048320
+is delegate!!!!!!!!!!863025030
+is delegate!!!!!!!!!!772641865
+is delegate!!!!!!!!!!9768834
+is delegate!!!!!!!!!!109118392
+is delegate!!!!!!!!!!541624538
+is delegate!!!!!!!!!!327147689
+is delegate!!!!!!!!!!153241636
+is delegate!!!!!!!!!!261804658
+is delegate!!!!!!!!!!351117789
+is delegate!!!!!!!!!!535981625
+is delegate!!!!!!!!!!444389023
+is delegate!!!!!!!!!!186270477
+is delegate!!!!!!!!!!962163338
+is delegate!!!!!!!!!!1058927445
+is delegate!!!!!!!!!!912695935
+is delegate!!!!!!!!!!1016506656
+is delegate!!!!!!!!!!679225906
+is delegate!!!!!!!!!!840051271
+is delegate!!!!!!!!!!629167337
+is delegate!!!!!!!!!!643667100
+is delegate!!!!!!!!!!860039140
+is delegate!!!!!!!!!!760218993
+is delegate!!!!!!!!!!26436919
+is delegate!!!!!!!!!!114940950
+is delegate!!!!!!!!!!581308503
+is delegate!!!!!!!!!!297887086
+is delegate!!!!!!!!!!177449284
+is delegate!!!!!!!!!!267764019
+is delegate!!!!!!!!!!367210041
+is delegate!!!!!!!!!!512413125
+is delegate!!!!!!!!!!478283982
+is delegate!!!!!!!!!!194472977
+is delegate!!!!!!!!!!980730955
+is delegate!!!!!!!!!!1056597738
+is delegate!!!!!!!!!!946554699
+is delegate!!!!!!!!!!1042885624
+is delegate!!!!!!!!!!705712517
+is delegate!!!!!!!!!!813525939
+is delegate!!!!!!!!!!616330645
+is delegate!!!!!!!!!!664776549
+is delegate!!!!!!!!!!857671220
+is delegate!!!!!!!!!!765582521
+is delegate!!!!!!!!!!58022255
+is delegate!!!!!!!!!!90811376
+is delegate!!!!!!!!!!565878427
+is delegate!!!!!!!!!!302361360
+is delegate!!!!!!!!!!177202445
+is delegate!!!!!!!!!!272488905
+is delegate!!!!!!!!!!371749329
+is delegate!!!!!!!!!!486711073
+is delegate!!!!!!!!!!437510231
+is delegate!!!!!!!!!!204848957
+is delegate!!!!!!!!!!988335354
+is delegate!!!!!!!!!!1063245261
+is delegate!!!!!!!!!!937974930
+is delegate!!!!!!!!!!1045439647
+is delegate!!!!!!!!!!695986926
+is delegate!!!!!!!!!!826734569
+is delegate!!!!!!!!!!604871299
+is delegate!!!!!!!!!!667686981
+is delegate!!!!!!!!!!848392532
+is delegate!!!!!!!!!!790323708
+is delegate!!!!!!!!!!53618176
+is delegate!!!!!!!!!!95932129
+is delegate!!!!!!!!!!585383146
+is delegate!!!!!!!!!!297173440
+is delegate!!!!!!!!!!180266685
+is delegate!!!!!!!!!!282952056
+is delegate!!!!!!!!!!403634197
+is delegate!!!!!!!!!!525080940
+is delegate!!!!!!!!!!452756159
+is delegate!!!!!!!!!!212356772
+is delegate!!!!!!!!!!976383577
+is delegate!!!!!!!!!!1067399962
+is delegate!!!!!!!!!!882854265
+is delegate!!!!!!!!!!1011995904
+is delegate!!!!!!!!!!716489537
+is delegate!!!!!!!!!!831445185
+is delegate!!!!!!!!!!632802486
+is delegate!!!!!!!!!!652859590
+is delegate!!!!!!!!!!851221357
+is delegate!!!!!!!!!!791766881
+is delegate!!!!!!!!!!27614446
+is delegate!!!!!!!!!!125213214
+is delegate!!!!!!!!!!579796539
+is delegate!!!!!!!!!!314457219
+is delegate!!!!!!!!!!156460575
+is delegate!!!!!!!!!!272375104
+is delegate!!!!!!!!!!391322338
+is delegate!!!!!!!!!!486826670
+is delegate!!!!!!!!!!453097235
+is delegate!!!!!!!!!!244564492
+is delegate!!!!!!!!!!951045294
+is delegate!!!!!!!!!!1057208722
+is delegate!!!!!!!!!!881015268
+is delegate!!!!!!!!!!1044566062
+is delegate!!!!!!!!!!692074715
+is delegate!!!!!!!!!!835199065
+is delegate!!!!!!!!!!613635699
+is delegate!!!!!!!!!!658434595
+is delegate!!!!!!!!!!848942235
+is delegate!!!!!!!!!!761673204
+is delegate!!!!!!!!!!51179040
+is delegate!!!!!!!!!!84894544
+is delegate!!!!!!!!!!560840373
+is delegate!!!!!!!!!!296348538
+is delegate!!!!!!!!!!183819368
+is delegate!!!!!!!!!!268170758
+is delegate!!!!!!!!!!393842339
+is delegate!!!!!!!!!!530305812
+is delegate!!!!!!!!!!457784789
+is delegate!!!!!!!!!!193984732
+is delegate!!!!!!!!!!1002071027
+is delegate!!!!!!!!!!1058375081
+is delegate!!!!!!!!!!888245373
+is delegate!!!!!!!!!!1030318780
+is delegate!!!!!!!!!!697161629
+is delegate!!!!!!!!!!799170704
+is delegate!!!!!!!!!!634101855
+is delegate!!!!!!!!!!661148856
+is delegate!!!!!!!!!!866950170
+is delegate!!!!!!!!!!792846078
+is delegate!!!!!!!!!!58763484
+is delegate!!!!!!!!!!116238378
+is delegate!!!!!!!!!!578268521
+is delegate!!!!!!!!!!329083482
+is delegate!!!!!!!!!!184962329
+is delegate!!!!!!!!!!244909156
+is delegate!!!!!!!!!!358666400
+is delegate!!!!!!!!!!487229116
+is delegate!!!!!!!!!!433725126
+is delegate!!!!!!!!!!222053491
+is delegate!!!!!!!!!!1000131169
+is delegate!!!!!!!!!!1070469810
+is delegate!!!!!!!!!!888668831
+is delegate!!!!!!!!!!1021525109
+is delegate!!!!!!!!!!685604364
+is delegate!!!!!!!!!!811989891
+is delegate!!!!!!!!!!601474832
+is delegate!!!!!!!!!!675258644
+is delegate!!!!!!!!!!843148427
+is delegate!!!!!!!!!!764128582
+is delegate!!!!!!!!!!18751266
+is delegate!!!!!!!!!!118081295
+is delegate!!!!!!!!!!596797417
+is delegate!!!!!!!!!!321291240
+is delegate!!!!!!!!!!158807956
+is delegate!!!!!!!!!!278251661
+is delegate!!!!!!!!!!397969276
+is delegate!!!!!!!!!!509981771
+is delegate!!!!!!!!!!459061279
+is delegate!!!!!!!!!!188921092
+is delegate!!!!!!!!!!982350896
+is delegate!!!!!!!!!!889568948
+is delegate!!!!!!!!!!1052772695
+is delegate!!!!!!!!!!694676615
+is delegate!!!!!!!!!!814781840
+is delegate!!!!!!!!!!630057821
+is delegate!!!!!!!!!!639961225
+is delegate!!!!!!!!!!871367752
+is delegate!!!!!!!!!!781296237
+is delegate!!!!!!!!!!22374048
+is delegate!!!!!!!!!!81590589
+is delegate!!!!!!!!!!537261335
+is delegate!!!!!!!!!!328836075
+is delegate!!!!!!!!!!175808343
+is delegate!!!!!!!!!!263384985
+is delegate!!!!!!!!!!377104883
+is delegate!!!!!!!!!!511033809
+is delegate!!!!!!!!!!455109333
+is delegate!!!!!!!!!!239338750
+is delegate!!!!!!!!!!1008839562
+is delegate!!!!!!!!!!943220177
+is delegate!!!!!!!!!!1049293680
+is delegate!!!!!!!!!!719545253
+is delegate!!!!!!!!!!817511786
+is delegate!!!!!!!!!!631888040
+is delegate!!!!!!!!!!650138833
+is delegate!!!!!!!!!!874911268
+is delegate!!!!!!!!!!753390578
+is delegate!!!!!!!!!!48427625
+is delegate!!!!!!!!!!97596377
+is delegate!!!!!!!!!!544004851
+is delegate!!!!!!!!!!335923481
+is delegate!!!!!!!!!!158128291
+is delegate!!!!!!!!!!293452014
+is delegate!!!!!!!!!!358051515
+is delegate!!!!!!!!!!492486987
+is delegate!!!!!!!!!!450174042
+is delegate!!!!!!!!!!222905461
+is delegate!!!!!!!!!!969804426
+is delegate!!!!!!!!!!887112598
+is delegate!!!!!!!!!!1023250153
+is delegate!!!!!!!!!!724734398
+is delegate!!!!!!!!!!807109286
+is delegate!!!!!!!!!!609943087
+is delegate!!!!!!!!!!665989680
+is delegate!!!!!!!!!!874021200
+is delegate!!!!!!!!!!785559399
+is delegate!!!!!!!!!!60688088
+is delegate!!!!!!!!!!88331667
+is delegate!!!!!!!!!!587260359
+is delegate!!!!!!!!!!317302555
+is delegate!!!!!!!!!!184899366
+is delegate!!!!!!!!!!252461353
+is delegate!!!!!!!!!!377883680
+is delegate!!!!!!!!!!528038395
+is delegate!!!!!!!!!!468316713
+is delegate!!!!!!!!!!232616474
+is delegate!!!!!!!!!!957202716
+is delegate!!!!!!!!!!918950259
+is delegate!!!!!!!!!!1038030946
+is delegate!!!!!!!!!!678726060
+is delegate!!!!!!!!!!798654699
+is delegate!!!!!!!!!!597802075
+is delegate!!!!!!!!!!674732034
+is delegate!!!!!!!!!!859607788
+is delegate!!!!!!!!!!753810473
+is delegate!!!!!!!!!!25366875
+is delegate!!!!!!!!!!91411812
+is delegate!!!!!!!!!!551467199
+is delegate!!!!!!!!!!325579857
+is delegate!!!!!!!!!!171565726
+is delegate!!!!!!!!!!257124500
+is delegate!!!!!!!!!!387223788
+is delegate!!!!!!!!!!482001680
+is delegate!!!!!!!!!!431118608
+is delegate!!!!!!!!!!236694153
+is delegate!!!!!!!!!!965171654
+is delegate!!!!!!!!!!942070712
+is delegate!!!!!!!!!!1014929656
+is delegate!!!!!!!!!!687800720
+is delegate!!!!!!!!!!809930389
+is delegate!!!!!!!!!!598864859
+is delegate!!!!!!!!!!636997174
+is delegate!!!!!!!!!!860219827
+is delegate!!!!!!!!!!762178862
+is delegate!!!!!!!!!!42944795
+is delegate!!!!!!!!!!120512206
+is delegate!!!!!!!!!!542843352
+is delegate!!!!!!!!!!336532240
+is delegate!!!!!!!!!!144043657
+is delegate!!!!!!!!!!245899757
+is delegate!!!!!!!!!!395823858
+is delegate!!!!!!!!!!530737130
+is delegate!!!!!!!!!!436595893
+is delegate!!!!!!!!!!243358860
+is delegate!!!!!!!!!!988744580
+is delegate!!!!!!!!!!885708784
+is delegate!!!!!!!!!!1032583724
+is delegate!!!!!!!!!!710451107
+is delegate!!!!!!!!!!833925726
+is delegate!!!!!!!!!!626502901
+is delegate!!!!!!!!!!638516846
+is delegate!!!!!!!!!!856666939
+is delegate!!!!!!!!!!777288525
+is delegate!!!!!!!!!!50707045
+is delegate!!!!!!!!!!124728648
+is delegate!!!!!!!!!!562884954
+is delegate!!!!!!!!!!299863529
+is delegate!!!!!!!!!!177586971
+is delegate!!!!!!!!!!272172166
+is delegate!!!!!!!!!!355973335
+is delegate!!!!!!!!!!492041163
+is delegate!!!!!!!!!!443794966
+is delegate!!!!!!!!!!230887944
+is delegate!!!!!!!!!!1008172756
+is delegate!!!!!!!!!!893216094
+is delegate!!!!!!!!!!1010974786
+is delegate!!!!!!!!!!739148560
+is delegate!!!!!!!!!!839599998
+is delegate!!!!!!!!!!603337667
+is delegate!!!!!!!!!!642751749
+is delegate!!!!!!!!!!863319779
+is delegate!!!!!!!!!!743289820
+is delegate!!!!!!!!!!70189527
+is delegate!!!!!!!!!!94530637
+is delegate!!!!!!!!!!574569272
+is delegate!!!!!!!!!!303783743
+is delegate!!!!!!!!!!132311166
+is delegate!!!!!!!!!!272954738
+is delegate!!!!!!!!!!359455056
+is delegate!!!!!!!!!!493629756
+is delegate!!!!!!!!!!480666601
+is delegate!!!!!!!!!!233933987
+is delegate!!!!!!!!!!951373008
+is delegate!!!!!!!!!!934243770
+is delegate!!!!!!!!!!1044265376
+is delegate!!!!!!!!!!697933794
+is delegate!!!!!!!!!!799451625
+is delegate!!!!!!!!!!630044083
+is delegate!!!!!!!!!!651816684
+is delegate!!!!!!!!!!870773485
+is delegate!!!!!!!!!!758092660
+is delegate!!!!!!!!!!22726575
+is delegate!!!!!!!!!!95300734
+is delegate!!!!!!!!!!539789957
+is delegate!!!!!!!!!!305511235
+is delegate!!!!!!!!!!144442174
+is delegate!!!!!!!!!!278341516
+is delegate!!!!!!!!!!350629656
+is delegate!!!!!!!!!!484245365
+is delegate!!!!!!!!!!410821212
+is delegate!!!!!!!!!!185061846
+is delegate!!!!!!!!!!970730181
+is delegate!!!!!!!!!!885024289
+is delegate!!!!!!!!!!1048239185
+is delegate!!!!!!!!!!742327566
+is delegate!!!!!!!!!!803118035
+is delegate!!!!!!!!!!633381516
+is delegate!!!!!!!!!!673298826
+is delegate!!!!!!!!!!880731521
+is delegate!!!!!!!!!!798427834
+is delegate!!!!!!!!!!28041313
+is delegate!!!!!!!!!!74797752
+is delegate!!!!!!!!!!542272133
+is delegate!!!!!!!!!!327238272
+is delegate!!!!!!!!!!148784926
+is delegate!!!!!!!!!!283686242
+is delegate!!!!!!!!!!363200381
+is delegate!!!!!!!!!!502382923
+is delegate!!!!!!!!!!411764810
+is delegate!!!!!!!!!!201812182
+is delegate!!!!!!!!!!978103542
+is delegate!!!!!!!!!!897051961
+is delegate!!!!!!!!!!1019615717
+is delegate!!!!!!!!!!681444302
+is delegate!!!!!!!!!!806265587
+is delegate!!!!!!!!!!600447236
+is delegate!!!!!!!!!!637115339
+is delegate!!!!!!!!!!843989684
+is delegate!!!!!!!!!!746045000
+is delegate!!!!!!!!!!36482679
+is delegate!!!!!!!!!!75431150
+is delegate!!!!!!!!!!590750824
+is delegate!!!!!!!!!!347512342
+is delegate!!!!!!!!!!183706654
+is delegate!!!!!!!!!!255049363
+is delegate!!!!!!!!!!368866777
+is delegate!!!!!!!!!!511960923
+is delegate!!!!!!!!!!423021069
+is delegate!!!!!!!!!!220590596
+is delegate!!!!!!!!!!993762559
+is delegate!!!!!!!!!!913342351
+is delegate!!!!!!!!!!1019785936
+is delegate!!!!!!!!!!685022479
+is delegate!!!!!!!!!!810566375
+is delegate!!!!!!!!!!605389732
+is delegate!!!!!!!!!!662112960
+is delegate!!!!!!!!!!844106346
+is delegate!!!!!!!!!!758690432
+is delegate!!!!!!!!!!65722212
+is delegate!!!!!!!!!!102341844
+is delegate!!!!!!!!!!550953497
+is delegate!!!!!!!!!!347982296
+is delegate!!!!!!!!!!125618350
+is delegate!!!!!!!!!!256502793
+is delegate!!!!!!!!!!379091941
+is delegate!!!!!!!!!!518509634
+is delegate!!!!!!!!!!424485792
+is delegate!!!!!!!!!!223330795
+is delegate!!!!!!!!!!964758596
+is delegate!!!!!!!!!!930222309
+is delegate!!!!!!!!!!1030366982
+is delegate!!!!!!!!!!693020709
+is delegate!!!!!!!!!!827440887
+is delegate!!!!!!!!!!613127475
+is delegate!!!!!!!!!!662798412
+is delegate!!!!!!!!!!846847568
+is delegate!!!!!!!!!!776329794
+is delegate!!!!!!!!!!21727003
+is delegate!!!!!!!!!!106709146
+is delegate!!!!!!!!!!566504110
+is delegate!!!!!!!!!!134890161
+is delegate!!!!!!!!!!258678202
+is delegate!!!!!!!!!!392058579
+is delegate!!!!!!!!!!525789329
+is delegate!!!!!!!!!!460543200
+is delegate!!!!!!!!!!233344102
+is delegate!!!!!!!!!!972619717
+is delegate!!!!!!!!!!938153451
+is delegate!!!!!!!!!!1039404379
+is delegate!!!!!!!!!!733138711
+is delegate!!!!!!!!!!832011124
+is delegate!!!!!!!!!!623133191
+is delegate!!!!!!!!!!664801226
+is delegate!!!!!!!!!!850177119
+is delegate!!!!!!!!!!782441442
+is delegate!!!!!!!!!!22555552
+is delegate!!!!!!!!!!116488849
+is delegate!!!!!!!!!!566516805
+is delegate!!!!!!!!!!296861037
+is delegate!!!!!!!!!!178463553
+is delegate!!!!!!!!!!272427436
+is delegate!!!!!!!!!!399779921
+is delegate!!!!!!!!!!535602851
+is delegate!!!!!!!!!!465918908
+is delegate!!!!!!!!!!234795015
+is delegate!!!!!!!!!!997933936
+is delegate!!!!!!!!!!939766022
+is delegate!!!!!!!!!!1043144390
+is delegate!!!!!!!!!!742163738
+is delegate!!!!!!!!!!838312868
+is delegate!!!!!!!!!!627845111
+is delegate!!!!!!!!!!667256071
+is delegate!!!!!!!!!!851263118
+is delegate!!!!!!!!!!789213455
+is delegate!!!!!!!!!!26840500
+is delegate!!!!!!!!!!122018260
+is delegate!!!!!!!!!!596812918
+is delegate!!!!!!!!!!324378312
+is delegate!!!!!!!!!!178496463
+is delegate!!!!!!!!!!1052339288
+is delegate!!!!!!!!!!677644982
+is delegate!!!!!!!!!!331752432
+slurmd[quartz63]: *** STEP 945276.1 CANCELLED AT 2017-07-20T10:20:08 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+srun: error: quartz2149: tasks 1344,1346-1349,1351-1367: Terminated
+srun: error: quartz1564: tasks 840-857,860,862-863: Terminated
+srun: error: quartz1182: tasks 528-551: Terminated
+srun: error: quartz2187: tasks 1416-1422,1424-1439: Terminated
+srun: error: quartz2101: tasks 1200-1223: Terminated
+srun: error: quartz1230: tasks 600-623: Terminated
+srun: error: quartz2187: task 1423: Terminated
+srun: error: quartz2125: tasks 1320-1332,1334-1343: Terminated
+srun: error: quartz2125: task 1333: Terminated
+srun: error: quartz2104: tasks 1272-1294: Terminated
+srun: error: quartz1599: tasks 912-935: Terminated
+srun: error: quartz1600: tasks 936-947,949-953,955,958-959: Terminated
+srun: error: quartz1581: tasks 864-887: Terminated
+srun: error: quartz2526: tasks 1440-1463: Terminated
+srun: error: quartz2104: task 1295: Terminated
+srun: error: quartz1911: tasks 1128-1151: Terminated
+srun: error: quartz1231: tasks 624-647: Terminated
+srun: error: quartz2103: tasks 1248-1271: Terminated
+srun: error: quartz2102: tasks 1224-1225,1227-1247: Terminated
+srun: error: quartz1716: tasks 960-983: Terminated
+srun: error: quartz1181: tasks 504-527: Terminated
+srun: error: quartz2186: tasks 1392-1415: Terminated
+srun: error: quartz1723: tasks 1032-1055: Terminated
+srun: error: quartz1229: tasks 576-599: Terminated
+srun: error: quartz2063: tasks 1176-1199: Terminated
+srun: error: quartz2124: tasks 1296-1319: Terminated
+srun: error: quartz2529: tasks 1512-1535: Terminated
+srun: error: quartz1910: tasks 1104-1127: Terminated
+srun: error: quartz2150: tasks 1368-1391: Terminated
+srun: error: quartz1448: tasks 768-791: Terminated
+srun: error: quartz1232: tasks 648-671: Terminated
+srun: error: quartz2062: tasks 1152-1175: Terminated
+srun: error: quartz1449: tasks 792-815: Terminated
+srun: error: quartz1291: tasks 672-695: Terminated
+srun: error: quartz2527: tasks 1464-1487: Terminated
+srun: error: quartz1722: tasks 1008-1031: Terminated
+srun: error: quartz1292: tasks 696-719: Terminated
+srun: error: quartz1908: tasks 1056-1079: Terminated
+srun: error: quartz1447: tasks 744-767: Terminated
+srun: error: quartz1563: tasks 816-839: Terminated
+srun: error: quartz2102: task 1226: Terminated
+srun: error: quartz1180: tasks 480-503: Terminated
+srun: error: quartz1183: tasks 552-575: Terminated
+srun: error: quartz1446: tasks 720-743: Terminated
+srun: error: quartz1582: tasks 888-911: Terminated
+srun: error: quartz2528: tasks 1488-1511: Terminated
+srun: error: quartz1909: tasks 1080-1103: Terminated
+srun: error: quartz1717: tasks 984-1007: Terminated
+srun: error: quartz1179: tasks 456-465,467-472,474-479: Terminated
+srun: error: quartz64: tasks 24-47: Terminated
+srun: error: quartz762: tasks 336-359: Terminated
+srun: error: quartz1176: tasks 384-407: Terminated
+srun: error: quartz1177: tasks 408-431: Terminated
+srun: error: quartz745: tasks 240-263: Terminated
+srun: error: quartz90: tasks 96-119: Terminated
+srun: error: quartz128: tasks 120-143: Terminated
+srun: error: quartz1178: tasks 432-455: Terminated
+srun: error: quartz306: tasks 168-191: Terminated
+srun: error: quartz307: tasks 192-215: Terminated
+srun: error: quartz775: tasks 360-383: Terminated
+srun: error: quartz746: tasks 264-287: Terminated
+srun: error: quartz761: tasks 312-335: Terminated
+srun: error: quartz332: tasks 216-239: Terminated
+srun: error: quartz89: tasks 72-95: Terminated
+srun: error: quartz65: tasks 48-71: Terminated
+srun: error: quartz129: tasks 144-167: Terminated
+srun: error: quartz747: tasks 288-311: Terminated
+srun: error: quartz63: tasks 0-23: Terminated
+srun: error: quartz1564: tasks 858-859,861: Terminated
+srun: error: quartz2149: tasks 1345,1350: Terminated
+srun: error: quartz1600: tasks 948,954,956-957: Terminated
+srun: error: quartz1179: tasks 466,473: Terminated
+>>>>>>> develop_jiyuan

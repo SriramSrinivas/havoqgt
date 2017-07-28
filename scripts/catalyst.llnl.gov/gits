@@ -1,10 +1,43 @@
 On branch newb
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Changes to be committed:
+
+	new file:   1
+	copied:     output -> difff
+	modified:   do_cmake_debug.sh
+	modified:   output
+	modified:   output2
+	new file:   quartz26-run_bfs-103645.core
+	new file:   quartz26-run_bfs-103646.core
+	copied:     output2 -> quartz_output
+	new file:   quartz_rand
+	new file:   run_bfs.80s-197507,catalyst160.btr
+	new file:   run_bfs.80s-197525,catalyst160.btr
+	new file:   run_randwalk.80s-197131,catalyst160.btr
+	modified:   src/run_cc
+	modified:   src/run_copy
+	modified:   src/run_kth_core
+	modified:   src/run_page_rank
+	modified:   test/CTestTestfile.cmake
+	modified:   test/gtest/libgtest.a
+	modified:   test/test_copy
+	new file:   wikiout
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	both modified:   oout
+	both added:      quartz_out
+	both added:      quartz_out2
+	both modified:   src/run_randwalk
+
 Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	modified:   oout
-	modified:   out
+	modified:   gits
 	deleted:    quartz1008-run_randwalk-123220.core
 	deleted:    quartz1008-run_randwalk-123221.core
 	deleted:    quartz1008-run_randwalk-123222.core
@@ -3077,8 +3110,6 @@ Changes not staged for commit:
 	deleted:    quartz989-run_randwalk-7351.core
 	deleted:    quartz989-run_randwalk-7352.core
 	deleted:    quartz989-run_randwalk-7353.core
-	deleted:    quartz_output
-	modified:   src/run_randwalk
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -3086,44 +3117,7 @@ Untracked files:
 	../../output_randwalk_ingested
 	.nfs000000005d28ad6b00000f13
 	.nfs000000005dc7db9500005b3a
-	20]
-	6462711
-	[B
-	catalyst_out5
-	catalyst_outtest
-	cutted_out
-	gits
-	out_sort
-	process_wedge.py
-	quaratz_out2_sort
-	quaratz_out_sort
-	quartz158-run_randwalk-156611.core
-	quartz_out
-	quartz_out2
-	quartz_out3
-	quartz_out4
-	quartz_out5
-	quartz_out5_2
-	quartz_out6
-	quartz_out7
-	quartz_outtest
-	rankoutfilename
-	search.py
-	sort.sh
-	sort_new.sh
-	sorted_out
-	sorted_outquartz_out
-	sorted_outquartz_out4
-	sorted_outquartz_out5
-	sorted_outquartz_out7
-	sorted_quartzout6
-	sorted_res
-	sorted_res_cmu
-	sorted_res_cnn
-	sorted_resquartz_out7
-	test.s
-	wiki_inge
-	wiki_out
+	.nfs000000005dcbc3b200005d4f
 	../flash.llnl.gov/CTestTestfile.cmake
 	../flash.llnl.gov/doc/
 	../flash.llnl.gov/output_flash
@@ -3131,4 +3125,3 @@ Untracked files:
 	../flash.llnl.gov/test/
 	../../src/.nfs000000005dc51b4c00003533
 
-no changes added to commit (use "git add" and/or "git commit -a")
