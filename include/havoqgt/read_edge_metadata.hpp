@@ -122,7 +122,7 @@ namespace havoqgt { namespace mpi {
       }
 
     private:
-      const Graph* const g;
+      Graph* g;
     };
     
 template<typename Graph, typename EdgeData, typename MetaData>

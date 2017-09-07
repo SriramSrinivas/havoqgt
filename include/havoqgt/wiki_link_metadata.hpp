@@ -49,11 +49,13 @@ namespace havoqgt {
       link_from  = std::atol( get_index(tokens, 0).c_str()) - 1;
       link_to    = std::atol( get_index(tokens, 1).c_str()) - 1;
 
-      added_at   = std::atol( get_index(tokens, 2).c_str());
-      deleted_at = std::atol( get_index(tokens, 3).c_str());
+      // Keita: comment out the lines because they throw an std::exception and the data is not used in the random walk simulation.
+      // added_by   = sha1key( get_index(tokens, 2) );
+      // deleted_by = sha1key( get_index(tokens, 3) );
+
+      added_at   = std::atol( get_index(tokens, 4).c_str());
+      deleted_at = std::atol( get_index(tokens, 5).c_str());
       if(deleted_at == 0) deleted_at = std::numeric_limits<uint64_t>::max();
-      added_by   = sha1key( get_index(tokens, 4) );
-      deleted_by = sha1key( get_index(tokens, 5) );
 
       type       = -(std::atoi( get_index(tokens, 6).c_str() ));
       redirect   = std::atoi( get_index(tokens, 7).c_str() );
