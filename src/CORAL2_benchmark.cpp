@@ -76,7 +76,7 @@
 using namespace havoqgt;
 
 typedef havoqgt::distributed_db::segment_manager_type segment_manager_t;
-typedef havoqgt::delegate_partitioned_graph<segment_manager_t> graph_type;
+typedef havoqgt::delegate_partitioned_graph<bip::allocator<void, segment_manager_t>> graph_type;
 
 typedef uint64_t gt_tc_type;
 
